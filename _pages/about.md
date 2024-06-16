@@ -6,7 +6,7 @@ subtitle: <a href='#'>ITWM Fraunhofer + Heidelberg University</a>
 
 profile:
   align: right
-  image: profile_blue.jpg
+  image: profile_blue.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ITWM, Fraunhofer Institute for Industrial Mathematics</p>
