@@ -22,13 +22,13 @@ Computer science Ph.D. stipend holder at the Fraunhofer Institute for Industrial
 In particular, **robustness** and **trustworthiness** of deep neural networks.
 My key research interest is the **analysis of adversarial examples** on DNN.
 
-<!-- I was advised by my ex-team lead  [Janis Keuper](https://www.itwm.fraunhofer.de/en/departments/hpc/staff/janis-keuper.html)  and supervised by Prof. [Ullrich Köthe](https://hci.iwr.uni-heidelberg.de/vislearn/people/ullrich-koethe). I am an external Ph.D. student at the University of Heidelberg  ([2nd best-ranked German university](https://www.usnews.com/education/best-global-universities/germany)).
+I was advised by my ex-team lead [Janis Keuper](https://www.itwm.fraunhofer.de/en/departments/hpc/staff/janis-keuper.html) and supervised by Prof. [Ullrich Köthe](https://hci.iwr.uni-heidelberg.de/vislearn/people/ullrich-koethe). I am an external Ph.D. student at the University of Heidelberg ([2nd best-ranked German university](https://www.usnews.com/education/best-global-universities/germany)).
 
-I also had the opportunity to intern with Prof. Sijia Liu ([MSU](https://engineering.msu.edu/faculty/Sijia-Liu](https://lsjxjtu.github.io/)) & [MIT-IBM](https://mitibmwatsonailab.mit.edu/people/sijia-liu/)) and Pin-Yu Chen ([MIT-IBM](https://sites.google.com/site/pinyuchenpage/home)), focusing on adversarial machine learning.
-Our paper titled "Visual Prompting for Adversarial Robustness" achieved recognition within the top 3% at the ICASSP conference. -->
+I also had the opportunity to intern with Prof. Sijia Liu ([MSU](<https://engineering.msu.edu/faculty/Sijia-Liu](https://lsjxjtu.github.io/)>) & [MIT-IBM](https://mitibmwatsonailab.mit.edu/people/sijia-liu/)) and Pin-Yu Chen ([MIT-IBM](https://sites.google.com/site/pinyuchenpage/home)), focusing on adversarial machine learning.
+Our paper titled "Visual Prompting for Adversarial Robustness" achieved recognition within the top 3% at the ICASSP conference.
 
 [Leave me an anonymous comment!](https://forms.gle/xYPpvQmZ9yBjKJdg6)
 
-**News: I am looking for a research position.**
+<!-- **News: I am looking for a research position.** -->
 
-<!-- <script src="https://tryhackme.com/badge/1768902"></script> -->
+<script src="https://tryhackme.com/badge/1768902"></script>
