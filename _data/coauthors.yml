@@ -1,34 +1,39 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Straßel":
+  - firstname: ["Dominik", "D."]
+    url: https://www.linkedin.com/in/dominik-s-b57062221/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Strassel":
+  - firstname: ["Dominik", "D."]
+    url: https://www.linkedin.com/in/dominik-s-b57062221/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Harder":
+  - firstname: ["Paula", "P."]
+    url: https://paulaharder.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Steinbauer":
+  - firstname: ["Gerald", "G."]
+    url: https://online.tugraz.at/tug_online/visitenkarte.show_vcard?pPersonenId=9F13E369D9C1EA7F&pPersonenGruppe=3
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Chen":
+  - firstname: ["Pin-Yu", "P."]
+    url: https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Pin-Yu.Chen
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Liu":
+  - firstname: ["Sijia", "S."]
+    url: https://lsjxjtu.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Chen*":
+  - firstname: ["Aochuan", "A."]
+    url: https://cse.msu.edu/~chenaoch
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Durall":
+  - firstname: ["Ricard", "R."]
+    url: https://scholar.google.com/citations?user=bwxC07sAAAAJ&hl=en
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Margret":
+  - firstname: ["Margret", "M."]
+    url: https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper
+
+"Janis":
+  - firstname: ["Janis", "J."]
+    url: https://imla.hs-offenburg.de/janis-keuper
