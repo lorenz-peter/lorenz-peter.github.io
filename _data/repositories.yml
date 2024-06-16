@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jS5t3r
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Crytpo/bitcoins
+  - tugrazbac/TLS_Downgrader
+  - adverML/SpectralDef_Framework
