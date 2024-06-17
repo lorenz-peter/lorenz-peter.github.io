@@ -33,4 +33,4 @@ Our paper titled "Visual Prompting for Adversarial Robustness" achieved recognit
 
 <script src="https://tryhackme.com/badge/1768902"></script>
 
-{% twitter https://twitter.com/cs_peter_lorenz maxwidth=500 limit=3 %}
+{% twitter https://twitter.com/cs_peter_lorenz maxwidth=920 limit=3 %}
