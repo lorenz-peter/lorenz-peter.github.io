@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Peter Lorenz",
-    "label": "Associate Researcher",
+    "label": "PostDoctoral Researcher",
     "image": "",
     "email": "peter.lorenz.work at gmail.com",
     "phone": "",
     "url": "https://lorenz-peter.github.io",
     "summary": "As an applied scientist with a computer science background, I've mastered several programming languages and concepts, and I maintain a fervent interest in exploring algorithms. My goal is to advance both the machine learning and security domains through empirical validation, theoretical analysis, and practical implementations.",
     "location": {
-      "city": "Kaiserslautern",
-      "countryCode": "Germany"
+      "city": "Singapore",
+      "countryCode": "SG"
     },
     "profiles": [
       {
@@ -23,12 +23,12 @@
     {
       "institution": "University of Heidelberg",
       "location": "Heidelberg, Germany",
-      "url": "https://www.uni-heidelberg.de/en",
-      "area": "Machine Learning",
+      "url": "https://archiv.ub.uni-heidelberg.de/volltextserver/35211/1/main.pdf",
+      "area": "Adversarial Machine Learning",
       "studyType": "PhD",
       "startDate": "2021-01-21",
-      "endDate": "Now",
-      "score": "4.0/4.0"
+      "endDate": "2021-07-31",
+      "score": "Magna Cum Laude"
     }
   ],
   "awards": [
@@ -64,10 +64,28 @@
     {
       "name": "Adversarial Machine Learning",
       "icon": "fa-solid fa-tag",
-      "keywords": ["adversarial examples", "atacks ", "defenses"]
+      "keywords": ["adversarial examples", "attacks", "defenses"]
+    },
+    {
+      "name": "Diffusion Models",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["robustness"]
+    },
+    {
+      "name": "Model Stealing",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["stealing"]
     }
   ],
   "projects": [
+    {
+      "name": "Model Extraction",
+      "summary": "Adversarial Machine Learning Benchmarks",
+      "highlights": ["model stealing", "attacks"],
+      "startDate": "2024",
+      "endDate": "now",
+      "url": ""
+    }
     {
       "name": "Spectral Defense Framework",
       "summary": "Adversrial Machine Learning Benchmarks",
