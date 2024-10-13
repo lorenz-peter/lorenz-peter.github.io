@@ -8,7 +8,7 @@ categories: thesis
 giscus_comments: true
 ---
 
-# Analysis of Adversarial Examples
+# Introduction
 
 The rise of artificial intelligence (AI) has significantly impacted the field of computer vision (CV). In particular, deep learning (DL) has advanced the development of algorithms that comprehend visual data. In specific tasks, DL exhibits human capabilities and is impacting our everyday lives such as virtual assistants, entertainment or web searches. Despite of the success of visual algorithms, in this thesis we study the threat adversarial examples, which are input manipulation to let to misclassification.
 
