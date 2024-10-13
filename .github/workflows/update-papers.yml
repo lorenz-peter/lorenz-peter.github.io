@@ -1,0 +1,33 @@
+name: Update Papers
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+
+jobs:
+  fetch-papers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Use the latest version of Python
+
+      - name: Install dependencies
+        run: |
+          pip install arxiv
+
+      - name: Run script to fetch papers
+        run: python papers/fetch_papers.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "peter.lorenz.work@gmail.com"
+          git config --local user.name "Peter Lorenz"
+          git add papers.json
+          git commit -m "Update papers.json" || echo "No changes to commit"
+          git push
