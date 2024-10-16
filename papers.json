@@ -1,42 +1,42 @@
 [
     {
-        "id": "http://arxiv.org/abs/2410.09049v1",
-        "title": "SceneCraft: Layout-Guided 3D Scene Generation"
+        "id": "http://arxiv.org/abs/2410.10817v1",
+        "title": "When Does Perceptual Alignment Benefit Vision Representations?"
     },
     {
-        "id": "http://arxiv.org/abs/2410.09047v1",
-        "title": "Unraveling and Mitigating Safety Alignment Degradation of Vision-Language Models"
+        "id": "http://arxiv.org/abs/2410.10818v1",
+        "title": "TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models"
     },
     {
-        "id": "http://arxiv.org/abs/2410.09046v1",
-        "title": "Linear Convergence of Diffusion Models Under the Manifold Hypothesis"
+        "id": "http://arxiv.org/abs/2410.10816v1",
+        "title": "LVD-2M: A Long-take Video Dataset with Temporally Dense Captions"
     },
     {
-        "id": "http://arxiv.org/abs/2410.09043v1",
-        "title": "Transforming In-Vehicle Network Intrusion Detection: VAE-based Knowledge Distillation Meets Explainable AI"
+        "id": "http://arxiv.org/abs/2410.10814v1",
+        "title": "Your Mixture-of-Experts LLM Is Secretly an Embedding Model For Free"
     },
     {
-        "id": "http://arxiv.org/abs/2410.09039v1",
-        "title": "Semi-Supervised Learning of Noisy Mixture of Experts Models"
+        "id": "http://arxiv.org/abs/2410.10812v1",
+        "title": "HART: Efficient Visual Generation with Hybrid Autoregressive Transformer"
     },
     {
-        "id": "http://arxiv.org/abs/2410.09032v1",
-        "title": "Alberta Wells Dataset: Pinpointing Oil and Gas Wells from Satellite Imagery"
+        "id": "http://arxiv.org/abs/2410.10811v1",
+        "title": "Deep Linear Probe Generators for Weight Space Learning"
     },
     {
-        "id": "http://arxiv.org/abs/2410.09030v1",
-        "title": "Learning dynamic quantum circuits for efficient state preparation"
+        "id": "http://arxiv.org/abs/2410.10807v1",
+        "title": "Hard-Constrained Neural Networks with Universal Approximation Guarantees"
     },
     {
-        "id": "http://arxiv.org/abs/2410.09027v1",
-        "title": "Variance reduction combining pre-experiment and in-experiment data"
+        "id": "http://arxiv.org/abs/2410.10805v1",
+        "title": "TL-PCA: Transfer Learning of Principal Component Analysis"
     },
     {
-        "id": "http://arxiv.org/abs/2410.09024v1",
-        "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"
+        "id": "http://arxiv.org/abs/2410.10804v1",
+        "title": "TrajDiffuse: A Conditional Diffusion Model for Environment-Aware Trajectory Prediction"
     },
     {
-        "id": "http://arxiv.org/abs/2410.09016v1",
-        "title": "Parameter-Efficient Fine-Tuning of State Space Models"
+        "id": "http://arxiv.org/abs/2410.10803v1",
+        "title": "Generalizable Humanoid Manipulation with Improved 3D Diffusion Policies"
     }
 ]
