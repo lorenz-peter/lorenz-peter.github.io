@@ -1,42 +1,42 @@
 [
     {
-        "id": "http://arxiv.org/abs/2410.10817v1",
-        "title": "When Does Perceptual Alignment Benefit Vision Representations?"
+        "id": "http://arxiv.org/abs/2410.11842v1",
+        "title": "MoH: Multi-Head Attention as Mixture-of-Head Attention"
     },
     {
-        "id": "http://arxiv.org/abs/2410.10818v1",
-        "title": "TemporalBench: Benchmarking Fine-grained Temporal Understanding for Multimodal Video Models"
+        "id": "http://arxiv.org/abs/2410.11840v1",
+        "title": "A Hitchhiker's Guide to Scaling Law Estimation"
     },
     {
-        "id": "http://arxiv.org/abs/2410.10816v1",
-        "title": "LVD-2M: A Long-take Video Dataset with Temporally Dense Captions"
+        "id": "http://arxiv.org/abs/2410.11839v1",
+        "title": "Molecular Quantum Control Algorithm Design by Reinforcement Learning"
     },
     {
-        "id": "http://arxiv.org/abs/2410.10814v1",
-        "title": "Your Mixture-of-Experts LLM Is Secretly an Embedding Model For Free"
+        "id": "http://arxiv.org/abs/2410.11834v1",
+        "title": "Contrastive Touch-to-Touch Pretraining"
     },
     {
-        "id": "http://arxiv.org/abs/2410.10812v1",
-        "title": "HART: Efficient Visual Generation with Hybrid Autoregressive Transformer"
+        "id": "http://arxiv.org/abs/2410.11833v1",
+        "title": "Mitigating Suboptimality of Deterministic Policy Gradients in Complex Q-functions"
     },
     {
-        "id": "http://arxiv.org/abs/2410.10811v1",
-        "title": "Deep Linear Probe Generators for Weight Space Learning"
+        "id": "http://arxiv.org/abs/2410.11826v1",
+        "title": "Bayesian Experimental Design via Contrastive Diffusions"
     },
     {
-        "id": "http://arxiv.org/abs/2410.10807v1",
-        "title": "Hard-Constrained Neural Networks with Universal Approximation Guarantees"
+        "id": "http://arxiv.org/abs/2410.11825v1",
+        "title": "Learning Smooth Humanoid Locomotion through Lipschitz-Constrained Policies"
     },
     {
-        "id": "http://arxiv.org/abs/2410.10805v1",
-        "title": "TL-PCA: Transfer Learning of Principal Component Analysis"
+        "id": "http://arxiv.org/abs/2410.11820v1",
+        "title": "Adaptive Data Optimization: Dynamic Sample Selection with Scaling Laws"
     },
     {
-        "id": "http://arxiv.org/abs/2410.10804v1",
-        "title": "TrajDiffuse: A Conditional Diffusion Model for Environment-Aware Trajectory Prediction"
+        "id": "http://arxiv.org/abs/2410.11817v1",
+        "title": "Improving Long-Text Alignment for Text-to-Image Diffusion Models"
     },
     {
-        "id": "http://arxiv.org/abs/2410.10803v1",
-        "title": "Generalizable Humanoid Manipulation with Improved 3D Diffusion Policies"
+        "id": "http://arxiv.org/abs/2410.11816v1",
+        "title": "Jigsaw++: Imagining Complete Shape Priors for Object Reassembly"
     }
 ]
