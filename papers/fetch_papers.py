@@ -36,9 +36,15 @@ for result in search.results():
     # papers_data.append({'id': result.entry_id, 'title': result.title, 'authors': ', '.join(authors)})
     papers_data.append({
         'date': formatted_date, 
-        'paper': f"{result.title}" + "\n " + create_author_str(authors), 
-        'link':result.entry_id})
+        'title': result.title,
+        'author': create_author_str(authors), 
+        'link':result.entry_id
+        })
     
+    # papers_data.append({
+    #     'date': formatted_date, 
+    #     'paper': f"{result.title}" + "\n " + create_author_str(authors), 
+    #     'link':result.entry_id})
 
 # Save to JSON file
 with open(os.path.join('assets/json', 'model_stealing_papers.json'), 'w') as f:
