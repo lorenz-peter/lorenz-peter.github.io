@@ -20,8 +20,8 @@ def create_author_str(authors):
     return authors_str
 
 search = arxiv.Search(
-    query="(cat:cs.CR) AND (model stealing OR model extraction or high-fidelity)",
-    max_results=200,
+    query="(cat:cs.CR) AND (model stealing OR model extraction OR high-fidelity)",
+    max_results=500,
     sort_by=arxiv.SortCriterion.SubmittedDate,
     sort_order=arxiv.SortOrder.Descending
 )
