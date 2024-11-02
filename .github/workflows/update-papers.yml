@@ -28,6 +28,6 @@ jobs:
         run: |
           git config --local user.email "peter.lorenz.work@gmail.com"
           git config --local user.name "Peter Lorenz"
-          git add papers.json
+          git add assets/json/papers.json
           git commit -m "Update papers.json" || echo "No changes to commit"
           git push
