@@ -20,6 +20,10 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install lxml
+          pip install nameparser
+          pip install python-dateutil
+          pip install requests
           pip install arxiv
 
       - name: Run script to fetch papers
