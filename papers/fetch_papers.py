@@ -33,12 +33,14 @@ for result in search.results():
     # breakpoint()
     formatted_date = result.published.strftime("%Y-%m-%d")
     authors = [author.name for author in result.authors]
+    
     # papers_data.append({'id': result.entry_id, 'title': result.title, 'authors': ', '.join(authors)})
     papers_data.append({
         'date': formatted_date, 
         'title': result.title,
         'author': create_author_str(authors), 
-        'link':result.entry_id
+        'link':result.entry_id,
+        'abstract': result.summary
         })
     
     # papers_data.append({
