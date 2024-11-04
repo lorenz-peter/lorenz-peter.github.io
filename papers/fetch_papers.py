@@ -19,7 +19,7 @@ def create_author_str(authors):
 # https://info.arxiv.org/help/api/user-manual.html#query_details
 # https://arxiv.org/category_taxonomy
 
-query="(cat:cs.CR OR cat:cs.AI or cat:cs.CV or or cat:cs.LG) AND (ti:model steal* OR ti:model extract* OR ti:high-fidelity OR au:carlini ANDNOT ti:malware)",
+query="(cat:cs.CR OR cat:cs.AI or cat:cs.CV or or cat:cs.LG) AND (ti:model-steal* OR ti:model-extract* OR ti:high-fidelity OR abs:reverse-engineering OR au:carlini ANDNOT ti:malware)",
 # Construct the default API client.
 client = arxiv.Client()
 
@@ -27,12 +27,12 @@ search = arxiv.Search(
     query=query,
     max_results=200,
 #   sort_by=arxiv.SortCriterion.LastUpdatedDate,
-# id_list = [240610011]
+    # id_list = ["2406.10011"],
     sort_by=arxiv.SortCriterion.SubmittedDate,
     sort_order=arxiv.SortOrder.Descending
 )
 
-# print(list(client.results(search)))
+print(list(client.results(search)))
 results_generator = client.results(search)
 
 papers_data = []
