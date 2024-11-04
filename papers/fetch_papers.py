@@ -4,11 +4,8 @@ import arxiv # https://colab.research.google.com/github/EPS-Libraries-Berkeley/v
 from dateutil.parser import parse
 from datetime import datetime
 
-# Construct the default API client.
-# client = Client()
+# https://info.arxiv.org/help/api/user-manual.html
 # https://lukasschwab.me/arxiv.py/arxiv.html
-# Perform the search using arxiv.Search
-
 
 def create_author_str(authors):
     # Join authors with ", " and handle the last author differently
@@ -19,21 +16,40 @@ def create_author_str(authors):
 
     return authors_str
 
-curr_year = datetime.now().year
-submittedDate = "submittedDate:[2014 TO {curr_year}]"
-search = arxiv.Search(
-    query=f"{submittedDate} AND (cat:cs.CR) AND (model stealing OR model extraction OR high-fidelity)",
-    # max_results=500,
-    sort_by=arxiv.SortCriterion.SubmittedDate,
-    sort_order=arxiv.SortOrder.Descending
-)
+
+submittedDate = f"submittedDate:[2017 TO {datetime.now().year}]"
+query=f"{submittedDate} AND (cat:cs.CR) AND (model steal* OR model extract* OR high-fidelity)",
+query="(cat:cs.CR) AND (model stealing OR model extract OR high-fidelity)",
+
+# query='"quantum dots"'
+
+# id_list = [240610011]
+
+results_generator = arxiv.Client(
+  page_size=1000,
+  delay_seconds=3,
+  num_retries=3
+).results(arxiv.Search(
+  query=query,
+  id_list=[],
+  sort_by=arxiv.SortCriterion.SubmittedDate,
+  sort_order=arxiv.SortOrder.Descending
+))
+
+
+# search = arxiv.Search(
+#     query=f"{submittedDate} AND (cat:cs.CR) AND (model stealing OR model extraction OR high-fidelity)",
+#     # max_results=500,
+#     sort_by=arxiv.SortCriterion.SubmittedDate,
+#     sort_order=arxiv.SortOrder.Descending
+# )
 
 papers_data = []
 
 # Iterate over the results from search
-for result in search.results():
+for result in results_generator:
     # breakpoint()
-    formatted_date = result.published.strftime("%Y-%m-%d")
+    formatted_date = result.published.strftime("%Y-%m")
     authors = [author.name for author in result.authors]
     
     # papers_data.append({'id': result.entry_id, 'title': result.title, 'authors': ', '.join(authors)})
