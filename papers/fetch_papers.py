@@ -17,32 +17,23 @@ def create_author_str(authors):
     return authors_str
 
 
-submittedDate = f"submittedDate:[2017 TO {datetime.now().year}]"
-query=f"{submittedDate} AND (cat:cs.CR) AND (model steal* OR model extract* OR high-fidelity)",
-query="(cat:cs.CR) AND (model stealing OR model extract OR high-fidelity)",
+# submittedDate = f"submittedDate:[2017-01-01 TO {datetime.now().strftime('%Y-%m-%d')}]"
+# query=f"{submittedDate} AND (cat:cs.CR) AND (model steal* OR model extract* OR high-fidelity)",
+query="(cat:cs.CR) AND (model steal* OR model extract* OR high-fidelity)",
+# Construct the default API client.
+client = arxiv.Client()
 
-# query='"quantum dots"'
-
-# id_list = [240610011]
-
-results_generator = arxiv.Client(
-  page_size=1000,
-  delay_seconds=3,
-  num_retries=3
-).results(arxiv.Search(
+search = arxiv.Search(
   query=query,
-  id_list=[],
+  max_results=50,
+#   sort_by=arxiv.SortCriterion.LastUpdatedDate,
+# id_list = [240610011]
   sort_by=arxiv.SortCriterion.SubmittedDate,
   sort_order=arxiv.SortOrder.Descending
-))
+)
 
-
-# search = arxiv.Search(
-#     query=f"{submittedDate} AND (cat:cs.CR) AND (model stealing OR model extraction OR high-fidelity)",
-#     # max_results=500,
-#     sort_by=arxiv.SortCriterion.SubmittedDate,
-#     sort_order=arxiv.SortOrder.Descending
-# )
+print(list(client.results(search)))
+results_generator = client.results(search)
 
 papers_data = []
 
@@ -60,11 +51,6 @@ for result in results_generator:
         'link':result.entry_id,
         'abstract': result.summary
         })
-    
-    # papers_data.append({
-    #     'date': formatted_date, 
-    #     'paper': f"{result.title}" + "\n " + create_author_str(authors), 
-    #     'link':result.entry_id})
 
 # Save to JSON file
 with open(os.path.join('assets/json', 'model_stealing_papers.json'), 'w') as f:
