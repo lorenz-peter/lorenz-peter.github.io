@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MulitModel Model Slang Visualization
+title: MultiModality Model Slang Visualization
 description: Visualize your slang!
 img: assets/img/dm/slang.jpeg
 importance: 3
