@@ -3,6 +3,7 @@ name: Update Papers
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight UTC
+  workflow_dispatch:
 
 jobs:
   fetch-papers:
@@ -15,10 +16,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'  # Use the latest version of Python
+          python-version: '3.10'  # Use the latest version of Python
 
       - name: Install dependencies
         run: |
+          pip install lxml
+          pip install nameparser
+          pip install python-dateutil
+          pip install requests
           pip install arxiv
 
       - name: Run script to fetch papers
@@ -28,6 +33,6 @@ jobs:
         run: |
           git config --local user.email "peter.lorenz.work@gmail.com"
           git config --local user.name "Peter Lorenz"
-          git add papers.json
+          git add assets/json/model_stealing_papers.json
           git commit -m "Update papers.json" || echo "No changes to commit"
           git push

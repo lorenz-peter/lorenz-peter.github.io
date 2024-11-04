@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Oxford ML Summer School 2022
-description: Summer school participation
+title: Oxford ML Summer School
+description: Attendance certificates
 img: assets/img/oxlogo.jpg
 importance: 1
 category: work
 giscus_comments: true
 ---
 
-[Link to certificate](https://github.com/lorenz-peter/lorenz-peter.github.io/blob/master/assets/pdf/OxML22.pdf)
+Certificates
+- [OxML 22](https://drive.google.com/file/d/1Ey7rUSonFuYGuXCQLrFQkrQfOfsHvFfR/view?usp=sharing)
+- [OxML 24](https://drive.google.com/file/d/1d81Qk7Nw4MmmoiiSvy4_PGyPrGonN4oq/view?usp=sharing)
