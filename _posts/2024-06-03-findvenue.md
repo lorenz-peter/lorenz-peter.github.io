@@ -3,14 +3,14 @@ layout: post
 title: Find the right conference venue!
 date: 2024-06-03 16:40:16
 description: conference
-tags: icml, cvpr, conference, venue
+tags: icml, cvpr, conference
 categories: writing
 giscus_comments: true
 ---
 
-# How do you find your venue?
+# How do you find your conference in trustworthy ML?
 
-If you have finished doing your experiments, then it is about finding the right venue.
+If you have finished doing your experiments, it is about finding the right venue.
 
 ## Via Google Ranking
 
@@ -20,13 +20,13 @@ If you have finished doing your experiments, then it is about finding the right 
 
 The h-index and median are both metrics used to evaluate the impact of scholarly research publications, particularly in the field of academia.
 
-1. **h-index**: The h-index is a numerical value that attempts to measure both the productivity and impact of the published work of a scientist or scholar. It's calculated based on the number of papers the researcher has published and the number of citations each paper has received. The h-index is determined by arranging the researcher's publications in descending order of the number of citations they have received. The h-index is the highest number of publications that have at least that same number of citations. For example, if a researcher has an h-index of 20, it means they have published at least 20 papers, each of which has been cited at least 20 times.
+1. **h-index**: The h-index is a numerical value that attempts to measure both the productivity and impact of the published work of a scientist or scholar. It's calculated based on the number of papers the researcher has published and the number of citations each paper has received. The h-index is determined by arranging the researcher's publications according to the number of citations they have received. The h-index is the highest number of publications that have at least the same number of citations. For example, if a researcher has an h-index of 20, it means they have published at least 20 papers, each of which has been cited at least 20 times.
 
-2. **Median**: In the context of h-index, the median is typically used to represent the median number of citations received by the researcher's publications. This value provides insight into the central tendency of the citation distribution of the researcher's work. It helps to understand the typical level of impact or recognition that the researcher's papers have received. If a researcher's median citation count is high, it suggests that their publications tend to receive a substantial number of citations, indicating a significant impact in their field.
+2. **Median**: In the context of h-index, the median is typically used to represent the median number of citations received by the researcher's publications. This value provides insight into the central tendency of the citation distribution of the researcher's work. It helps to understand the typical level of impact or recognition the researcher's papers have received. If a researcher's median citation count is high, it suggests that their publications tend to receive a substantial number of citations, indicating a significant impact in their field.
 
 Both the h-index and median are valuable tools for evaluating the impact and significance of a researcher's contributions, although they each capture slightly different aspects of the citation profile.
 
-## Other
+## Other Rankings
 
 - [CORE](https://www.iiti.ac.in/people/~artiwari/cseconflist.html)
 
@@ -34,3 +34,13 @@ Both the h-index and median are valuable tools for evaluating the impact and sig
 
 - [AI Deadlines](https://aideadlin.es/?sub=ML,CV,NLP,DM,KR)
 - [SEC Deadlines](https://sec-deadlines.github.io)
+
+## Other Recommended Conferences and Workshops for Trustworthy ML
+
+- [ACM AISec](https://aisec.cc)
+- [IEEE SaTML](https://satml.org)
+
+## Research Trends 
+
+- [NeurIPS keywords](https://colab.research.google.com/drive/1u51Id90ML79UdZaKD23qglY0ZkEmmdwk?usp=sharing#scrollTo=metallic-aquatic)
+- [CVPR Trends](https://public.tableau.com/app/profile/joshpreston/viz/CVPR2024/CVPRtrends)
