@@ -44,3 +44,4 @@ Both the h-index and median are valuable tools for evaluating the impact and sig
 
 - [NeurIPS keywords](https://colab.research.google.com/drive/1u51Id90ML79UdZaKD23qglY0ZkEmmdwk?usp=sharing#scrollTo=metallic-aquatic)
 - [CVPR Trends](https://public.tableau.com/app/profile/joshpreston/viz/CVPR2024/CVPRtrends)
+- [Researchtrends.ai](https://researchtrends.ai)
