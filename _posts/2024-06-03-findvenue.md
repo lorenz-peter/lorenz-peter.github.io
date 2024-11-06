@@ -39,6 +39,7 @@ Both the h-index and median are valuable tools for evaluating the impact and sig
 
 - [ACM AISec](https://aisec.cc)
 - [IEEE SaTML](https://satml.org)
+- [FAccT](https://facctconference.org)
 
 ## Research Trends 
 
