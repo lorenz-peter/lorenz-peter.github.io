@@ -19,7 +19,12 @@ def create_author_str(authors):
 # https://info.arxiv.org/help/api/user-manual.html#query_details
 # https://arxiv.org/category_taxonomy
 
-query="(cat:cs.CR OR cat:cs.AI or cat:cs.CV or or cat:cs.LG) AND (ti:model-steal* OR ti:model-extract* OR ti:high-fidelity OR abs:reverse-engineering OR au:carlini ANDNOT ti:malware)",
+# text_search = "ti:model+stealing OR ti:model+extraction OR ti:high-fidelity OR abs:reverse-engineering"
+# query=f"(cat:cs.CR OR cat:cs.AI or cat:cs.CV or or cat:cs.LG) AND ({text_search} OR au:carlini ANDNOT ti:malware)",
+
+text_search = "ti:cryptanalytical OR (ti:model AND ti:stealing) OR (ti:model AND ti:extraction) OR all:high-fidelity OR abs:reverse-engineering"
+query = f"(cat:cs.CR OR cat:cs.AI OR cat:cs.CV OR cat:cs.LG) AND (({text_search}) OR (au:carlini AND ({text_search}))) AND NOT ti:malware"
+
 # Construct the default API client.
 client = arxiv.Client()
 
