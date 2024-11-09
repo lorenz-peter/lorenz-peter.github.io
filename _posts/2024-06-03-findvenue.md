@@ -14,8 +14,9 @@ If you have finished doing your experiments, it is about finding the right venue
 
 ## Via Google Ranking
 
+- [Artificial Intelligence](https://scholar.google.de/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence)
 - [Computer Vision](https://scholar.google.de/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)
-- [Artificial Intelligence](https://scholar.google.de/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)
+- [Computational Linguistics](https://scholar.google.de/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics)
 - [Security and Privacy](https://scholar.google.de/citations?view_op=top_venues&hl=en&vq=eng_computersecuritycryptography)
 
 The h-index and median are both metrics used to evaluate the impact of scholarly research publications, particularly in the field of academia.
@@ -29,17 +30,19 @@ Both the h-index and median are valuable tools for evaluating the impact and sig
 ## Other Rankings
 
 - [CORE](https://www.iiti.ac.in/people/~artiwari/cseconflist.html)
+- [conference ranks](http://www.conferenceranks.com)
 
 ## Deadlines Tracking
 
-- [AI Deadlines](https://aideadlin.es/?sub=ML,CV,NLP,DM,KR)
-- [SEC Deadlines](https://sec-deadlines.github.io)
+- [AI](https://aideadlin.es/?sub=ML,CV,NLP,DM,KR)
+- [SEC](https://sec-deadlines.github.io)
+- [IACR](https://iacr.org/events/?order=submission)
 
 ## Other Recommended Conferences and Workshops for Trustworthy ML
 
 - [ACM AISec](https://aisec.cc)
 - [IEEE SaTML](https://satml.org)
-- [FAccT](https://facctconference.org)
+- [ACM FAccT](https://facctconference.org)
 
 ## Research Trends 
 
