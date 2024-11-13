@@ -31,6 +31,13 @@ Both the h-index and median are valuable tools for evaluating the impact and sig
 
 - [CORE](https://www.iiti.ac.in/people/~artiwari/cseconflist.html)
 - [conference ranks](http://www.conferenceranks.com)
+- [sec conf ranks](https://people.engr.tamu.edu/guofei/sec_conf_stat.htm)
+
+## Journals
+
+One key difference between journal and conference publications is the review process. Journals typically involve a more thorough and time-consuming review process, with reviewers having more time to provide detailed feedback. As a result, the publication timeline for journals is often longer than for conferences.
+
+- [TPAMI](https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence)
 
 ## Deadlines Tracking
 
