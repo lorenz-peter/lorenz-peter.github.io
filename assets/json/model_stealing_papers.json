@@ -31,7 +31,7 @@
         "date": "2024-11",
         "title": "DM4Steal: Diffusion Model For Link Stealing Attack On Graph Neural Networks",
         "author": "Jinyin Chen, Haonan Ma, and Haibin Zheng",
-        "link": "http://arxiv.org/abs/2411.03364v1",
+        "link": "http://arxiv.org/abs/2411.03364v2",
         "abstract": "Graph has become increasingly integral to the advancement of recommendation\nsystems, particularly with the fast development of graph neural network(GNN).\nBy exploring the virtue of rich node features and link information, GNN is\ndesigned to provide personalized and accurate suggestions. Meanwhile, the\nprivacy leakage of GNN in such contexts has also captured special attention.\nPrior work has revealed that a malicious user can utilize auxiliary knowledge\nto extract sensitive link data of the target graph, integral to recommendation\nsystems, via the decision made by the target GNN model. This poses a\nsignificant risk to the integrity and confidentiality of data used in\nrecommendation system. Though important, previous works on GNN's privacy\nleakage are still challenged in three aspects, i.e., limited stealing attack\nscenarios, sub-optimal attack performance, and adaptation against defense. To\naddress these issues, we propose a diffusion model based link stealing attack,\nnamed DM4Steal. It differs previous work from three critical aspects. (i)\nGenerality: aiming at six attack scenarios with limited auxiliary knowledge, we\npropose a novel training strategy for diffusion models so that DM4Steal is\ntransferable to diverse attack scenarios. (ii) Effectiveness: benefiting from\nthe retention of semantic structure in the diffusion model during the training\nprocess, DM4Steal is capable to learn the precise topology of the target graph\nthrough the GNN decision process. (iii) Adaptation: when GNN is defensive\n(e.g., DP, Dropout), DM4Steal relies on the stability that comes from sampling\nthe score model multiple times to keep performance degradation to a minimum,\nthus DM4Steal implements successful adaptive attack on defensive GNN."
     },
     {
@@ -254,8 +254,8 @@
     {
         "date": "2024-08",
         "title": "Extracting polygonal footprints in off-nadir images with Segment Anything Model",
-        "author": "Kai Li, Jingbo Chen, Yupeng Deng, Yu Meng, Diyou Liu, Junxian Ma, Chenhao Wang, and Xiangyu Zhao",
-        "link": "http://arxiv.org/abs/2408.08645v2",
+        "author": "Kai Li, Yupeng Deng, Jingbo Chen, Yu Meng, Zhihao Xi, Junxian Ma, Chenhao Wang, and Xiangyu Zhao",
+        "link": "http://arxiv.org/abs/2408.08645v3",
         "abstract": "Building Footprint Extraction (BFE) from off-nadir aerial images often\ninvolves roof segmentation and offset prediction to adjust roof boundaries to\nthe building footprint. However, this multi-stage approach typically produces\nlow-quality results, limiting its applicability in real-world data production.\nTo address this issue, we present OBMv2, an end-to-end and promptable model for\npolygonal footprint prediction. Unlike its predecessor OBM, OBMv2 introduces a\nnovel Self Offset Attention (SOFA) mechanism that improves performance across\ndiverse building types, from bungalows to skyscrapers, enabling end-to-end\nfootprint prediction without post-processing. Additionally, we propose a\nMulti-level Information System (MISS) to effectively leverage roof masks,\nbuilding masks, and offsets for accurate footprint prediction. We evaluate\nOBMv2 on the BONAI and OmniCity-view3 datasets and demonstrate its\ngeneralization on the Huizhou test set. The code will be available at\nhttps://github.com/likaiucas/OBMv2."
     },
     {
