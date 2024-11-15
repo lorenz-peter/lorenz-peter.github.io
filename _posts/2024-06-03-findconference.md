@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Find the right conference venue!
+title: Find the right conference!
 date: 2024-06-03 16:40:16
 description: conference
 tags: icml, cvpr, conference
