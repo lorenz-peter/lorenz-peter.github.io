@@ -1,6 +1,13 @@
 [
     {
         "date": "2024-11",
+        "title": "A Hard-Label Cryptanalytic Extraction of Non-Fully Connected Deep Neural Networks using Side-Channel Attacks",
+        "author": "Benoit Coqueret, Mathieu Carbone, Olivier Sentieys, and Gabriel Zaid",
+        "link": "http://arxiv.org/abs/2411.10174v1",
+        "abstract": "During the past decade, Deep Neural Networks (DNNs) proved their value on a\nlarge variety of subjects. However despite their high value and public\naccessibility, the protection of the intellectual property of DNNs is still an\nissue and an emerging research field. Recent works have successfully extracted\nfully-connected DNNs using cryptanalytic methods in hard-label settings,\nproving that it was possible to copy a DNN with high fidelity, i.e., high\nsimilitude in the output predictions. However, the current cryptanalytic\nattacks cannot target complex, i.e., not fully connected, DNNs and are limited\nto special cases of neurons present in deep networks.\n  In this work, we introduce a new end-to-end attack framework designed for\nmodel extraction of embedded DNNs with high fidelity. We describe a new\nblack-box side-channel attack which splits the DNN in several linear parts for\nwhich we can perform cryptanalytic extraction and retrieve the weights in\nhard-label settings. With this method, we are able to adapt cryptanalytic\nextraction, for the first time, to non-fully connected DNNs, while maintaining\na high fidelity. We validate our contributions by targeting several\narchitectures implemented on a microcontroller unit, including a Multi-Layer\nPerceptron (MLP) of 1.7 million parameters and a shortened MobileNetv1. Our\nframework successfully extracts all of these DNNs with high fidelity (88.4% for\nthe MobileNetv1 and 93.2% for the MLP). Furthermore, we use the stolen model to\ngenerate adversarial examples and achieve close to white-box performance on the\nvictim's model (95.8% and 96.7% transfer rate)."
+    },
+    {
+        "date": "2024-11",
         "title": "Model Stealing for Any Low-Rank Language Model",
         "author": "Allen Liu, and Ankur Moitra",
         "link": "http://arxiv.org/abs/2411.07536v1",
@@ -1391,12 +1398,5 @@
         "author": "Avital Shafran, Ilia Shumailov, Murat A. Erdogdu, and Nicolas Papernot",
         "link": "http://arxiv.org/abs/2310.01959v3",
         "abstract": "Model extraction attacks are designed to steal trained models with only query\naccess, as is often provided through APIs that ML-as-a-Service providers offer.\nMachine Learning (ML) models are expensive to train, in part because data is\nhard to obtain, and a primary incentive for model extraction is to acquire a\nmodel while incurring less cost than training from scratch. Literature on model\nextraction commonly claims or presumes that the attacker is able to save on\nboth data acquisition and labeling costs. We thoroughly evaluate this\nassumption and find that the attacker often does not. This is because current\nattacks implicitly rely on the adversary being able to sample from the victim\nmodel's data distribution. We thoroughly research factors influencing the\nsuccess of model extraction. We discover that prior knowledge of the attacker,\ni.e., access to in-distribution data, dominates other factors like the attack\npolicy the adversary follows to choose which queries to make to the victim\nmodel API. Our findings urge the community to redefine the adversarial goals of\nME attacks as current evaluation methods misinterpret the ME performance."
-    },
-    {
-        "date": "2023-10",
-        "title": "Unsupervised Roofline Extraction from True Orthophotos for LoD2 Building Model Reconstruction",
-        "author": "Weixiao Gao, Ravi Peters, and Jantien Stoter",
-        "link": "http://arxiv.org/abs/2310.01067v1",
-        "abstract": "This paper discusses the reconstruction of LoD2 building models from 2D and\n3D data for large-scale urban environments. Traditional methods involve the use\nof LiDAR point clouds, but due to high costs and long intervals associated with\nacquiring such data for rapidly developing areas, researchers have started\nexploring the use of point clouds generated from (oblique) aerial images.\nHowever, using such point clouds for traditional plane detection-based methods\ncan result in significant errors and introduce noise into the reconstructed\nbuilding models. To address this, this paper presents a method for extracting\nrooflines from true orthophotos using line detection for the reconstruction of\nbuilding models at the LoD2 level. The approach is able to extract relatively\ncomplete rooflines without the need for pre-labeled training data or\npre-trained models. These lines can directly be used in the LoD2 building model\nreconstruction process. The method is superior to existing plane\ndetection-based methods and state-of-the-art deep learning methods in terms of\nthe accuracy and completeness of the reconstructed building. Our source code is\navailable at https://github.com/tudelft3d/Roofline-extraction-from-orthophotos."
     }
 ]
