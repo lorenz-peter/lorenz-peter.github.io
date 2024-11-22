@@ -1,6 +1,13 @@
 [
     {
         "date": "2024-11",
+        "title": "Bounding-box Watermarking: Defense against Model Extraction Attacks on Object Detectors",
+        "author": "Satoru Koda, and Ikuya Morikawa",
+        "link": "http://arxiv.org/abs/2411.13047v1",
+        "abstract": "Deep neural networks (DNNs) deployed in a cloud often allow users to query\nmodels via the APIs. However, these APIs expose the models to model extraction\nattacks (MEAs). In this attack, the attacker attempts to duplicate the target\nmodel by abusing the responses from the API. Backdoor-based DNN watermarking is\nknown as a promising defense against MEAs, wherein the defender injects a\nbackdoor into extracted models via API responses. The backdoor is used as a\nwatermark of the model; if a suspicious model has the watermark (i.e.,\nbackdoor), it is verified as an extracted model. This work focuses on object\ndetection (OD) models. Existing backdoor attacks on OD models are not\napplicable for model watermarking as the defense against MEAs on a realistic\nthreat model. Our proposed approach involves inserting a backdoor into\nextracted models via APIs by stealthily modifying the bounding-boxes (BBs) of\nobjects detected in queries while keeping the OD capability. In our experiments\non three OD datasets, the proposed approach succeeded in identifying the\nextracted models with 100% accuracy in a wide variety of experimental\nscenarios."
+    },
+    {
+        "date": "2024-11",
         "title": "LLM-IE: A Python Package for Generative Information Extraction with Large Language Models",
         "author": "Enshuo Hsu, and Kirk Roberts",
         "link": "http://arxiv.org/abs/2411.11779v1",
@@ -611,8 +618,8 @@
     {
         "date": "2024-05",
         "title": "Efficient Model-Stealing Attacks Against Inductive Graph Neural Networks",
-        "author": "Marcin Podhajski, Jan Dubi\u0144ski, Franziska Boenisch, Adam Dziedzic, and Agnieszka Pregowska And Tomasz Michalak",
-        "link": "http://arxiv.org/abs/2405.12295v3",
+        "author": "Marcin Podhajski, Jan Dubi\u0144ski, Franziska Boenisch, Adam Dziedzic, Agnieszka Pregowska, and Tomasz P. Michalak",
+        "link": "http://arxiv.org/abs/2405.12295v4",
         "abstract": "Graph Neural Networks (GNNs) are recognized as potent tools for processing\nreal-world data organized in graph structures. Especially inductive GNNs, which\nallow for the processing of graph-structured data without relying on predefined\ngraph structures, are becoming increasingly important in a wide range of\napplications. As such these networks become attractive targets for\nmodel-stealing attacks where an adversary seeks to replicate the functionality\nof the targeted network. Significant efforts have been devoted to developing\nmodel-stealing attacks that extract models trained on images and texts.\nHowever, little attention has been given to stealing GNNs trained on graph\ndata. This paper identifies a new method of performing unsupervised\nmodel-stealing attacks against inductive GNNs, utilizing graph contrastive\nlearning and spectral graph augmentations to efficiently extract information\nfrom the targeted model. The new type of attack is thoroughly evaluated on six\ndatasets and the results show that our approach outperforms the current\nstate-of-the-art by Shen et al. (2021). In particular, our attack surpasses the\nbaseline across all benchmarks, attaining superior fidelity and downstream\naccuracy of the stolen model while necessitating fewer queries directed toward\nthe target model."
     },
     {
@@ -1391,12 +1398,5 @@
         "author": "Theodor Nguyen, Guangzhi Sun, Xianrui Zheng, Chao Zhang, and Philip C Woodland",
         "link": "http://arxiv.org/abs/2310.04791v1",
         "abstract": "We propose DiffSpEx, a generative target speaker extraction method based on\nscore-based generative modelling through stochastic differential equations.\nDiffSpEx deploys a continuous-time stochastic diffusion process in the complex\nshort-time Fourier transform domain, starting from the target speaker source\nand converging to a Gaussian distribution centred on the mixture of sources.\nFor the reverse-time process, a parametrised score function is conditioned on a\ntarget speaker embedding to extract the target speaker from the mixture of\nsources. We utilise ECAPA-TDNN target speaker embeddings and condition the\nscore function alternately on the SDE time embedding and the target speaker\nembedding. The potential of DiffSpEx is demonstrated with the WSJ0-2mix\ndataset, achieving an SI-SDR of 12.9 dB and a NISQA score of 3.56. Moreover, we\nshow that fine-tuning a pre-trained DiffSpEx model to a specific speaker\nfurther improves performance, enabling personalisation in target speaker\nextraction."
-    },
-    {
-        "date": "2023-10",
-        "title": "Do self-supervised speech and language models extract similar representations as human brain?",
-        "author": "Peili Chen, Linyang He, Li Fu, Lu Fan, Edward F. Chang, and Yuanning Li",
-        "link": "http://arxiv.org/abs/2310.04645v2",
-        "abstract": "Speech and language models trained through self-supervised learning (SSL)\ndemonstrate strong alignment with brain activity during speech and language\nperception. However, given their distinct training modalities, it remains\nunclear whether they correlate with the same neural aspects. We directly\naddress this question by evaluating the brain prediction performance of two\nrepresentative SSL models, Wav2Vec2.0 and GPT-2, designed for speech and\nlanguage tasks. Our findings reveal that both models accurately predict speech\nresponses in the auditory cortex, with a significant correlation between their\nbrain predictions. Notably, shared speech contextual information between\nWav2Vec2.0 and GPT-2 accounts for the majority of explained variance in brain\nactivity, surpassing static semantic and lower-level acoustic-phonetic\ninformation. These results underscore the convergence of speech contextual\nrepresentations in SSL models and their alignment with the neural network\nunderlying speech perception, offering valuable insights into both SSL models\nand the neural basis of speech and language processing."
     }
 ]
