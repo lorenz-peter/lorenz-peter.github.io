@@ -731,7 +731,7 @@
         "date": "2024-04",
         "title": "TransLinkGuard: Safeguarding Transformer Models Against Model Stealing in Edge Deployment",
         "author": "Qinfeng Li, Zhiqiang Shen, Zhenghan Qin, Yangfan Xie, Xuhong Zhang, Tianyu Du, and Jianwei Yin",
-        "link": "http://arxiv.org/abs/2404.11121v1",
+        "link": "http://arxiv.org/abs/2404.11121v2",
         "abstract": "Proprietary large language models (LLMs) have been widely applied in various\nscenarios. Additionally, deploying LLMs on edge devices is trending for\nefficiency and privacy reasons. However, edge deployment of proprietary LLMs\nintroduces new security challenges: edge-deployed models are exposed as\nwhite-box accessible to users, enabling adversaries to conduct effective model\nstealing (MS) attacks. Unfortunately, existing defense mechanisms fail to\nprovide effective protection. Specifically, we identify four critical\nprotection properties that existing methods fail to simultaneously satisfy: (1)\nmaintaining protection after a model is physically copied; (2) authorizing\nmodel access at request level; (3) safeguarding runtime reverse engineering;\n(4) achieving high security with negligible runtime overhead. To address the\nabove issues, we propose TransLinkGuard, a plug-and-play model protection\napproach against model stealing on edge devices. The core part of\nTransLinkGuard is a lightweight authorization module residing in a secure\nenvironment, e.g., TEE. The authorization module can freshly authorize each\nrequest based on its input. Extensive experiments show that TransLinkGuard\nachieves the same security protection as the black-box security guarantees with\nnegligible overhead."
     },
     {
