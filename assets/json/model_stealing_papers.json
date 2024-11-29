@@ -1,6 +1,13 @@
 [
     {
         "date": "2024-11",
+        "title": "A survey on cutting-edge relation extraction techniques based on language models",
+        "author": "Jose A. Diaz-Garcia, and Julio Amador Diaz Lopez",
+        "link": "http://arxiv.org/abs/2411.18157v1",
+        "abstract": "This comprehensive survey delves into the latest advancements in Relation\nExtraction (RE), a pivotal task in natural language processing essential for\napplications across biomedical, financial, and legal sectors. This study\nhighlights the evolution and current state of RE techniques by analyzing 137\npapers presented at the Association for Computational Linguistics (ACL)\nconferences over the past four years, focusing on models that leverage language\nmodels. Our findings underscore the dominance of BERT-based methods in\nachieving state-of-the-art results for RE while also noting the promising\ncapabilities of emerging large language models (LLMs) like T5, especially in\nfew-shot relation extraction scenarios where they excel in identifying\npreviously unseen relations."
+    },
+    {
+        "date": "2024-11",
         "title": "RAMIE: Retrieval-Augmented Multi-task Information Extraction with Large Language Models on Dietary Supplements",
         "author": "Zaifu Zhan, Shuang Zhou, Mingchen Li, and Rui Zhang",
         "link": "http://arxiv.org/abs/2411.15700v1",
@@ -1391,12 +1398,5 @@
         "author": "Adi Shamir, Isaac Canales-Martinez, Anna Hambitzer, Jorge Chavez-Saab, Francisco Rodrigez-Henriquez, and Nitin Satpute",
         "link": "http://arxiv.org/abs/2310.08708v1",
         "abstract": "Billions of dollars and countless GPU hours are currently spent on training\nDeep Neural Networks (DNNs) for a variety of tasks. Thus, it is essential to\ndetermine the difficulty of extracting all the parameters of such neural\nnetworks when given access to their black-box implementations. Many versions of\nthis problem have been studied over the last 30 years, and the best current\nattack on ReLU-based deep neural networks was presented at Crypto 2020 by\nCarlini, Jagielski, and Mironov. It resembles a differential chosen plaintext\nattack on a cryptosystem, which has a secret key embedded in its black-box\nimplementation and requires a polynomial number of queries but an exponential\namount of time (as a function of the number of neurons). In this paper, we\nimprove this attack by developing several new techniques that enable us to\nextract with arbitrarily high precision all the real-valued parameters of a\nReLU-based DNN using a polynomial number of queries and a polynomial amount of\ntime. We demonstrate its practical efficiency by applying it to a full-sized\nneural network for classifying the CIFAR10 dataset, which has 3072 inputs, 8\nhidden layers with 256 neurons each, and over million neuronal parameters. An\nattack following the approach by Carlini et al. requires an exhaustive search\nover 2 to the power 256 possibilities. Our attack replaces this with our new\ntechniques, which require only 30 minutes on a 256-core computer."
-    },
-    {
-        "date": "2023-10",
-        "title": "I2SRM: Intra- and Inter-Sample Relationship Modeling for Multimodal Information Extraction",
-        "author": "Yusheng Huang, and Zhouhan Lin",
-        "link": "http://arxiv.org/abs/2310.06326v1",
-        "abstract": "Multimodal information extraction is attracting research attention nowadays,\nwhich requires aggregating representations from different modalities. In this\npaper, we present the Intra- and Inter-Sample Relationship Modeling (I2SRM)\nmethod for this task, which contains two modules. Firstly, the intra-sample\nrelationship modeling module operates on a single sample and aims to learn\neffective representations. Embeddings from textual and visual modalities are\nshifted to bridge the modality gap caused by distinct pre-trained language and\nimage models. Secondly, the inter-sample relationship modeling module considers\nrelationships among multiple samples and focuses on capturing the interactions.\nAn AttnMixup strategy is proposed, which not only enables collaboration among\nsamples but also augments data to improve generalization. We conduct extensive\nexperiments on the multimodal named entity recognition datasets Twitter-2015\nand Twitter-2017, and the multimodal relation extraction dataset MNRE. Our\nproposed method I2SRM achieves competitive results, 77.12% F1-score on\nTwitter-2015, 88.40% F1-score on Twitter-2017, and 84.12% F1-score on MNRE."
     }
 ]
