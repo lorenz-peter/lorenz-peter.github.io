@@ -37,7 +37,14 @@ Both the h-index and median are valuable tools for evaluating the impact and sig
 
 One key difference between journal and conference publications is the review process. Journals typically involve a more thorough and time-consuming review process, with reviewers having more time to provide detailed feedback. As a result, the publication timeline for journals is often longer than for conferences.
 
+Machine Learning:
 - [TPAMI](https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence)
+- [TMLR](https://jmlr.csail.mit.edu/tmlr)
+- ...
+
+Security / Cryptography:
+- [Cryptography]https://iacr.org/jofc
+- ...
 
 ## Deadlines Tracking
 
