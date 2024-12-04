@@ -43,7 +43,7 @@ Machine Learning:
 - ...
 
 Security / Cryptography:
-- [Cryptography]https://iacr.org/jofc
+- [Journal of Cryptology](https://iacr.org/jofc)
 - ...
 
 ## Deadlines Tracking
