@@ -8,6 +8,13 @@
     },
     {
         "date": "2024-11",
+        "title": "Human Evaluation of Procedural Knowledge Graph Extraction from Text with Large Language Models",
+        "author": "Valentina Anita Carriero, Antonia Azzini, Ilaria Baroni, Mario Scrocca, and Irene Celino",
+        "link": "http://arxiv.org/abs/2412.03589v1",
+        "abstract": "Procedural Knowledge is the know-how expressed in the form of sequences of\nsteps needed to perform some tasks. Procedures are usually described by means\nof natural language texts, such as recipes or maintenance manuals, possibly\nspread across different documents and systems, and their interpretation and\nsubsequent execution is often left to the reader. Representing such procedures\nin a Knowledge Graph (KG) can be the basis to build digital tools to support\nthose users who need to apply or execute them. In this paper, we leverage Large\nLanguage Model (LLM) capabilities and propose a prompt engineering approach to\nextract steps, actions, objects, equipment and temporal information from a\ntextual procedure, in order to populate a Procedural KG according to a\npre-defined ontology. We evaluate the KG extraction results by means of a user\nstudy, in order to qualitatively and quantitatively assess the perceived\nquality and usefulness of the LLM-extracted procedural knowledge. We show that\nLLMs can produce outputs of acceptable quality and we assess the subjective\nperception of AI by human evaluators."
+    },
+    {
+        "date": "2024-11",
         "title": "A survey on cutting-edge relation extraction techniques based on language models",
         "author": "Jose A. Diaz-Garcia, and Julio Amador Diaz Lopez",
         "link": "http://arxiv.org/abs/2411.18157v1",
@@ -1391,12 +1398,5 @@
         "author": "Sharan Subramanian, and Leilani H. Gilpin",
         "link": "http://arxiv.org/abs/2310.10806v1",
         "abstract": "The application of Artificial Intelligence in the medical market brings up\nincreasing concerns but aids in more timely diagnosis of silent progressing\ndiseases like Diabetic Retinopathy. In order to diagnose Diabetic Retinopathy\n(DR), ophthalmologists use color fundus images, or pictures of the back of the\nretina, to identify small distinct features through a difficult and\ntime-consuming process. Our work creates a novel CNN model and identifies the\nseverity of DR through fundus image input. We classified 4 known DR features,\nincluding micro-aneurysms, cotton wools, exudates, and hemorrhages, through\nconvolutional layers and were able to provide an accurate diagnostic without\nadditional user input. The proposed model is more interpretable and robust to\noverfitting. We present initial results with a sensitivity of 97% and an\naccuracy of 71%. Our contribution is an interpretable model with similar\naccuracy to more complex models. With that, our model advances the field of DR\ndetection and proves to be a key step towards AI-focused medical diagnosis."
-    },
-    {
-        "date": "2023-10",
-        "title": "SCME: A Self-Contrastive Method for Data-free and Query-Limited Model Extraction Attack",
-        "author": "Renyang Liu, Jinhong Zhang, Kwok-Yan Lam, Jun Zhao, and Wei Zhou",
-        "link": "http://arxiv.org/abs/2310.09792v1",
-        "abstract": "Previous studies have revealed that artificial intelligence (AI) systems are\nvulnerable to adversarial attacks. Among them, model extraction attacks fool\nthe target model by generating adversarial examples on a substitute model. The\ncore of such an attack is training a substitute model as similar to the target\nmodel as possible, where the simulation process can be categorized in a\ndata-dependent and data-free manner. Compared with the data-dependent method,\nthe data-free one has been proven to be more practical in the real world since\nit trains the substitute model with synthesized data. However, the distribution\nof these fake data lacks diversity and cannot detect the decision boundary of\nthe target model well, resulting in the dissatisfactory simulation effect.\nBesides, these data-free techniques need a vast number of queries to train the\nsubstitute model, increasing the time and computing consumption and the risk of\nexposure. To solve the aforementioned problems, in this paper, we propose a\nnovel data-free model extraction method named SCME (Self-Contrastive Model\nExtraction), which considers both the inter- and intra-class diversity in\nsynthesizing fake data. In addition, SCME introduces the Mixup operation to\naugment the fake data, which can explore the target model's decision boundary\neffectively and improve the simulating capacity. Extensive experiments show\nthat the proposed method can yield diversified fake data. Moreover, our method\nhas shown superiority in many different attack settings under the query-limited\nscenario, especially for untargeted attacks, the SCME outperforms SOTA methods\nby 11.43\\% on average for five baseline datasets."
     }
 ]
