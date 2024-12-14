@@ -1,6 +1,20 @@
 [
     {
         "date": "2024-12",
+        "title": "Efficient and Comprehensive Feature Extraction in Large Vision-Language Model for Clinical Pathology Analysis",
+        "author": "Shengxuming Zhang, Weihan Li, Tianhong Gao, Jiacong Hu, Haoming Luo, Mingli Song, Xiuming Zhang, and Zunlei Feng",
+        "link": "http://arxiv.org/abs/2412.09521v1",
+        "abstract": "Pathological diagnosis is vital for determining disease characteristics,\nguiding treatment, and assessing prognosis, relying heavily on detailed,\nmulti-scale analysis of high-resolution whole slide images (WSI). However,\ntraditional pure vision models face challenges of redundant feature extraction,\nwhereas existing large vision-language models (LVLMs) are limited by input\nresolution constraints, hindering their efficiency and accuracy. To overcome\nthese issues, we propose two innovative strategies: the mixed task-guided\nfeature enhancement, which directs feature extraction toward lesion-related\ndetails across scales, and the prompt-guided detail feature completion, which\nintegrates coarse- and fine-grained features from WSI based on specific prompts\nwithout compromising inference speed. Leveraging a comprehensive dataset of\n490,000 samples from diverse pathology tasks-including cancer detection,\ngrading, vascular and neural invasion identification, and so on-we trained the\npathology-specialized LVLM, OmniPath. Extensive experiments demonstrate that\nthis model significantly outperforms existing methods in diagnostic accuracy\nand efficiency, offering an interactive, clinically aligned approach for\nauxiliary diagnosis in a wide range of pathology applications."
+    },
+    {
+        "date": "2024-12",
+        "title": "Kajal: Extracting Grammar of a Source Code Using Large Language Models",
+        "author": "Mohammad Jalili Torkamani",
+        "link": "http://arxiv.org/abs/2412.08842v1",
+        "abstract": "Understanding and extracting the grammar of a domain-specific language (DSL)\nis crucial for various software engineering tasks; however, manually creating\nthese grammars is time-intensive and error-prone. This paper presents Kajal, a\nnovel approach that automatically infers grammar from DSL code snippets by\nleveraging Large Language Models (LLMs) through prompt engineering and few-shot\nlearning. Kajal dynamically constructs input prompts, using contextual\ninformation to guide the LLM in generating the corresponding grammars, which\nare iteratively refined through a feedback-driven approach. Our experiments\nshow that Kajal achieves 60% accuracy with few-shot learning and 45% without\nit, demonstrating the significant impact of few-shot learning on the tool's\neffectiveness. This approach offers a promising solution for automating DSL\ngrammar extraction, and future work will explore using smaller, open-source\nLLMs and testing on larger datasets to further validate Kajal's performance."
+    },
+    {
+        "date": "2024-12",
         "title": "A Unified Model For Voice and Accent Conversion In Speech and Singing using Self-Supervised Learning and Feature Extraction",
         "author": "Sowmya Cheripally",
         "link": "http://arxiv.org/abs/2412.08312v1",
@@ -17,7 +31,7 @@
         "date": "2024-12",
         "title": "Espresso: High Compression For Rich Extraction From Videos for Your Vision-Language Model",
         "author": "Keunwoo Peter Yu, Achal Dave, Rares Ambrus, and Jean Mercat",
-        "link": "http://arxiv.org/abs/2412.04729v1",
+        "link": "http://arxiv.org/abs/2412.04729v2",
         "abstract": "Most of the current vision-language models (VLMs) for videos struggle to\nunderstand videos longer than a few seconds. This is primarily due to the fact\nthat they do not scale to utilizing a large number of frames. In order to\naddress this limitation, we propose Espresso, a novel method that extracts and\ncompresses spatial and temporal information separately. Through extensive\nevaluations, we show that spatial and temporal compression in Espresso each\nhave a positive impact on the long-form video understanding capabilities; when\ncombined, their positive impact increases. Furthermore, we show that Espresso's\nperformance scales well with more training data, and that Espresso is far more\neffective than the existing projectors for VLMs in long-form video\nunderstanding. Moreover, we devise a more difficult evaluation setting for\nEgoSchema called \"needle-in-a-haystack\" that multiplies the lengths of the\ninput videos. Espresso achieves SOTA performance on this task, outperforming\nthe SOTA VLMs that have been trained on much more training data."
     },
     {
@@ -1384,19 +1398,5 @@
         "author": "Qusai Khraisha, Sophie Put, Johanna Kappenberg, Azza Warraitch, and Kristin Hadfield",
         "link": "http://arxiv.org/abs/2310.17526v2",
         "abstract": "Systematic reviews are vital for guiding practice, research, and policy, yet\nthey are often slow and labour-intensive. Large language models (LLMs) could\noffer a way to speed up and automate systematic reviews, but their performance\nin such tasks has not been comprehensively evaluated against humans, and no\nstudy has tested GPT-4, the biggest LLM so far. This pre-registered study\nevaluates GPT-4's capability in title/abstract screening, full-text review, and\ndata extraction across various literature types and languages using a\n'human-out-of-the-loop' approach. Although GPT-4 had accuracy on par with human\nperformance in most tasks, results were skewed by chance agreement and dataset\nimbalance. After adjusting for these, there was a moderate level of performance\nfor data extraction, and - barring studies that used highly reliable prompts -\nscreening performance levelled at none to moderate for different stages and\nlanguages. When screening full-text literature using highly reliable prompts,\nGPT-4's performance was 'almost perfect.' Penalising GPT-4 for missing key\nstudies using highly reliable prompts improved its performance even more. Our\nfindings indicate that, currently, substantial caution should be used if LLMs\nare being used to conduct systematic reviews, but suggest that, for certain\nsystematic review tasks delivered under reliable prompts, LLMs can rival human\nperformance."
-    },
-    {
-        "date": "2023-10",
-        "title": "Prompt-Driven Building Footprint Extraction in Aerial Images with Offset-Building Model",
-        "author": "Kai Li, Yupeng Deng, Yunlong Kong, Diyou Liu, Jingbo Chen, Yu Meng, and Junxian Ma",
-        "link": "http://arxiv.org/abs/2310.16717v3",
-        "abstract": "More accurate extraction of invisible building footprints from\nvery-high-resolution (VHR) aerial images relies on roof segmentation and\nroof-to-footprint offset extraction. Existing state-of-the-art methods based on\ninstance segmentation suffer from poor generalization when extended to\nlarge-scale data production and fail to achieve low-cost human interactive\nannotation. The latest prompt paradigms inspire us to design a promptable\nframework for roof and offset extraction, which transforms end-to-end\nalgorithms into promptable methods. Within this framework, we propose a novel\nOffset-Building Model (OBM). To rigorously evaluate the algorithm's\ncapabilities, we introduce a prompt-based evaluation method, where our model\nreduces offset errors by 16.6% and improves roof Intersection over Union (IoU)\nby 10.8% compared to other models. Leveraging the common patterns in predicting\noffsets, we propose Distance-NMS (DNMS) algorithms, enabling the model to\nfurther reduce offset vector loss by 6.5%. To further validate the\ngeneralization of models, we tested them using a new dataset with over 7,000\nmanually annotated instance samples. Our algorithms and dataset are available\nat https://anonymous.4open.science/r/OBM-B3EC."
-    },
-    {
-        "date": "2023-10",
-        "title": "Defense Against Model Extraction Attacks on Recommender Systems",
-        "author": "Sixiao Zhang, Hongzhi Yin, Hongxu Chen, and Cheng Long",
-        "link": "http://arxiv.org/abs/2310.16335v1",
-        "abstract": "The robustness of recommender systems has become a prominent topic within the\nresearch community. Numerous adversarial attacks have been proposed, but most\nof them rely on extensive prior knowledge, such as all the white-box attacks or\nmost of the black-box attacks which assume that certain external knowledge is\navailable. Among these attacks, the model extraction attack stands out as a\npromising and practical method, involving training a surrogate model by\nrepeatedly querying the target model. However, there is a significant gap in\nthe existing literature when it comes to defending against model extraction\nattacks on recommender systems. In this paper, we introduce Gradient-based\nRanking Optimization (GRO), which is the first defense strategy designed to\ncounter such attacks. We formalize the defense as an optimization problem,\naiming to minimize the loss of the protected target model while maximizing the\nloss of the attacker's surrogate model. Since top-k ranking lists are\nnon-differentiable, we transform them into swap matrices which are instead\ndifferentiable. These swap matrices serve as input to a student model that\nemulates the surrogate model's behavior. By back-propagating the loss of the\nstudent model, we obtain gradients for the swap matrices. These gradients are\nused to compute a swap loss, which maximizes the loss of the student model. We\nconducted experiments on three benchmark datasets to evaluate the performance\nof GRO, and the results demonstrate its superior effectiveness in defending\nagainst model extraction attacks."
     }
 ]
