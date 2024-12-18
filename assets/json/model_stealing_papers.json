@@ -1,6 +1,20 @@
 [
     {
         "date": "2024-12",
+        "title": "Leveraging Foundation Language Models (FLMs) for Automated Cohort Extraction from Large EHR Databases",
+        "author": "Purity Mugambi, Alexandra Meliou, and Madalina Fiterau",
+        "link": "http://arxiv.org/abs/2412.11472v1",
+        "abstract": "A crucial step in cohort studies is to extract the required cohort from one\nor more study datasets. This step is time-consuming, especially when a\nresearcher is presented with a dataset that they have not previously worked\nwith. When the cohort has to be extracted from multiple datasets, cohort\nextraction can be extremely laborious. In this study, we present an approach\nfor partially automating cohort extraction from multiple electronic health\nrecord (EHR) databases. We formulate the guided multi-dataset cohort extraction\nproblem in which selection criteria are first converted into queries,\ntranslating them from natural language text to language that maps to database\nentities. Then, using FLMs, columns of interest identified from the queries are\nautomatically matched between the study databases. Finally, the generated\nqueries are run across all databases to extract the study cohort. We propose\nand evaluate an algorithm for automating column matching on two large, popular\nand publicly-accessible EHR databases -- MIMIC-III and eICU. Our approach\nachieves a high top-three accuracy of $92\\%$, correctly matching $12$ out of\nthe $13$ columns of interest, when using a small, pre-trained general purpose\nlanguage model. Furthermore, this accuracy is maintained even as the search\nspace (i.e., size of the database) increases."
+    },
+    {
+        "date": "2024-12",
+        "title": "Extracting PAC Decision Trees from Black Box Binary Classifiers: The Gender Bias Study Case on BERT-based Language Models",
+        "author": "Ana Ozaki, Roberto Confalonieri, Ricardo Guimar\u00e3es, and Anders Imenes",
+        "link": "http://arxiv.org/abs/2412.10513v1",
+        "abstract": "Decision trees are a popular machine learning method, known for their\ninherent explainability. In Explainable AI, decision trees can be used as\nsurrogate models for complex black box AI models or as approximations of parts\nof such models. A key challenge of this approach is determining how accurately\nthe extracted decision tree represents the original model and to what extent it\ncan be trusted as an approximation of their behavior. In this work, we\ninvestigate the use of the Probably Approximately Correct (PAC) framework to\nprovide a theoretical guarantee of fidelity for decision trees extracted from\nAI models. Based on theoretical results from the PAC framework, we adapt a\ndecision tree algorithm to ensure a PAC guarantee under certain conditions. We\nfocus on binary classification and conduct experiments where we extract\ndecision trees from BERT-based language models with PAC guarantees. Our results\nindicate occupational gender bias in these models."
+    },
+    {
+        "date": "2024-12",
         "title": "Efficient and Comprehensive Feature Extraction in Large Vision-Language Model for Clinical Pathology Analysis",
         "author": "Shengxuming Zhang, Weihan Li, Tianhong Gao, Jiacong Hu, Haoming Luo, Mingli Song, Xiuming Zhang, and Zunlei Feng",
         "link": "http://arxiv.org/abs/2412.09521v1",
@@ -1384,19 +1398,5 @@
         "author": "Yu Enokibori",
         "link": "http://arxiv.org/abs/2310.19283v3",
         "abstract": "Although many deep learning (DL) algorithms have been proposed for the\nIMU-based HAR domain, traditional machine learning that utilizes handcrafted\ntime series features (TSFs) still often performs well. It is not rare that\ncombinations among DL and TSFs show better accuracy than DL-only approaches.\nHowever, there is a problem with time series features in IMU-based HAR. The\namount of derived features can vary greatly depending on the method used to\nselect the 3D basis. Fortunately, DL's strengths include capturing the features\nof input data and adaptively deriving parameters. Thus, as a new DNN model for\nIMU-based human activity recognition (HAR), this paper proposes rTsfNet, a DNN\nmodel with Multi-head 3D Rotation and Time Series Feature Extraction. rTsfNet\nautomatically selects 3D bases from which features should be derived by\nextracting 3D rotation parameters within the DNN. Then, time series features\n(TSFs), based on many researchers' wisdom, are derived to achieve HAR using\nMLP. Although rTsfNet is a model that does not use CNN, it achieved higher\naccuracy than existing models under well-managed benchmark conditions and\nmultiple datasets: UCI HAR, PAMAP2, Daphnet, and OPPORTUNITY, all of which\ntarget different activities."
-    },
-    {
-        "date": "2023-10",
-        "title": "Open Visual Knowledge Extraction via Relation-Oriented Multimodality Model Prompting",
-        "author": "Hejie Cui, Xinyu Fang, Zihan Zhang, Ran Xu, Xuan Kan, Xin Liu, Yue Yu, Manling Li, Yangqiu Song, and Carl Yang",
-        "link": "http://arxiv.org/abs/2310.18804v1",
-        "abstract": "Images contain rich relational knowledge that can help machines understand\nthe world. Existing methods on visual knowledge extraction often rely on the\npre-defined format (e.g., sub-verb-obj tuples) or vocabulary (e.g., relation\ntypes), restricting the expressiveness of the extracted knowledge. In this\nwork, we take a first exploration to a new paradigm of open visual knowledge\nextraction. To achieve this, we present OpenVik which consists of an open\nrelational region detector to detect regions potentially containing relational\nknowledge and a visual knowledge generator that generates format-free knowledge\nby prompting the large multimodality model with the detected region of\ninterest. We also explore two data enhancement techniques for diversifying the\ngenerated format-free visual knowledge. Extensive knowledge quality evaluations\nhighlight the correctness and uniqueness of the extracted open visual knowledge\nby OpenVik. Moreover, integrating our extracted knowledge across various visual\nreasoning applications shows consistent improvements, indicating the real-world\napplicability of OpenVik."
-    },
-    {
-        "date": "2023-10",
-        "title": "Can large language models replace humans in the systematic review process? Evaluating GPT-4's efficacy in screening and extracting data from peer-reviewed and grey literature in multiple languages",
-        "author": "Qusai Khraisha, Sophie Put, Johanna Kappenberg, Azza Warraitch, and Kristin Hadfield",
-        "link": "http://arxiv.org/abs/2310.17526v2",
-        "abstract": "Systematic reviews are vital for guiding practice, research, and policy, yet\nthey are often slow and labour-intensive. Large language models (LLMs) could\noffer a way to speed up and automate systematic reviews, but their performance\nin such tasks has not been comprehensively evaluated against humans, and no\nstudy has tested GPT-4, the biggest LLM so far. This pre-registered study\nevaluates GPT-4's capability in title/abstract screening, full-text review, and\ndata extraction across various literature types and languages using a\n'human-out-of-the-loop' approach. Although GPT-4 had accuracy on par with human\nperformance in most tasks, results were skewed by chance agreement and dataset\nimbalance. After adjusting for these, there was a moderate level of performance\nfor data extraction, and - barring studies that used highly reliable prompts -\nscreening performance levelled at none to moderate for different stages and\nlanguages. When screening full-text literature using highly reliable prompts,\nGPT-4's performance was 'almost perfect.' Penalising GPT-4 for missing key\nstudies using highly reliable prompts improved its performance even more. Our\nfindings indicate that, currently, substantial caution should be used if LLMs\nare being used to conduct systematic reviews, but suggest that, for certain\nsystematic review tasks delivered under reliable prompts, LLMs can rival human\nperformance."
     }
 ]
