@@ -1,10 +1,24 @@
 [
     {
         "date": "2024-12",
+        "title": "Automated CVE Analysis: Harnessing Machine Learning In Designing Question-Answering Models For Cybersecurity Information Extraction",
+        "author": "Tanjim Bin Faruk",
+        "link": "http://arxiv.org/abs/2412.16484v1",
+        "abstract": "The vast majority of cybersecurity information is unstructured text,\nincluding critical data within databases such as CVE, NVD, CWE, CAPEC, and the\nMITRE ATT&CK Framework. These databases are invaluable for analyzing attack\npatterns and understanding attacker behaviors. Creating a knowledge graph by\nintegrating this information could unlock significant insights. However,\nprocessing this large amount of data requires advanced deep-learning\ntechniques. A crucial step towards building such a knowledge graph is\ndeveloping a robust mechanism for automating the extraction of answers to\nspecific questions from the unstructured text. Question Answering (QA) systems\nplay a pivotal role in this process by pinpointing and extracting precise\ninformation, facilitating the mapping of relationships between various data\npoints. In the cybersecurity context, QA systems encounter unique challenges\ndue to the need to interpret and answer questions based on a wide array of\ndomain-specific information. To tackle these challenges, it is necessary to\ndevelop a cybersecurity-specific dataset and train a machine learning model on\nit, aimed at enhancing the understanding and retrieval of domain-specific\ninformation. This paper presents a novel dataset and describes a machine\nlearning model trained on this dataset for the QA task. It also discusses the\nmodel's performance and key findings in a manner that maintains a balance\nbetween formality and accessibility."
+    },
+    {
+        "date": "2024-12",
         "title": "Extracting Interpretable Task-Specific Circuits from Large Language Models for Faster Inference",
         "author": "Jorge Garc\u00eda-Carrasco, Alejandro Mat\u00e9, and Juan Trujillo",
         "link": "http://arxiv.org/abs/2412.15750v1",
         "abstract": "Large Language Models (LLMs) have shown impressive performance across a wide\nrange of tasks. However, the size of LLMs is steadily increasing, hindering\ntheir application on computationally constrained environments. On the other\nhand, despite their general capabilities, there are many situations where only\none specific task is performed, rendering all other capabilities unnecessary\nand wasteful. This leads us to the following question: Is it possible to\nextract the minimal subset from an LLM that is able to perform a specific task\nin a faster, standalone manner? Recent works on Mechanistic Interpretability\n(MI) have shown that specific tasks are performed by a localized subset of\ncomponents, or circuit. However, current techniques used to identify the\ncircuit cannot be used to extract it for its standalone usage. In this work, we\npropose a novel approach to automatically extract the subset of the LLM that\nproperly performs a targeted task requiring no additional training and a small\namount of data samples. We evaluate our approach on different tasks and show\nthat the resulting models are (i) considerably smaller, reducing the number of\nparameters up to 82.77% and (ii) more interpretable, as they focus on the\ncircuit that is used to carry out the specific task, and can therefore be\nunderstood using MI techniques."
+    },
+    {
+        "date": "2024-12",
+        "title": "Towards scientific discovery with dictionary learning: Extracting biological concepts from microscopy foundation models",
+        "author": "Konstantin Donhauser, Kristina Ulicna, Gemma Elyse Moran, Aditya Ravuri, Kian Kenyon-Dean, Cian Eastwood, and Jason Hartford",
+        "link": "http://arxiv.org/abs/2412.16247v1",
+        "abstract": "Dictionary learning (DL) has emerged as a powerful interpretability tool for\nlarge language models. By extracting known concepts (e.g., Golden-Gate Bridge)\nfrom human-interpretable data (e.g., text), sparse DL can elucidate a model's\ninner workings. In this work, we ask if DL can also be used to discover unknown\nconcepts from less human-interpretable scientific data (e.g., cell images),\nultimately enabling modern approaches to scientific discovery. As a first step,\nwe use DL algorithms to study microscopy foundation models trained on\nmulti-cell image data, where little prior knowledge exists regarding which\nhigh-level concepts should arise. We show that sparse dictionaries indeed\nextract biologically-meaningful concepts such as cell type and genetic\nperturbation type. We also propose a new DL algorithm, Iterative Codebook\nFeature Learning~(ICFL), and combine it with a pre-processing step that uses\nPCA whitening from a control dataset. In our experiments, we demonstrate that\nboth ICFL and PCA improve the selectivity of extracted features compared to\nTopK sparse autoencoders."
     },
     {
         "date": "2024-12",
@@ -822,8 +836,8 @@
         "date": "2024-04",
         "title": "Utilizing Large Language Models for Information Extraction from Real Estate Transactions",
         "author": "Yu Zhao, and Haoxiang Gao",
-        "link": "http://arxiv.org/abs/2404.18043v1",
-        "abstract": "Real estate sales contracts contain crucial information for property\ntransactions, but manual extraction of data can be time-consuming and\nerror-prone. This paper explores the application of large language models,\nspecifically transformer-based architectures, for automated information\nextraction from real estate contracts. We discuss challenges, techniques, and\nfuture directions in leveraging these models to improve efficiency and accuracy\nin real estate contract analysis."
+        "link": "http://arxiv.org/abs/2404.18043v2",
+        "abstract": "Real estate sales contracts contain crucial information for property\ntransactions, but manual data extraction can be time-consuming and error-prone.\nThis paper explores the application of large language models, specifically\ntransformer-based architectures, for automated information extraction from real\nestate contracts. We discuss challenges, techniques, and future directions in\nleveraging these models to improve efficiency and accuracy in real estate\ncontract analysis. We generated synthetic contracts using the real-world\ntransaction dataset, thereby fine-tuning the large-language model and achieving\nsignificant metrics improvements and qualitative improvements in information\nretrieval and reasoning tasks."
     },
     {
         "date": "2024-04",
@@ -1384,19 +1398,5 @@
         "author": "Geemi P. Wellawatte, and Philippe Schwaller",
         "link": "http://arxiv.org/abs/2311.04047v1",
         "abstract": "Explainable Artificial Intelligence (XAI) is an emerging field in AI that\naims to address the opaque nature of machine learning models. Furthermore, it\nhas been shown that XAI can be used to extract input-output relationships,\nmaking them a useful tool in chemistry to understand structure-property\nrelationships. However, one of the main limitations of XAI methods is that they\nare developed for technically oriented users. We propose the XpertAI framework\nthat integrates XAI methods with large language models (LLMs) accessing\nscientific literature to generate accessible natural language explanations of\nraw chemical data automatically. We conducted 5 case studies to evaluate the\nperformance of XpertAI. Our results show that XpertAI combines the strengths of\nLLMs and XAI tools in generating specific, scientific, and interpretable\nexplanations."
-    },
-    {
-        "date": "2023-11",
-        "title": "Reinforcement Learning Fine-tuning of Language Models is Biased Towards More Extractable Features",
-        "author": "Diogo Cruz, Edoardo Pona, Alex Holness-Tofts, Elias Schmied, V\u00edctor Abia Alonso, Charlie Griffin, and Bogdan-Ionut Cirstea",
-        "link": "http://arxiv.org/abs/2311.04046v1",
-        "abstract": "Many capable large language models (LLMs) are developed via self-supervised\npre-training followed by a reinforcement-learning fine-tuning phase, often\nbased on human or AI feedback. During this stage, models may be guided by their\ninductive biases to rely on simpler features which may be easier to extract, at\na cost to robustness and generalisation. We investigate whether principles\ngoverning inductive biases in the supervised fine-tuning of LLMs also apply\nwhen the fine-tuning process uses reinforcement learning. Following Lovering et\nal (2021), we test two hypotheses: that features more $\\textit{extractable}$\nafter pre-training are more likely to be utilised by the final policy, and that\nthe evidence for/against a feature predicts whether it will be utilised.\nThrough controlled experiments on synthetic and natural language tasks, we find\nstatistically significant correlations which constitute strong evidence for\nthese hypotheses."
-    },
-    {
-        "date": "2023-11",
-        "title": "Enhancing AI Research Paper Analysis: Methodology Component Extraction using Factored Transformer-based Sequence Modeling Approach",
-        "author": "Madhusudan Ghosh, Debasis Ganguly, Partha Basuchowdhuri, and Sudip Kumar Naskar",
-        "link": "http://arxiv.org/abs/2311.03401v1",
-        "abstract": "Research in scientific disciplines evolves, often rapidly, over time with the\nemergence of novel methodologies and their associated terminologies. While\nmethodologies themselves being conceptual in nature and rather difficult to\nautomatically extract and characterise, in this paper, we seek to develop\nsupervised models for automatic extraction of the names of the various\nconstituents of a methodology, e.g., `R-CNN', `ELMo' etc. The main research\nchallenge for this task is effectively modeling the contexts around these\nmethodology component names in a few-shot or even a zero-shot setting. The main\ncontributions of this paper towards effectively identifying new evolving\nscientific methodology names are as follows: i) we propose a factored approach\nto sequence modeling, which leverages a broad-level category information of\nmethodology domains, e.g., `NLP', `RL' etc.; ii) to demonstrate the feasibility\nof our proposed approach of identifying methodology component names under a\npractical setting of fast evolving AI literature, we conduct experiments\nfollowing a simulated chronological setup (newer methodologies not seen during\nthe training process); iii) our experiments demonstrate that the factored\napproach outperforms state-of-the-art baselines by margins of up to 9.257\\% for\nthe methodology extraction task with the few-shot setup."
     }
 ]
