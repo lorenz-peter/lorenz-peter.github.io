@@ -60,6 +60,17 @@ Security / Cryptography:
 - [ACM FAccT](https://facctconference.org)
 
 
+## arXive
+
+First of all, putting your paper on arxive does not tell anyone, if it is a publication. 
+The paper is published after being accepted at peer-reviewed conference. 
+
+Arxive is a platform where you can upload your paper in parallel to submitting a conference. 
+You can never remove it from there. In most cases, you need to put arxive in another LaTex template.
+Not every conference tolerance to use their template for a preprint.  
+
+Some more [thoughts on arXive](https://abetterscientist.wordpress.com/2013/07/09/thoughts-on-arxiv-and-journals/).
+
 ## Research Trends 
 
 - [NeurIPS keywords](https://colab.research.google.com/drive/1u51Id90ML79UdZaKD23qglY0ZkEmmdwk?usp=sharing#scrollTo=metallic-aquatic)
