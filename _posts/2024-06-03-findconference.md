@@ -62,7 +62,7 @@ Security / Cryptography:
 
 ## ArXiv
 
-First of all, putting your paper on ArXiv does not tell anyone, if it is a publication. 
+First of all, putting your paper on [ArXiv](https://arxiv.org) does not tell anyone, if it is a publication. 
 The paper is published after being accepted at peer-reviewed conference. 
 
 ArXiv serves as a platform where you can upload your paper simultaneously with conference submission, ensuring it remains permanently accessible. However, once uploaded, papers cannot be removed. Often, authors must reformat their work to fit ArXiv's LaTeX template, as not all conferences permit the use of their own templates for preprints.
