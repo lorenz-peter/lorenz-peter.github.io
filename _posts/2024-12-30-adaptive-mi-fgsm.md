@@ -28,4 +28,4 @@ To address these concerns, the authors propose a novel method (AdaMSI-FGM), whic
 
 # References
 
-- [1] [On the Convergence of an Adaptive Momentum Method for Adversarial Attack, 2025, AAAI.](https://ojs.aaai.org/index.php/AAAI/article/view/29323)
+- [1] [On the Convergence of an Adaptive Momentum Method for Adversarial Attack, 2024, AAAI.](https://ojs.aaai.org/index.php/AAAI/article/view/29323)
