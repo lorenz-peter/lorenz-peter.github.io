@@ -8,6 +8,8 @@ categories: research
 giscus_comments: true
 related_posts: true
 pretty_table: true
+importance: 3
+category: research trends
 ---
 
 {::nomarkdown}

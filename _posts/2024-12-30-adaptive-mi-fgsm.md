@@ -18,13 +18,11 @@ However, it is a sign-based attack method, where the sign gives an bound of the 
 Sign-based methods fail to converge to the optimum in convex settings. 
 To address these concerns, the authors propose a novel method (AdaMSI-FGM), which incorporates both an innovative adaptive momentum parameter with monotonicity assumptions and an adaptive step-size scheme that replaces the sign operation.
 
-
 ## Key insights
 
 - Sign-based attack methods are well-known and this better showed there is still research to be done.
-- The sign method can be replaced with an adaptive update step. 
+- The sign method can be replaced with an adaptive update step.
 - Derive a regret upper bound for general convex functions.
-
 
 # References
 
