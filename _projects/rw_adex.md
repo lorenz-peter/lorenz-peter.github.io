@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Adversrial Examples (Related Work)
 description: shows latest related work
 importance: 3
