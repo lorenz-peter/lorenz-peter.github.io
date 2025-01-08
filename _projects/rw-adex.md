@@ -1,18 +1,10 @@
 ---
-layout: post
+layout: page
 title: Adversrial Examples (Related Work)
-date: 2024-10-17 14:37:00-0400
 description: shows latest related work
-tags: research
-categories: research
-giscus_comments: false
-related_posts: false
-pretty_table: true
 importance: 4
 category: research trends
 ---
-
-
 
 ## A complete list of all (arXiv) adversarial papers (under construction)
 
