@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Model Stealing (Related Work)
 img: assets/img/dm/slang.jpeg
 description: shows latest related work
