@@ -3,7 +3,7 @@ layout: page
 title: Research Trends
 description: an example of how to use Bootstrap Tables
 importance: 3
-category: research trends
+category: paperlist
 ---
 
 {::nomarkdown}

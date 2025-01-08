@@ -3,7 +3,7 @@ layout: page
 title: Adversrial Examples (Related Work)
 description: shows latest related work
 importance: 4
-category: research trends
+category: paperlist
 ---
 
 ## A complete list of all (arXiv) adversarial papers (under construction)

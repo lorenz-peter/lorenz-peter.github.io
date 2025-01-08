@@ -3,7 +3,7 @@ layout: page
 title: Model Stealing (Related Work)
 description: shows latest related work
 importance: 1
-category: research trends
+category: paperlist
 ---
 
 
