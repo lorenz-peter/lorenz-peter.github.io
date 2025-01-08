@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Model Stealing (Related Work)
+img: assets/img/dm/slang.jpeg
 description: shows latest related work
 importance: 1
 category: paperlist
