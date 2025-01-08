@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-01",
+        "title": "GLiREL -- Generalist Model for Zero-Shot Relation Extraction",
+        "author": "Jack Boylan, Chris Hokamp, and Demian Gholipour Ghalandari",
+        "link": "http://arxiv.org/abs/2501.03172v1",
+        "abstract": "We introduce GLiREL (Generalist Lightweight model for zero-shot Relation\nExtraction), an efficient architecture and training paradigm for zero-shot\nrelation classification. Inspired by recent advancements in zero-shot named\nentity recognition, this work presents an approach to efficiently and\naccurately predict zero-shot relationship labels between multiple entities in a\nsingle forward pass. Experiments using the FewRel and WikiZSL benchmarks\ndemonstrate that our approach achieves state-of-the-art results on the\nzero-shot relation classification task. In addition, we contribute a protocol\nfor synthetically-generating datasets with diverse relation labels."
+    },
+    {
+        "date": "2025-01",
         "title": "HoneypotNet: Backdoor Attacks Against Model Extraction",
         "author": "Yixu Wang, Tianle Gu, Yan Teng, Yingchun Wang, and Xingjun Ma",
         "link": "http://arxiv.org/abs/2501.01090v1",
@@ -1391,12 +1398,5 @@
         "author": "Ge Luo, Junqiang Huang, Manman Zhang, Zhenxing Qian, Sheng Li, and Xinpeng Zhang",
         "link": "http://arxiv.org/abs/2311.13619v1",
         "abstract": "The advancement in text-to-image models has led to astonishing artistic\nperformances. However, several studios and websites illegally fine-tune these\nmodels using artists' artworks to mimic their styles for profit, which violates\nthe copyrights of artists and diminishes their motivation to produce original\nworks. Currently, there is a notable lack of research focusing on this issue.\nIn this paper, we propose a novel watermarking framework that detects mimicry\nin text-to-image models through fine-tuning. This framework embeds subtle\nwatermarks into digital artworks to protect their copyrights while still\npreserving the artist's visual expression. If someone takes watermarked\nartworks as training data to mimic an artist's style, these watermarks can\nserve as detectable indicators. By analyzing the distribution of these\nwatermarks in a series of generated images, acts of fine-tuning mimicry using\nstolen victim data will be exposed. In various fine-tune scenarios and against\nwatermark attack methods, our research confirms that analyzing the distribution\nof watermarks in artificially generated images reliably detects unauthorized\nmimicry."
-    },
-    {
-        "date": "2023-11",
-        "title": "Use GPT-J Prompt Generation with RoBERTa for NER Models on Diagnosis Extraction of Periodontal Diagnosis from Electronic Dental Records",
-        "author": "Yao-Shun Chuang, Xiaoqian Jiang, Chun-Teh Lee, Ryan Brandon, Duong Tran, Oluwabunmi Tokede, and Muhammad F. Walji",
-        "link": "http://arxiv.org/abs/2311.10810v1",
-        "abstract": "This study explored the usability of prompt generation on named entity\nrecognition (NER) tasks and the performance in different settings of the\nprompt. The prompt generation by GPT-J models was utilized to directly test the\ngold standard as well as to generate the seed and further fed to the RoBERTa\nmodel with the spaCy package. In the direct test, a lower ratio of negative\nexamples with higher numbers of examples in prompt achieved the best results\nwith a F1 score of 0.72. The performance revealed consistency, 0.92-0.97 in the\nF1 score, in all settings after training with the RoBERTa model. The study\nhighlighted the importance of seed quality rather than quantity in feeding NER\nmodels. This research reports on an efficient and accurate way to mine clinical\nnotes for periodontal diagnoses, allowing researchers to easily and quickly\nbuild a NER model with the prompt generation approach."
     }
 ]
