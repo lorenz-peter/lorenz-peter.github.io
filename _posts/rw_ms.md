@@ -4,8 +4,8 @@ title: Model Stealing (Related Work)
 date: 2024-12-21 16:40:16
 img: assets/img/dm/slang.jpeg
 description: shows latest related work
-importance: 3
-category: paperlist
+tags: paper
+categories: paperlist
 ---
 
 
