@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>NTU</p>
-    <p>Machine Learning and Cryptanalysis</p>
+    <p>Adversarial Machine Learning and Model Stealing</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
