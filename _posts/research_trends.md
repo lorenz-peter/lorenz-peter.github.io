@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: Research Trends
+date: 2024-10-31 16:40:16
 description: an example of how to use Bootstrap Tables
 importance: 3
 category: paperlist
