@@ -31,6 +31,6 @@ Authors present an automatic scheme fixing this issue.
 
 # References
 
-- [1] [2003.01690] Reliable Evaluation of Adversarial Robustness with an Ensemble of Diverse Parameter-free Attacks
-- [2] [1810.12042] Logit Pairing Methods Can Fool Gradient-Based Attacks
-- [3] [1902.06705] On Evaluating Adversarial Robustness
+- [1] [Reliable Evaluation of Adversarial Robustness with an Ensemble of Diverse Parameter-free Attacks, ICML, 2020.](https://arxiv.org/abs/2003.01690)
+- [2] [Logit Pairing Methods Can Fool Gradient-Based Attacks, NeurIPSw, 2018.](https://arxiv.org/abs/1810.12042)
+- [3] [On Evaluating Adversarial Robustness, arxiv, 2019.](https://arxiv.org/abs/1902.06705)
