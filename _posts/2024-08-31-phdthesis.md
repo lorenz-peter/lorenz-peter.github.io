@@ -10,7 +10,7 @@ giscus_comments: true
 
 # Analysis of Adversarial Examples
 
-I earned my PhD with magna cum laude from Heidelberg University, Germany, where I was advised by my ex-team lead [Janis Keuper](https://www.itwm.fraunhofer.de/en/departments/hpc/staff/janis-keuper.html) and supervised by Prof. [Ullrich Köthe](https://hci.iwr.uni-heidelberg.de/vislearn/people/ullrich-koethe). I am an external Ph.D. student at the University of Heidelberg (2nd best-ranked German university).
+I earned my PhD with magna cum laude from Heidelberg University, Germany, where I was advised by my ex-team lead Janis Keuper [(FHG ITWM)](https://www.itwm.fraunhofer.de/en/departments/hpc/staff/janis-keuper.html) and supervised by Prof. Ullrich Köthe [(Heidelberg University)](https://hci.iwr.uni-heidelberg.de/vislearn/people/ullrich-koethe). I am an external Ph.D. student at the University of Heidelberg (2nd best-ranked German university).
 My key research interest was the **analysis of adversarial examples** on DNN.
 In particular, deep neural networks' **robustness** and **trustworthiness**.
 
