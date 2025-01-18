@@ -46,6 +46,6 @@ TiKZ is a LaTeX package that allows you to create high-quality graphics, diagram
 
 However, writing line for line can be exhausting. There are plenty of tools online, which can create from a vector graphic to LaTeX code, e.g. 
 
- - [GeoGebra](https://cs.overleaf.com/learn/latex_LaTeX_Graphics_using_TikZ%3A_A_Tutorial_for_Beginners_(Part_2)%E2%80%94Generating_TikZ_Code_from_GeoGebra)
- - [TikzMaker](https://tikzmaker.com)
+ - [GeoGebra](https://cs.overleaf.com/learn/latex_LaTeX_Graphics_using_TikZ%3A_A_Tutorial_for_Beginners_(Part_2)%E2%80%94Generating_TikZ_Code_from_GeoGebra),
+ - [TikzMaker](https://tikzmaker.com), and
  - [Q Uiver](https://q.uiver.app).
