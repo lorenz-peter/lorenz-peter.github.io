@@ -16,7 +16,8 @@ Then the question arises how to support the story visually?
 There is the option of the [teaser image](https://academia.stackexchange.com/questions/44837/what-is-teaser-image), that is a visually striking and representative image that is used to grab the reader's attention and provide a quick visual summary of the paper's content. 
 It is typically placed prominently, often near the title or abstract, to entice readers to learn more.
 
-# Tools
+
+## Tools
 
 There are several tools to create an teaser image, which will be discussed in this article. 
 The most universal tool is inkscape and can help you in the most situations. 
@@ -45,6 +46,6 @@ TiKZ is a LaTeX package that allows you to create high-quality graphics, diagram
 
 However, writing line for line can be exhausting. There are plenty of tools online, which can create from a vector graphic to LaTeX code, e.g. 
 
- - [GeoGebra](https://cs.overleaf.com/learn/latex/LaTeX_Graphics_using_TikZ%3A_A_Tutorial_for_Beginners_(Part_2)%E2%80%94Generating_TikZ_Code_from_GeoGebra).
- - [TikzMaker](https://tikzmaker.com/)
- - [Q Uiver](https://q.uiver.app/)
+ - [GeoGebra](https://cs.overleaf.com/learn/latex_LaTeX_Graphics_using_TikZ%3A_A_Tutorial_for_Beginners_(Part_2)%E2%80%94Generating_TikZ_Code_from_GeoGebra)
+ - [TikzMaker](https://tikzmaker.com)
+ - [Q Uiver](https://q.uiver.app).
