@@ -48,7 +48,3 @@ However, writing line for line can be exhausting. There are plenty of tools onli
  - [GeoGebra](https://cs.overleaf.com/learn/latex/LaTeX_Graphics_using_TikZ%3A_A_Tutorial_for_Beginners_(Part_2)%E2%80%94Generating_TikZ_Code_from_GeoGebra).
  - [TikzMaker](https://tikzmaker.com/)
  - [Q Uiver](https://q.uiver.app/)
-
-
-
-
