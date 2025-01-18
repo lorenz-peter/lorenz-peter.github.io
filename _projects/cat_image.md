@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Cat image
-description: the famous cat image within adversarial perturbation
+description: the famous cat image for adversarial perturbation
 img: assets/img/cat.jpg
 importance: 3
 category: fun
 ---
-
-#### safasfds
 
 ![cat](/assets/img/cat.jpg)
 
