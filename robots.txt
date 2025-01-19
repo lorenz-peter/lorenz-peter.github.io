@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lorenz-peter.github.io//sitemap.xml
+Sitemap: https://lorenz-peter.github.io/sitemap.xml
