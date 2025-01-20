@@ -24,8 +24,6 @@ The rise of artificial intelligence (AI) has significantly impacted the field of
 
 ## Important Links
 
-[Defense announcement](https://www.mathinf.uni-heidelberg.de/en/thesis-defenses/analysis-of-adversarial-examples-2024-07-30)
-
-[Slides](https://drive.google.com/file/d/1tgZ5exAoadPo64Rd4rc7cAEjTGCuQi63/view?usp=sharing)
-
-[Thesis](https://archiv.ub.uni-heidelberg.de/volltextserver/35211/1/main.pdf)
+ - [Defense announcement](https://www.mathinf.uni-heidelberg.de/en/thesis-defenses/analysis-of-adversarial-examples-2024-07-30)
+ - [Slides](https://drive.google.com/file/d/1tgZ5exAoadPo64Rd4rc7cAEjTGCuQi63/view?usp=sharing)
+ - [Thesis](https://archiv.ub.uni-heidelberg.de/volltextserver/35211/1/main.pdf)
