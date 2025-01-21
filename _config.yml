@@ -111,7 +111,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  The best way to reach me is per E-Mail.
+  The best way to reach me is per LinkedIn chat or E-Mail.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -131,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: personal blog # blog_name will be displayed in your blog page
-blog_description: personal blog
+blog_description: some posts (including from medium.com) about my thought and write-ups will appear here
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
