@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-01",
+        "title": "State Space Models for Extractive Summarization in Low Resource Scenarios",
+        "author": "Nisrine Ait Khayi",
+        "link": "http://arxiv.org/abs/2501.14673v1",
+        "abstract": "Extractive summarization involves selecting the most relevant sentences from\na text. Recently, researchers have focused on advancing methods to improve\nstate-of-the-art results in low-resource settings. Motivated by these\nadvancements, we propose the MPoincareSum method. This method applies the Mamba\nstate space model to generate the semantics of reviews and sentences, which are\nthen concatenated. A Poincare compression is used to select the most meaningful\nfeatures, followed by the application of a linear layer to predict sentence\nrelevance based on the corresponding review. Finally, we paraphrase the\nrelevant sentences to create the final summary. To evaluate the effectiveness\nof MPoincareSum, we conducted extensive experiments using the Amazon review\ndataset. The performance of the method was assessed using ROUGE scores. The\nexperimental results demonstrate that MPoincareSum outperforms several existing\napproaches in the literature"
+    },
+    {
+        "date": "2025-01",
         "title": "\"FRAME: Forward Recursive Adaptive Model Extraction -- A Technique for Advance Feature Selection\"",
         "author": "Nachiket Kapure, Harsh Joshi, Parul Kumari, Rajeshwari mistri, and Manasi Mali",
         "link": "http://arxiv.org/abs/2501.11972v1",
@@ -1391,12 +1398,5 @@
         "author": "Jiacheng Liang, Ren Pang, Changjiang Li, and Ting Wang",
         "link": "http://arxiv.org/abs/2312.05386v1",
         "abstract": "Model extraction (ME) attacks represent one major threat to\nMachine-Learning-as-a-Service (MLaaS) platforms by ``stealing'' the\nfunctionality of confidential machine-learning models through querying\nblack-box APIs. Over seven years have passed since ME attacks were first\nconceptualized in the seminal work. During this period, substantial advances\nhave been made in both ME attacks and MLaaS platforms, raising the intriguing\nquestion: How has the vulnerability of MLaaS platforms to ME attacks been\nevolving? In this work, we conduct an in-depth study to answer this critical\nquestion. Specifically, we characterize the vulnerability of current,\nmainstream MLaaS platforms to ME attacks from multiple perspectives including\nattack strategies, learning techniques, surrogate-model design, and benchmark\ntasks. Many of our findings challenge previously reported results, suggesting\nemerging patterns of ME vulnerability. Further, by analyzing the vulnerability\nof the same MLaaS platforms using historical datasets from the past four years,\nwe retrospectively characterize the evolution of ME vulnerability over time,\nleading to a set of interesting findings. Finally, we make suggestions about\nimproving the current practice of MLaaS in terms of attack robustness. Our\nstudy sheds light on the current state of ME vulnerability in the wild and\npoints to several promising directions for future research."
-    },
-    {
-        "date": "2023-12",
-        "title": "Fine-tuning pre-trained extractive QA models for clinical document parsing",
-        "author": "Ashwyn Sharma, David I. Feldman, and Aneesh Jain",
-        "link": "http://arxiv.org/abs/2312.02314v1",
-        "abstract": "Electronic health records (EHRs) contain a vast amount of high-dimensional\nmulti-modal data that can accurately represent a patient's medical history.\nUnfortunately, most of this data is either unstructured or semi-structured,\nrendering it unsuitable for real-time and retrospective analyses. A remote\npatient monitoring (RPM) program for Heart Failure (HF) patients needs to have\naccess to clinical markers like EF (Ejection Fraction) or LVEF (Left\nVentricular Ejection Fraction) in order to ascertain eligibility and\nappropriateness for the program. This paper explains a system that can parse\nechocardiogram reports and verify EF values. This system helps identify\neligible HF patients who can be enrolled in such a program. At the heart of\nthis system is a pre-trained extractive QA transformer model that is fine-tuned\non custom-labeled data. The methods used to prepare such a model for deployment\nare illustrated by running experiments on a public clinical dataset like\nMIMIC-IV-Note. The pipeline can be used to generalize solutions to similar\nproblems in a low-resource setting. We found that the system saved over 1500\nhours for our clinicians over 12 months by automating the task at scale."
     }
 ]
