@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-01",
+        "title": "A Floating Normalization Scheme for Deep Learning-Based Custom-Range Parameter Extraction in BSIM-CMG Compact Models",
+        "author": "Aasim Ashai, Aakash Jadhav, and Biplab Sarkar",
+        "link": "http://arxiv.org/abs/2501.15190v1",
+        "abstract": "A deep-learning (DL) based methodology for automated extraction of BSIM-CMG\ncompact model parameters from experimental gate capacitance vs gate voltage\n(Cgg-Vg) and drain current vs gate voltage (Id-Vg) measurements is proposed in\nthis paper. The proposed method introduces a floating normalization scheme\nwithin a cascaded forward and inverse ANN architecture enabling user-defined\nparameter extraction ranges. Unlike conventional DL-based extraction\ntechniques, which are often constrained by fixed normalization ranges, the\nfloating normalization approach adapts dynamically to user-specified ranges,\nallowing for fine-tuned control over the extracted parameters. Experimental\nvalidation, using a TCAD calibrated 14 nm FinFET process, demonstrates high\naccuracy for both Cgg-Vg and Id-Vg parameter extraction. The proposed framework\noffers enhanced flexibility, making it applicable to various compact models\nbeyond BSIM-CMG."
+    },
+    {
+        "date": "2025-01",
         "title": "State Space Models for Extractive Summarization in Low Resource Scenarios",
         "author": "Nisrine Ait Khayi",
         "link": "http://arxiv.org/abs/2501.14673v1",
@@ -1391,12 +1398,5 @@
         "author": "Nantao Zheng, Siyu Long, and Xinyu Dai",
         "link": "http://arxiv.org/abs/2312.07088v1",
         "abstract": "Canonical relation extraction aims to extract relational triples from\nsentences, where the triple elements (entity pairs and their relationship) are\nmapped to the knowledge base. Recently, methods based on the encoder-decoder\narchitecture are proposed and achieve promising results. However, these methods\ncannot well utilize the entity information, which is merely used as augmented\ntraining data. Moreover, they are incapable of representing novel entities,\nsince no embeddings have been learned for them. In this paper, we propose a\nnovel framework, Bi-Encoder-Decoder (BED), to solve the above issues.\nSpecifically, to fully utilize entity information, we employ an encoder to\nencode semantics of this information, leading to high-quality entity\nrepresentations. For novel entities, given a trained entity encoder, their\nrepresentations can be easily generated. Experimental results on two datasets\nshow that, our method achieves a significant performance improvement over the\nprevious state-of-the-art and handle novel entities well without retraining."
-    },
-    {
-        "date": "2023-12",
-        "title": "Model Extraction Attacks Revisited",
-        "author": "Jiacheng Liang, Ren Pang, Changjiang Li, and Ting Wang",
-        "link": "http://arxiv.org/abs/2312.05386v1",
-        "abstract": "Model extraction (ME) attacks represent one major threat to\nMachine-Learning-as-a-Service (MLaaS) platforms by ``stealing'' the\nfunctionality of confidential machine-learning models through querying\nblack-box APIs. Over seven years have passed since ME attacks were first\nconceptualized in the seminal work. During this period, substantial advances\nhave been made in both ME attacks and MLaaS platforms, raising the intriguing\nquestion: How has the vulnerability of MLaaS platforms to ME attacks been\nevolving? In this work, we conduct an in-depth study to answer this critical\nquestion. Specifically, we characterize the vulnerability of current,\nmainstream MLaaS platforms to ME attacks from multiple perspectives including\nattack strategies, learning techniques, surrogate-model design, and benchmark\ntasks. Many of our findings challenge previously reported results, suggesting\nemerging patterns of ME vulnerability. Further, by analyzing the vulnerability\nof the same MLaaS platforms using historical datasets from the past four years,\nwe retrospectively characterize the evolution of ME vulnerability over time,\nleading to a set of interesting findings. Finally, we make suggestions about\nimproving the current practice of MLaaS in terms of attack robustness. Our\nstudy sheds light on the current state of ME vulnerability in the wild and\npoints to several promising directions for future research."
     }
 ]
