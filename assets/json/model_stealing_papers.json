@@ -1,5 +1,12 @@
 [
     {
+        "date": "2025-02",
+        "title": "Medical Multimodal Model Stealing Attacks via Adversarial Domain Alignment",
+        "author": "Yaling Shen, Zhixiong Zhuang, Kun Yuan, Maria-Irina Nicolae, Nassir Navab, Nicolas Padoy, and Mario Fritz",
+        "link": "http://arxiv.org/abs/2502.02438v1",
+        "abstract": "Medical multimodal large language models (MLLMs) are becoming an instrumental\npart of healthcare systems, assisting medical personnel with decision making\nand results analysis. Models for radiology report generation are able to\ninterpret medical imagery, thus reducing the workload of radiologists. As\nmedical data is scarce and protected by privacy regulations, medical MLLMs\nrepresent valuable intellectual property. However, these assets are potentially\nvulnerable to model stealing, where attackers aim to replicate their\nfunctionality via black-box access. So far, model stealing for the medical\ndomain has focused on classification; however, existing attacks are not\neffective against MLLMs. In this paper, we introduce Adversarial Domain\nAlignment (ADA-STEAL), the first stealing attack against medical MLLMs.\nADA-STEAL relies on natural images, which are public and widely available, as\nopposed to their medical counterparts. We show that data augmentation with\nadversarial noise is sufficient to overcome the data distribution gap between\nnatural images and the domain-specific distribution of the victim MLLM.\nExperiments on the IU X-RAY and MIMIC-CXR radiology datasets demonstrate that\nAdversarial Domain Alignment enables attackers to steal the medical MLLM\nwithout any access to medical data."
+    },
+    {
         "date": "2025-01",
         "title": "How Much Do Code Language Models Remember? An Investigation on Data Extraction Attacks before and after Fine-tuning",
         "author": "Fabio Salerno, Ali Al-Kaswan, and Maliheh Izadi",
@@ -1391,12 +1398,5 @@
         "author": "Songchi Zhou, and Sheng Yu",
         "link": "http://arxiv.org/abs/2312.08274v4",
         "abstract": "Objective: To develop a high-throughput biomedical relation extraction system\nthat takes advantage of the large language models'(LLMs) reading comprehension\nability and biomedical world knowledge in a scalable and evidential manner.\nMethods: We formulate the relation extraction task as binary classifications\nfor large language models. Specifically, LLMs make the decision based on the\nexternal corpus and its world knowledge, giving the reason for the judgment for\nfactual verification. This method is tailored for semi-structured web articles,\nwherein we designate the main title as the tail entity and explicitly\nincorporate it into the context, and the potential head entities are matched\nbased on a biomedical thesaurus. Moreover, lengthy contents are sliced into\ntext chunks, embedded, and retrieved with additional embedding models. Results:\nUsing an open-source LLM, we extracted 248659 relation triplets of three\ndistinct relation types from three reputable biomedical websites. To assess the\nefficacy of the basic pipeline employed for biomedical relation extraction, we\ncurated a benchmark dataset annotated by a medical expert. Evaluation results\nindicate that the pipeline exhibits performance comparable to that of GPT-4.\nCase studies further illuminate challenges faced by contemporary LLMs in the\ncontext of biomedical relation extraction for semi-structured web articles.\nConclusion: The proposed method has demonstrated its effectiveness in\nleveraging the strengths of LLMs for high-throughput biomedical relation\nextraction. Its adaptability is evident, as it can be seamlessly extended to\ndiverse semi-structured biomedical websites, facilitating the extraction of\nvarious types of biomedical relations with ease."
-    },
-    {
-        "date": "2023-12",
-        "title": "BED: Bi-Encoder-Decoder Model for Canonical Relation Extraction",
-        "author": "Nantao Zheng, Siyu Long, and Xinyu Dai",
-        "link": "http://arxiv.org/abs/2312.07088v1",
-        "abstract": "Canonical relation extraction aims to extract relational triples from\nsentences, where the triple elements (entity pairs and their relationship) are\nmapped to the knowledge base. Recently, methods based on the encoder-decoder\narchitecture are proposed and achieve promising results. However, these methods\ncannot well utilize the entity information, which is merely used as augmented\ntraining data. Moreover, they are incapable of representing novel entities,\nsince no embeddings have been learned for them. In this paper, we propose a\nnovel framework, Bi-Encoder-Decoder (BED), to solve the above issues.\nSpecifically, to fully utilize entity information, we employ an encoder to\nencode semantics of this information, leading to high-quality entity\nrepresentations. For novel entities, given a trained entity encoder, their\nrepresentations can be easily generated. Experimental results on two datasets\nshow that, our method achieves a significant performance improvement over the\nprevious state-of-the-art and handle novel entities well without retraining."
     }
 ]
