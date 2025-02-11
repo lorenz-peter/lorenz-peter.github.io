@@ -8,6 +8,9 @@ categories: LLM
 giscus_comments: true
 ---
 
+[Source](https://aman.ai/primers/ai/deepseek-R1) Over the time, I will add an change.
+
+
 -   [Introduction](https://aman.ai/primers/ai/deepseek-R1/#introduction)
 -   [Architectural Foundations](https://aman.ai/primers/ai/deepseek-R1/#architectural-foundations)
     -   [Overview](https://aman.ai/primers/ai/deepseek-R1/#overview)
