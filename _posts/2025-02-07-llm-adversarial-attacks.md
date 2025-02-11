@@ -29,7 +29,7 @@ We would not cover those topics in this post.
 
 Adversarial attacks are inputs that trigger the model to output something undesired. Much early literature focused on classification tasks, while recent effort starts to investigate more into outputs of generative models. In the context of large language models In this post we assume the attacks only happen at inference time, meaning that model weights are fixed.
 
-![](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/threats-overview.png)
+![overview](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/threats-overview.png)
 
 Fig. 1. An overview of threats to LLM-based applications. (Image source: [Greshake et al. 2023](https://arxiv.org/abs/2302.12173))
 
@@ -79,7 +79,8 @@ Given a classifier
 
 ## Token Manipulation
 
-Given a piece of text input containing a sequence of tokens, we can apply simple token operations like replacement with synonyms to trigger the model to make the incorrect predictions. Token manipulation based attacks work in **black box** settings. The Python framework, TextAttack ([Morris et al. 2020](https://arxiv.org/abs/2005.05909)), implemented many word and token manipulation attack methods to create adversarial examples for NLP models. Most work in this area experimented with classification and entailment prediction.
+Given a piece of text input containing a sequence of tokens, we can apply simple token operations like replacement with synonyms to trigger the model to make the incorrect predictions. Token manipulation based attacks work in **black box** settings. 
+The Python framework, TextAttack ([Morris et al. 2020](https://arxiv.org/abs/2005.05909)), implemented many word and token manipulation attack methods to create adversarial examples for NLP models. Most work in this area experimented with classification and entailment prediction.
 
 [Ribeiro et al (2018)](https://www.aclweb.org/anthology/P18-1079/) relied on manually proposed Semantically Equivalent Adversaries Rules (SEARs) to do minimal token manipulation such that the model would fail to generate the right answers. Example rules include (_What `NOUN`→Which `NOUN`_), (_`WP` is → `WP`’s’_), (_was→is_), etc. The semantic equivalence after adversarial operation is checked via back-translation. Those rules are proposed via a pretty manual, heuristic process and the type of model “bugs” SEARs are probing for are only limited on sensitivity to minimal token variation, which should not be an issue with increased base LLM capability.
 
