@@ -1,6 +1,20 @@
 [
     {
         "date": "2025-02",
+        "title": "ELMTEX: Fine-Tuning Large Language Models for Structured Clinical Information Extraction. A Case Study on Clinical Reports",
+        "author": "Aynur Guluzade, Naguib Heiba, Zeyd Boukhers, Florim Hamiti, Jahid Hasan Polash, Yehya Mohamad, and Carlos A Velasco",
+        "link": "http://arxiv.org/abs/2502.05638v1",
+        "abstract": "Europe's healthcare systems require enhanced interoperability and\ndigitalization, driving a demand for innovative solutions to process legacy\nclinical data. This paper presents the results of our project, which aims to\nleverage Large Language Models (LLMs) to extract structured information from\nunstructured clinical reports, focusing on patient history, diagnoses,\ntreatments, and other predefined categories. We developed a workflow with a\nuser interface and evaluated LLMs of varying sizes through prompting strategies\nand fine-tuning. Our results show that fine-tuned smaller models match or\nsurpass larger counterparts in performance, offering efficiency for\nresource-limited settings. A new dataset of 60,000 annotated English clinical\nsummaries and 24,000 German translations was validated with automated and\nmanual checks. The evaluations used ROUGE, BERTScore, and entity-level metrics.\nThe work highlights the approach's viability and outlines future improvements."
+    },
+    {
+        "date": "2025-02",
+        "title": "From Counterfactuals to Trees: Competitive Analysis of Model Extraction Attacks",
+        "author": "Awa Khouna, Julien Ferry, and Thibaut Vidal",
+        "link": "http://arxiv.org/abs/2502.05325v1",
+        "abstract": "The advent of Machine Learning as a Service (MLaaS) has heightened the\ntrade-off between model explainability and security. In particular,\nexplainability techniques, such as counterfactual explanations, inadvertently\nincrease the risk of model extraction attacks, enabling unauthorized\nreplication of proprietary models. In this paper, we formalize and characterize\nthe risks and inherent complexity of model reconstruction, focusing on the\n\"oracle'' queries required for faithfully inferring the underlying prediction\nfunction. We present the first formal analysis of model extraction attacks\nthrough the lens of competitive analysis, establishing a foundational framework\nto evaluate their efficiency. Focusing on models based on additive decision\ntrees (e.g., decision trees, gradient boosting, and random forests), we\nintroduce novel reconstruction algorithms that achieve provably perfect\nfidelity while demonstrating strong anytime performance. Our framework provides\ntheoretical bounds on the query complexity for extracting tree-based model,\noffering new insights into the security vulnerabilities of their deployment."
+    },
+    {
+        "date": "2025-02",
         "title": "MARAGE: Transferable Multi-Model Adversarial Attack for Retrieval-Augmented Generation Data Extraction",
         "author": "Xiao Hu, Eric Liu, Weizhou Wang, Xiangyu Guo, and David Lie",
         "link": "http://arxiv.org/abs/2502.04360v1",
@@ -498,10 +512,10 @@
     },
     {
         "date": "2024-09",
-        "title": "Alignment-Aware Model Extraction Attacks on Large Language Models",
+        "title": "\"Yes, My LoRD.\" Guiding Language Model Extraction with Locality Reinforced Distillation",
         "author": "Zi Liang, Qingqing Ye, Yanyun Wang, Sen Zhang, Yaxin Xiao, Ronghua Li, Jianliang Xu, and Haibo Hu",
-        "link": "http://arxiv.org/abs/2409.02718v1",
-        "abstract": "Model extraction attacks (MEAs) on large language models (LLMs) have received\nincreasing research attention lately. Existing attack methods on LLMs inherit\nthe extraction strategies from those designed for deep neural networks (DNNs)\nyet neglect the inconsistency of training tasks between MEA and LLMs'\nalignments. As such, they result in poor attack performances. To tackle this\nissue, we present Locality Reinforced Distillation (LoRD), a novel model\nextraction attack algorithm specifically for LLMs. In particular, we design a\npolicy-gradient-style training task, which utilizes victim models' responses as\na signal to guide the crafting of preference for the local model. Theoretical\nanalysis has shown that i) LoRD's convergence procedure in MEAs is consistent\nwith the alignments of LLMs, and ii) LoRD can reduce query complexity while\nmitigating watermark protection through exploration-based stealing. Extensive\nexperiments on domain-specific extractions demonstrate the superiority of our\nmethod by examining the extraction of various state-of-the-art commercial LLMs."
+        "link": "http://arxiv.org/abs/2409.02718v2",
+        "abstract": "Model extraction attacks (MEAs) on large language models (LLMs) have received\nincreasing attention in recent research. However, existing attack methods\ntypically adapt the extraction strategies originally developed for deep neural\nnetworks (DNNs). They neglect the underlying inconsistency between the training\ntasks of MEA and LLM alignment, leading to suboptimal attack performance. To\ntackle this issue, we propose Locality Reinforced Distillation (LoRD), a novel\nmodel extraction algorithm specifically designed for LLMs. In particular, LoRD\nemploys a newly defined policy-gradient-style training task that utilizes the\nresponses of victim model as the signal to guide the crafting of preference for\nthe local model. Theoretical analyses demonstrate that I) The convergence\nprocedure of LoRD in model extraction is consistent with the alignment\nprocedure of LLMs, and II) LoRD can reduce query complexity while mitigating\nwatermark protection through our exploration-based stealing. Extensive\nexperiments validate the superiority of our method in extracting various\nstate-of-the-art commercial LLMs. Our code is available at:\nhttps://github.com/liangzid/LoRD-MEA."
     },
     {
         "date": "2024-09",
@@ -1384,19 +1398,5 @@
         "author": "Zhihao Zhu, Chenwang Wu, Rui Fan, Yi Yang, Zhen Wang, Defu Lian, and Enhong Chen",
         "link": "http://arxiv.org/abs/2312.10943v3",
         "abstract": "Recent research demonstrates that GNNs are vulnerable to the model stealing\nattack, a nefarious endeavor geared towards duplicating the target model via\nquery permissions. However, they mainly focus on node classification tasks,\nneglecting the potential threats entailed within the domain of graph\nclassification tasks. Furthermore, their practicality is questionable due to\nunreasonable assumptions, specifically concerning the large data requirements\nand extensive model knowledge. To this end, we advocate following strict\nsettings with limited real data and hard-label awareness to generate synthetic\ndata, thereby facilitating the stealing of the target model. Specifically,\nfollowing important data generation principles, we introduce three model\nstealing attacks to adapt to different actual scenarios: MSA-AU is inspired by\nactive learning and emphasizes the uncertainty to enhance query value of\ngenerated samples; MSA-AD introduces diversity based on Mixup augmentation\nstrategy to alleviate the query inefficiency issue caused by over-similar\nsamples generated by MSA-AU; MSA-AUD combines the above two strategies to\nseamlessly integrate the authenticity, uncertainty, and diversity of the\ngenerated samples. Finally, extensive experiments consistently demonstrate the\nsuperiority of the proposed methods in terms of concealment, query efficiency,\nand stealing performance."
-    },
-    {
-        "date": "2023-12",
-        "title": "Model Stealing Attack against Recommender System",
-        "author": "Zhihao Zhu, Rui Fan, Chenwang Wu, Yi Yang, Defu Lian, and Enhong Chen",
-        "link": "http://arxiv.org/abs/2312.11571v2",
-        "abstract": "Recent studies have demonstrated the vulnerability of recommender systems to\ndata privacy attacks. However, research on the threat to model privacy in\nrecommender systems, such as model stealing attacks, is still in its infancy.\nSome adversarial attacks have achieved model stealing attacks against\nrecommender systems, to some extent, by collecting abundant training data of\nthe target model (target data) or making a mass of queries. In this paper, we\nconstrain the volume of available target data and queries and utilize auxiliary\ndata, which shares the item set with the target data, to promote model stealing\nattacks. Although the target model treats target and auxiliary data\ndifferently, their similar behavior patterns allow them to be fused using an\nattention mechanism to assist attacks. Besides, we design stealing functions to\neffectively extract the recommendation list obtained by querying the target\nmodel. Experimental results show that the proposed methods are applicable to\nmost recommender systems and various scenarios and exhibit excellent attack\nperformance on multiple datasets."
-    },
-    {
-        "date": "2023-12",
-        "title": "SAME: Sample Reconstruction against Model Extraction Attacks",
-        "author": "Yi Xie, Jie Zhang, Shiqian Zhao, Tianwei Zhang, and Xiaofeng Chen",
-        "link": "http://arxiv.org/abs/2312.10578v2",
-        "abstract": "While deep learning models have shown significant performance across various\ndomains, their deployment needs extensive resources and advanced computing\ninfrastructure. As a solution, Machine Learning as a Service (MLaaS) has\nemerged, lowering the barriers for users to release or productize their deep\nlearning models. However, previous studies have highlighted potential privacy\nand security concerns associated with MLaaS, and one primary threat is model\nextraction attacks. To address this, there are many defense solutions but they\nsuffer from unrealistic assumptions and generalization issues, making them less\npractical for reliable protection. Driven by these limitations, we introduce a\nnovel defense mechanism, SAME, based on the concept of sample reconstruction.\nThis strategy imposes minimal prerequisites on the defender's capabilities,\neliminating the need for auxiliary Out-of-Distribution (OOD) datasets, user\nquery history, white-box model access, and additional intervention during model\ntraining. It is compatible with existing active defense methods. Our extensive\nexperiments corroborate the superior efficacy of SAME over state-of-the-art\nsolutions. Our code is available at https://github.com/xythink/SAME."
     }
 ]
