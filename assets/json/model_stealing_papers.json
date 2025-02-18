@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-02",
+        "title": "KGGen: Extracting Knowledge Graphs from Plain Text with Language Models",
+        "author": "Belinda Mo, Kyssen Yu, Joshua Kazdan, Proud Mpala, Lisa Yu, Chris Cundy, Charilaos Kanatsoulis, and Sanmi Koyejo",
+        "link": "http://arxiv.org/abs/2502.09956v1",
+        "abstract": "Recent interest in building foundation models for KGs has highlighted a\nfundamental challenge: knowledge-graph data is relatively scarce. The\nbest-known KGs are primarily human-labeled, created by pattern-matching, or\nextracted using early NLP techniques. While human-generated KGs are in short\nsupply, automatically extracted KGs are of questionable quality. We present a\nsolution to this data scarcity problem in the form of a text-to-KG generator\n(KGGen), a package that uses language models to create high-quality graphs from\nplaintext. Unlike other KG extractors, KGGen clusters related entities to\nreduce sparsity in extracted KGs. KGGen is available as a Python library\n(\\texttt{pip install kg-gen}), making it accessible to everyone. Along with\nKGGen, we release the first benchmark, Measure of of Information in Nodes and\nEdges (MINE), that tests an extractor's ability to produce a useful KG from\nplain text. We benchmark our new tool against existing extractors and\ndemonstrate far superior performance."
+    },
+    {
+        "date": "2025-02",
         "title": "The Joint Entity-Relation Extraction Model Based on Span and Interactive Fusion Representation for Chinese Medical Texts with Complex Semantics",
         "author": "Danni Feng, Runzhi Li, Jing Wang, Siyu Yan, Lihong Ma, and Yunli Xing",
         "link": "http://arxiv.org/abs/2502.09247v1",
@@ -1391,12 +1398,5 @@
         "author": "Zeyu Li, Chenghui Shi, Yuwen Pu, Xuhong Zhang, Yu Li, Jinbao Li, and Shouling Ji",
         "link": "http://arxiv.org/abs/2312.14677v1",
         "abstract": "The widespread use of deep learning technology across various industries has\nmade deep neural network models highly valuable and, as a result, attractive\ntargets for potential attackers. Model extraction attacks, particularly\nquery-based model extraction attacks, allow attackers to replicate a substitute\nmodel with comparable functionality to the victim model and present a\nsignificant threat to the confidentiality and security of MLaaS platforms.\nWhile many studies have explored threats of model extraction attacks against\nclassification models in recent years, object detection models, which are more\nfrequently used in real-world scenarios, have received less attention. In this\npaper, we investigate the challenges and feasibility of query-based model\nextraction attacks against object detection models and propose an effective\nattack method called MEAOD. It selects samples from the attacker-possessed\ndataset to construct an efficient query dataset using active learning and\nenhances the categories with insufficient objects. We additionally improve the\nextraction effectiveness by updating the annotations of the query dataset.\nAccording to our gray-box and black-box scenarios experiments, we achieve an\nextraction performance of over 70% under the given condition of a 10k query\nbudget."
-    },
-    {
-        "date": "2023-12",
-        "title": "Zero-shot Building Attribute Extraction from Large-Scale Vision and Language Models",
-        "author": "Fei Pan, Sangryul Jeon, Brian Wang, Frank Mckenna, and Stella X. Yu",
-        "link": "http://arxiv.org/abs/2312.12479v1",
-        "abstract": "Existing building recognition methods, exemplified by BRAILS, utilize\nsupervised learning to extract information from satellite and street-view\nimages for classification and segmentation. However, each task module requires\nhuman-annotated data, hindering the scalability and robustness to regional\nvariations and annotation imbalances. In response, we propose a new zero-shot\nworkflow for building attribute extraction that utilizes large-scale vision and\nlanguage models to mitigate reliance on external annotations. The proposed\nworkflow contains two key components: image-level captioning and segment-level\ncaptioning for the building images based on the vocabularies pertinent to\nstructural and civil engineering. These two components generate descriptive\ncaptions by computing feature representations of the image and the\nvocabularies, and facilitating a semantic match between the visual and textual\nrepresentations. Consequently, our framework offers a promising avenue to\nenhance AI-driven captioning for building attribute extraction in the\nstructural and civil engineering domains, ultimately reducing reliance on human\nannotations while bolstering performance and adaptability."
     }
 ]
