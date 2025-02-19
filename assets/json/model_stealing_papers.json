@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-02",
+        "title": "Evaluating improvements on using Large Language Models (LLMs) for property extraction in the Open Research Knowledge Graph (ORKG)",
+        "author": "Sandra Schaftner",
+        "link": "http://arxiv.org/abs/2502.10768v1",
+        "abstract": "Current research highlights the great potential of Large Language Models\n(LLMs) for constructing Scholarly Knowledge Graphs (SKGs). One particularly\ncomplex step in this process is relation extraction, aimed at identifying\nsuitable properties to describe the content of research. This study builds\ndirectly on previous research of three Open Research Knowledge Graph (ORKG)\nteam members who assessed the readiness of LLMs such as GPT-3.5, Llama 2, and\nMistral for property extraction in scientific literature. Given the moderate\nperformance observed, the previous work concluded that fine-tuning is needed to\nimprove these models' alignment with scientific tasks and their emulation of\nhuman expertise. Expanding on this prior experiment, this study evaluates the\nimpact of advanced prompt engineering techniques and demonstrates that these\ntechniques can highly significantly enhance the results. Additionally, this\nstudy extends the property extraction process to include property matching to\nexisting ORKG properties, which are retrieved via the API. The evaluation\nreveals that results generated through advanced prompt engineering achieve a\nhigher proportion of matches with ORKG properties, further emphasizing the\nenhanced alignment achieved. Moreover, this lays the groundwork for addressing\nchallenges such as the inconsistency of ORKG properties, an issue highlighted\nin prior studies. By assigning unique URIs and using standardized terminology,\nthis work increases the consistency of the properties, fulfilling a crucial\naspect of Linked Data and FAIR principles - core commitments of ORKG. This, in\nturn, significantly enhances the applicability of ORKG content for subsequent\ntasks such as comparisons of research publications. Finally, the study\nconcludes with recommendations for future improvements in the overall property\nextraction process."
+    },
+    {
+        "date": "2025-02",
         "title": "KGGen: Extracting Knowledge Graphs from Plain Text with Language Models",
         "author": "Belinda Mo, Kyssen Yu, Joshua Kazdan, Proud Mpala, Lisa Yu, Chris Cundy, Charilaos Kanatsoulis, and Sanmi Koyejo",
         "link": "http://arxiv.org/abs/2502.09956v1",
@@ -1391,12 +1398,5 @@
         "author": "Nico Potyka, Yuqicheng Zhu, Yunjie He, Evgeny Kharlamov, and Steffen Staab",
         "link": "http://arxiv.org/abs/2312.14877v2",
         "abstract": "Large-language models (LLMs) can support a wide range of applications like\nconversational agents, creative writing or general query answering. However,\nthey are ill-suited for query answering in high-stake domains like medicine\nbecause they are typically not robust - even the same query can result in\ndifferent answers when prompted multiple times. In order to improve the\nrobustness of LLM queries, we propose using ranking queries repeatedly and to\naggregate the queries using methods from social choice theory. We study ranking\nqueries in diagnostic settings like medical and fault diagnosis and discuss how\nthe Partial Borda Choice function from the literature can be applied to merge\nmultiple query results. We discuss some additional interesting properties in\nour setting and evaluate the robustness of our approach empirically."
-    },
-    {
-        "date": "2023-12",
-        "title": "MEAOD: Model Extraction Attack against Object Detectors",
-        "author": "Zeyu Li, Chenghui Shi, Yuwen Pu, Xuhong Zhang, Yu Li, Jinbao Li, and Shouling Ji",
-        "link": "http://arxiv.org/abs/2312.14677v1",
-        "abstract": "The widespread use of deep learning technology across various industries has\nmade deep neural network models highly valuable and, as a result, attractive\ntargets for potential attackers. Model extraction attacks, particularly\nquery-based model extraction attacks, allow attackers to replicate a substitute\nmodel with comparable functionality to the victim model and present a\nsignificant threat to the confidentiality and security of MLaaS platforms.\nWhile many studies have explored threats of model extraction attacks against\nclassification models in recent years, object detection models, which are more\nfrequently used in real-world scenarios, have received less attention. In this\npaper, we investigate the challenges and feasibility of query-based model\nextraction attacks against object detection models and propose an effective\nattack method called MEAOD. It selects samples from the attacker-possessed\ndataset to construct an efficient query dataset using active learning and\nenhances the categories with insufficient objects. We additionally improve the\nextraction effectiveness by updating the annotations of the query dataset.\nAccording to our gray-box and black-box scenarios experiments, we achieve an\nextraction performance of over 70% under the given condition of a 10k query\nbudget."
     }
 ]
