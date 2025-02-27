@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently a postdoctoral researcher at Nanyang Technological University (NTU), Singapore, [ranked 2nd worldwide in AI research](https://www.usnews.com/education/best-global-universities/nanyang-technological-university-503366) within [Thomas Peyrin's group](https://thomaspeyrin.github.io/web). 
+I am currently a postdoctoral researcher at Nanyang Technological University (NTU), Singapore, [ranked 2nd worldwide in AI research](https://www.usnews.com/education/best-global-universities/nanyang-technological-university-503366). 
 My current research conducts adversarial machine learning and cryptanalysis, e.g. model stealing or new adversarial attacks.
 
 Previously, I earned my PhD with "magna cum laude" from Heidelberg University, Germany. 
