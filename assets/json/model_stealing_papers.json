@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-02",
+        "title": "Examining the Threat Landscape: Foundation Models and Model Stealing",
+        "author": "Ankita Raj, Deepankar Varma, and Chetan Arora",
+        "link": "http://arxiv.org/abs/2502.18077v1",
+        "abstract": "Foundation models (FMs) for computer vision learn rich and robust\nrepresentations, enabling their adaptation to task/domain-specific deployments\nwith little to no fine-tuning. However, we posit that the very same strength\ncan make applications based on FMs vulnerable to model stealing attacks.\nThrough empirical analysis, we reveal that models fine-tuned from FMs harbor\nheightened susceptibility to model stealing, compared to conventional vision\narchitectures like ResNets. We hypothesize that this behavior is due to the\ncomprehensive encoding of visual patterns and features learned by FMs during\npre-training, which are accessible to both the attacker and the victim. We\nreport that an attacker is able to obtain 94.28% agreement (matched predictions\nwith victim) for a Vision Transformer based victim model (ViT-L/16) trained on\nCIFAR-10 dataset, compared to only 73.20% agreement for a ResNet-18 victim,\nwhen using ViT-L/16 as the thief model. We arguably show, for the first time,\nthat utilizing FMs for downstream tasks may not be the best choice for\ndeployment in commercial APIs due to their susceptibility to model theft. We\nthereby alert model owners towards the associated security risks, and highlight\nthe need for robust security measures to safeguard such models against theft.\nCode is available at https://github.com/rajankita/foundation_model_stealing."
+    },
+    {
+        "date": "2025-02",
         "title": "FedBM: Stealing Knowledge from Pre-trained Language Models for Heterogeneous Federated Learning",
         "author": "Meilu Zhu, Qiushi Yang, Zhifan Gao, Yixuan Yuan, and Jun Liu",
         "link": "http://arxiv.org/abs/2502.16832v1",
@@ -1391,12 +1398,5 @@
         "author": "Liang Zhang, Katherine Jijo, Spurthi Setty, Eden Chung, Fatima Javid, Natan Vidra, and Tommy Clifford",
         "link": "http://arxiv.org/abs/2402.01722v1",
         "abstract": "Large Language Models (LLMs) generate responses to questions; however, their\neffectiveness is often hindered by sub-optimal quality of answers and\noccasional failures to provide accurate responses to questions. To address\nthese challenges, a fine-tuning process is employed, involving feedback and\nexamples to refine models. The objective is to enhance AI models through\ncontinuous feedback loops, utilizing metrics such as cosine similarity, LLM\nevaluation and Rouge-L scores to evaluate the models. Leveraging LLMs like\nGPT-3.5, GPT4ALL, and LLaMA2, and Claude, this approach is benchmarked on\nfinancial datasets, including the FinanceBench and RAG Instruct Benchmark\nTester Dataset, illustrating the necessity of fine-tuning. The results showcase\nthe capability of fine-tuned models to surpass the accuracy of zero-shot LLMs,\nproviding superior question and answering capabilities. Notably, the\ncombination of fine-tuning the LLM with a process known as Retrieval Augmented\nGeneration (RAG) proves to generate responses with improved accuracy."
-    },
-    {
-        "date": "2024-01",
-        "title": "MEA-Defender: A Robust Watermark against Model Extraction Attack",
-        "author": "Peizhuo Lv, Hualong Ma, Kai Chen, Jiachen Zhou, Shengzhi Zhang, Ruigang Liang, Shenchen Zhu, Pan Li, and Yingjun Zhang",
-        "link": "http://arxiv.org/abs/2401.15239v1",
-        "abstract": "Recently, numerous highly-valuable Deep Neural Networks (DNNs) have been\ntrained using deep learning algorithms. To protect the Intellectual Property\n(IP) of the original owners over such DNN models, backdoor-based watermarks\nhave been extensively studied. However, most of such watermarks fail upon model\nextraction attack, which utilizes input samples to query the target model and\nobtains the corresponding outputs, thus training a substitute model using such\ninput-output pairs. In this paper, we propose a novel watermark to protect IP\nof DNN models against model extraction, named MEA-Defender. In particular, we\nobtain the watermark by combining two samples from two source classes in the\ninput domain and design a watermark loss function that makes the output domain\nof the watermark within that of the main task samples. Since both the input\ndomain and the output domain of our watermark are indispensable parts of those\nof the main task samples, the watermark will be extracted into the stolen model\nalong with the main task during model extraction. We conduct extensive\nexperiments on four model extraction attacks, using five datasets and six\nmodels trained based on supervised learning and self-supervised learning\nalgorithms. The experimental results demonstrate that MEA-Defender is highly\nrobust against different model extraction attacks, and various watermark\nremoval/detection approaches."
     }
 ]
