@@ -127,6 +127,13 @@
     },
     {
         "date": "2025-02",
+        "title": "QExplorer: Large Language Model Based Query Extraction for Toxic Content Exploration",
+        "author": "Shaola Ren, Li Ke, Longtao Huang, Dehong Gao, and Hui Xue",
+        "link": "http://arxiv.org/abs/2502.18480v1",
+        "abstract": "Automatically extracting effective queries is challenging in information\nretrieval, especially in toxic content exploration, as such content is likely\nto be disguised. With the recent achievements in generative Large Language\nModel (LLM), we are able to leverage the capabilities of LLMs to extract\neffective queries for similar content exploration directly. This study proposes\nQExplorer, an approach of large language model based Query Extraction for toxic\ncontent Exploration. The QExplorer approach involves a 2-stage training\nprocess: instruction Supervised FineTuning (SFT) and preference alignment using\nDirect Preference Optimization (DPO), as well as the datasets construction with\nfeedback of search system. To verify the effectiveness of QExplorer, a series\nof offline and online experiments are conducted on our real-world system. The\noffline empirical results demonstrate that the performance of our automatic\nquery extraction outperforms that of several LLMs and humans. The online\ndeployment shows a significant increase in the detection of toxic items."
+    },
+    {
+        "date": "2025-02",
         "title": "MARAGE: Transferable Multi-Model Adversarial Attack for Retrieval-Augmented Generation Data Extraction",
         "author": "Xiao Hu, Eric Liu, Weizhou Wang, Xiangyu Guo, and David Lie",
         "link": "http://arxiv.org/abs/2502.04360v1",
@@ -1391,12 +1398,5 @@
         "author": "Renyuan Peng, Xinyue Cai, Hang Xu, Jiachen Lu, Feng Wen, Wei Zhang, and Li Zhang",
         "link": "http://arxiv.org/abs/2401.17609v2",
         "abstract": "Understanding road structures is crucial for autonomous driving. Intricate\nroad structures are often depicted using lane graphs, which include centerline\ncurves and connections forming a Directed Acyclic Graph (DAG). Accurate\nextraction of lane graphs relies on precisely estimating vertex and edge\ninformation within the DAG. Recent research highlights Transformer-based\nlanguage models' impressive sequence prediction abilities, making them\neffective for learning graph representations when graph data are encoded as\nsequences. However, existing studies focus mainly on modeling vertices\nexplicitly, leaving edge information simply embedded in the network.\nConsequently, these approaches fall short in the task of lane graph extraction.\nTo address this, we introduce LaneGraph2Seq, a novel approach for lane graph\nextraction. It leverages a language model with vertex-edge encoding and\nconnectivity enhancement. Our serialization strategy includes a vertex-centric\ndepth-first traversal and a concise edge-based partition sequence.\nAdditionally, we use classifier-free guidance combined with nucleus sampling to\nimprove lane connectivity. We validate our method on prominent datasets,\nnuScenes and Argoverse 2, showcasing consistent and compelling results. Our\nLaneGraph2Seq approach demonstrates superior performance compared to\nstate-of-the-art techniques in lane graph extraction."
-    },
-    {
-        "date": "2024-01",
-        "title": "Enhancing Large Language Model Performance To Answer Questions and Extract Information More Accurately",
-        "author": "Liang Zhang, Katherine Jijo, Spurthi Setty, Eden Chung, Fatima Javid, Natan Vidra, and Tommy Clifford",
-        "link": "http://arxiv.org/abs/2402.01722v1",
-        "abstract": "Large Language Models (LLMs) generate responses to questions; however, their\neffectiveness is often hindered by sub-optimal quality of answers and\noccasional failures to provide accurate responses to questions. To address\nthese challenges, a fine-tuning process is employed, involving feedback and\nexamples to refine models. The objective is to enhance AI models through\ncontinuous feedback loops, utilizing metrics such as cosine similarity, LLM\nevaluation and Rouge-L scores to evaluate the models. Leveraging LLMs like\nGPT-3.5, GPT4ALL, and LLaMA2, and Claude, this approach is benchmarked on\nfinancial datasets, including the FinanceBench and RAG Instruct Benchmark\nTester Dataset, illustrating the necessity of fine-tuning. The results showcase\nthe capability of fine-tuned models to surpass the accuracy of zero-shot LLMs,\nproviding superior question and answering capabilities. Notably, the\ncombination of fine-tuning the LLM with a process known as Retrieval Augmented\nGeneration (RAG) proves to generate responses with improved accuracy."
     }
 ]
