@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-02",
+        "title": "PolyPrompt: Automating Knowledge Extraction from Multilingual Language Models with Dynamic Prompt Generation",
+        "author": "Nathan Roll",
+        "link": "http://arxiv.org/abs/2502.19756v1",
+        "abstract": "Large language models (LLMs) showcase increasingly impressive English\nbenchmark scores, however their performance profiles remain inconsistent across\nmultilingual settings. To address this gap, we introduce PolyPrompt, a novel,\nparameter-efficient framework for enhancing the multilingual capabilities of\nLLMs. Our method learns a set of trigger tokens for each language through a\ngradient-based search, identifying the input query's language and selecting the\ncorresponding trigger tokens which are prepended to the prompt during\ninference. We perform experiments on two ~1 billion parameter models, with\nevaluations on the global MMLU benchmark across fifteen typologically and\nresource diverse languages, demonstrating accuracy gains of 3.7%-19.9% compared\nto naive and translation-pipeline baselines."
+    },
+    {
+        "date": "2025-02",
         "title": "Examining the Threat Landscape: Foundation Models and Model Stealing",
         "author": "Ankita Raj, Deepankar Varma, and Chetan Arora",
         "link": "http://arxiv.org/abs/2502.18077v1",
@@ -1391,12 +1398,5 @@
         "author": "Gavin Mischler, Yinghao Aaron Li, Stephan Bickel, Ashesh D. Mehta, and Nima Mesgarani",
         "link": "http://arxiv.org/abs/2401.17671v1",
         "abstract": "Recent advancements in artificial intelligence have sparked interest in the\nparallels between large language models (LLMs) and human neural processing,\nparticularly in language comprehension. While prior research has established\nsimilarities in the representation of LLMs and the brain, the underlying\ncomputational principles that cause this convergence, especially in the context\nof evolving LLMs, remain elusive. Here, we examined a diverse selection of\nhigh-performance LLMs with similar parameter sizes to investigate the factors\ncontributing to their alignment with the brain's language processing\nmechanisms. We find that as LLMs achieve higher performance on benchmark tasks,\nthey not only become more brain-like as measured by higher performance when\npredicting neural responses from LLM embeddings, but also their hierarchical\nfeature extraction pathways map more closely onto the brain's while using fewer\nlayers to do the same encoding. We also compare the feature extraction pathways\nof the LLMs to each other and identify new ways in which high-performing models\nhave converged toward similar hierarchical processing mechanisms. Finally, we\nshow the importance of contextual information in improving model performance\nand brain similarity. Our findings reveal the converging aspects of language\nprocessing in the brain and LLMs and offer new directions for developing models\nthat align more closely with human cognitive processing."
-    },
-    {
-        "date": "2024-01",
-        "title": "LaneGraph2Seq: Lane Topology Extraction with Language Model via Vertex-Edge Encoding and Connectivity Enhancement",
-        "author": "Renyuan Peng, Xinyue Cai, Hang Xu, Jiachen Lu, Feng Wen, Wei Zhang, and Li Zhang",
-        "link": "http://arxiv.org/abs/2401.17609v2",
-        "abstract": "Understanding road structures is crucial for autonomous driving. Intricate\nroad structures are often depicted using lane graphs, which include centerline\ncurves and connections forming a Directed Acyclic Graph (DAG). Accurate\nextraction of lane graphs relies on precisely estimating vertex and edge\ninformation within the DAG. Recent research highlights Transformer-based\nlanguage models' impressive sequence prediction abilities, making them\neffective for learning graph representations when graph data are encoded as\nsequences. However, existing studies focus mainly on modeling vertices\nexplicitly, leaving edge information simply embedded in the network.\nConsequently, these approaches fall short in the task of lane graph extraction.\nTo address this, we introduce LaneGraph2Seq, a novel approach for lane graph\nextraction. It leverages a language model with vertex-edge encoding and\nconnectivity enhancement. Our serialization strategy includes a vertex-centric\ndepth-first traversal and a concise edge-based partition sequence.\nAdditionally, we use classifier-free guidance combined with nucleus sampling to\nimprove lane connectivity. We validate our method on prominent datasets,\nnuScenes and Argoverse 2, showcasing consistent and compelling results. Our\nLaneGraph2Seq approach demonstrates superior performance compared to\nstate-of-the-art techniques in lane graph extraction."
     }
 ]
