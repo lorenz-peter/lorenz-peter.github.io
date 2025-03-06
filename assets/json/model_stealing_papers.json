@@ -8,6 +8,13 @@
     },
     {
         "date": "2025-02",
+        "title": "Can Large Language Models Extract Customer Needs as well as Professional Analysts?",
+        "author": "Artem Timoshenko, Chengfeng Mao, and John R. Hauser",
+        "link": "http://arxiv.org/abs/2503.01870v1",
+        "abstract": "Identifying customer needs (CNs) is important for product management, product\ndevelopment, and marketing. Applications rely on professional analysts\ninterpreting textual data (e.g., interview transcripts, online reviews) to\nunderstand the nuances of customer experience and concisely formulate \"jobs to\nbe done.\" The task is cognitively complex and time-consuming. Current practice\nfacilitates the process with keyword search and machine learning but relies on\nhuman judgment to formulate CNs. We examine whether Large Language Models\n(LLMs) can automatically extract CNs. Because evaluating CNs requires\nprofessional judgment, we partnered with a marketing consulting firm to conduct\na blind study of CNs extracted by: (1) a foundational LLM with prompt\nengineering only (Base LLM), (2) an LLM fine-tuned with professionally\nidentified CNs (SFT LLM), and (3) professional analysts. The SFT LLM performs\nas well as or better than professional analysts when extracting CNs. The\nextracted CNs are well-formulated, sufficiently specific to identify\nopportunities, and justified by source content (no hallucinations). The SFT LLM\nis efficient and provides more complete coverage of CNs. The Base LLM was not\nsufficiently accurate or specific. Organizations can rely on SFT LLMs to reduce\nmanual effort, enhance the precision of CN articulation, and provide improved\ninsight for innovation and marketing strategy."
+    },
+    {
+        "date": "2025-02",
         "title": "Examining the Threat Landscape: Foundation Models and Model Stealing",
         "author": "Ankita Raj, Deepankar Varma, and Chetan Arora",
         "link": "http://arxiv.org/abs/2502.18077v1",
@@ -1158,7 +1165,7 @@
         "date": "2024-03",
         "title": "Dataverse: Open-Source ETL (Extract, Transform, Load) Pipeline for Large Language Models",
         "author": "Hyunbyung Park, Sukyung Lee, Gyoungjin Gim, Yungi Kim, Dahyun Kim, and Chanjun Park",
-        "link": "http://arxiv.org/abs/2403.19340v1",
+        "link": "http://arxiv.org/abs/2403.19340v2",
         "abstract": "To address the challenges associated with data processing at scale, we\npropose Dataverse, a unified open-source Extract-Transform-Load (ETL) pipeline\nfor large language models (LLMs) with a user-friendly design at its core. Easy\naddition of custom processors with block-based interface in Dataverse allows\nusers to readily and efficiently use Dataverse to build their own ETL pipeline.\nWe hope that Dataverse will serve as a vital tool for LLM development and open\nsource the entire library to welcome community contribution. Additionally, we\nprovide a concise, two-minute video demonstration of our system, illustrating\nits capabilities and implementation."
     },
     {
@@ -1391,12 +1398,5 @@
         "author": "Gavin Mischler, Yinghao Aaron Li, Stephan Bickel, Ashesh D. Mehta, and Nima Mesgarani",
         "link": "http://arxiv.org/abs/2401.17671v1",
         "abstract": "Recent advancements in artificial intelligence have sparked interest in the\nparallels between large language models (LLMs) and human neural processing,\nparticularly in language comprehension. While prior research has established\nsimilarities in the representation of LLMs and the brain, the underlying\ncomputational principles that cause this convergence, especially in the context\nof evolving LLMs, remain elusive. Here, we examined a diverse selection of\nhigh-performance LLMs with similar parameter sizes to investigate the factors\ncontributing to their alignment with the brain's language processing\nmechanisms. We find that as LLMs achieve higher performance on benchmark tasks,\nthey not only become more brain-like as measured by higher performance when\npredicting neural responses from LLM embeddings, but also their hierarchical\nfeature extraction pathways map more closely onto the brain's while using fewer\nlayers to do the same encoding. We also compare the feature extraction pathways\nof the LLMs to each other and identify new ways in which high-performing models\nhave converged toward similar hierarchical processing mechanisms. Finally, we\nshow the importance of contextual information in improving model performance\nand brain similarity. Our findings reveal the converging aspects of language\nprocessing in the brain and LLMs and offer new directions for developing models\nthat align more closely with human cognitive processing."
-    },
-    {
-        "date": "2024-01",
-        "title": "LaneGraph2Seq: Lane Topology Extraction with Language Model via Vertex-Edge Encoding and Connectivity Enhancement",
-        "author": "Renyuan Peng, Xinyue Cai, Hang Xu, Jiachen Lu, Feng Wen, Wei Zhang, and Li Zhang",
-        "link": "http://arxiv.org/abs/2401.17609v2",
-        "abstract": "Understanding road structures is crucial for autonomous driving. Intricate\nroad structures are often depicted using lane graphs, which include centerline\ncurves and connections forming a Directed Acyclic Graph (DAG). Accurate\nextraction of lane graphs relies on precisely estimating vertex and edge\ninformation within the DAG. Recent research highlights Transformer-based\nlanguage models' impressive sequence prediction abilities, making them\neffective for learning graph representations when graph data are encoded as\nsequences. However, existing studies focus mainly on modeling vertices\nexplicitly, leaving edge information simply embedded in the network.\nConsequently, these approaches fall short in the task of lane graph extraction.\nTo address this, we introduce LaneGraph2Seq, a novel approach for lane graph\nextraction. It leverages a language model with vertex-edge encoding and\nconnectivity enhancement. Our serialization strategy includes a vertex-centric\ndepth-first traversal and a concise edge-based partition sequence.\nAdditionally, we use classifier-free guidance combined with nucleus sampling to\nimprove lane connectivity. We validate our method on prominent datasets,\nnuScenes and Argoverse 2, showcasing consistent and compelling results. Our\nLaneGraph2Seq approach demonstrates superior performance compared to\nstate-of-the-art techniques in lane graph extraction."
     }
 ]
