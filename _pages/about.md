@@ -28,6 +28,6 @@ Previously, I worked in academia and industry on the CARLA simulator for pedestr
 
 <!-- **News: I am looking for a research position.** -->
 
-<script src="https://tryhackme.com/badge/1768902"></script>
+<!--  <script src="https://tryhackme.com/badge/1768902"></script> -->
 
 {% twitter https://twitter.com/cs_peter_lorenz limit=2 maxwidth=920 %}
