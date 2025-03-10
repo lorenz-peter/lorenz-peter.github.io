@@ -3,7 +3,7 @@
         "date": "2025-03",
         "title": "Fundamental Limits of Hierarchical Secure Aggregation with Cyclic User Association",
         "author": "Xiang Zhang, Zhou Li, Kai Wan, Hua Sun, Mingyue Ji, and Giuseppe Caire",
-        "link": "http://arxiv.org/abs/2503.04564v1",
+        "link": "http://arxiv.org/abs/2503.04564v2",
         "abstract": "Secure aggregation is motivated by federated learning (FL) where a cloud\nserver aims to compute an averaged model (i.e., weights of deep neural\nnetworks) of the locally-trained models of numerous clients, while adhering to\ndata security requirements. Hierarchical secure aggregation (HSA) extends this\nconcept to a three-layer network, where clustered users communicate with the\nserver through an intermediate layer of relays. In HSA, beyond conventional\nserver security, relay security is also enforced to ensure that the relays\nremain oblivious to the users' inputs (an abstraction of the local models in\nFL). Existing study on HSA assumes that each user is associated with only one\nrelay, limiting opportunities for coding across inter-cluster users to achieve\nefficient communication and key generation. In this paper, we consider HSA with\na cyclic association pattern where each user is connected to $B$ consecutive\nrelays in a wrap-around manner. We propose an efficient aggregation scheme\nwhich includes a message design for the inputs inspired by gradient coding-a\nwell-known technique for efficient communication in distributed computing-along\nwith a highly nontrivial security key design. We also derive novel converse\nbounds on the minimum achievable communication and key rates using\ninformation-theoretic arguments."
     },
     {
@@ -114,8 +114,8 @@
     {
         "date": "2025-03",
         "title": "A Practical Memory Injection Attack against LLM Agents",
-        "author": "Shen Dong, Shaocheng Xu, Pengfei He, Yige Li, Jiliang Tang, Tianming Liu, Hui Liu, and Zhen Xiang",
-        "link": "http://arxiv.org/abs/2503.03704v1",
+        "author": "Shen Dong, Shaochen Xu, Pengfei He, Yige Li, Jiliang Tang, Tianming Liu, Hui Liu, and Zhen Xiang",
+        "link": "http://arxiv.org/abs/2503.03704v2",
         "abstract": "Agents based on large language models (LLMs) have demonstrated strong\ncapabilities in a wide range of complex, real-world applications. However, LLM\nagents with a compromised memory bank may easily produce harmful outputs when\nthe past records retrieved for demonstration are malicious. In this paper, we\npropose a novel Memory INJection Attack, MINJA, that enables the injection of\nmalicious records into the memory bank by only interacting with the agent via\nqueries and output observations. These malicious records are designed to elicit\na sequence of malicious reasoning steps leading to undesirable agent actions\nwhen executing the victim user's query. Specifically, we introduce a sequence\nof bridging steps to link the victim query to the malicious reasoning steps.\nDuring the injection of the malicious record, we propose an indication prompt\nto guide the agent to autonomously generate our designed bridging steps. We\nalso propose a progressive shortening strategy that gradually removes the\nindication prompt, such that the malicious record will be easily retrieved when\nprocessing the victim query comes after. Our extensive experiments across\ndiverse agents demonstrate the effectiveness of MINJA in compromising agent\nmemory. With minimal requirements for execution, MINJA enables any user to\ninfluence agent memory, highlighting practical risks of LLM agents."
     },
     {
