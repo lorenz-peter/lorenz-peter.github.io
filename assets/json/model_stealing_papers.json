@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-03",
+        "title": "BI-RADS prediction of mammographic masses using uncertainty information extracted from a Bayesian Deep Learning model",
+        "author": "Mohaddeseh Chegini, and Ali Mahloojifar",
+        "link": "http://arxiv.org/abs/2503.13999v1",
+        "abstract": "The BI_RADS score is a probabilistic reporting tool used by radiologists to\nexpress the level of uncertainty in predicting breast cancer based on some\nmorphological features in mammography images. There is a significant\nvariability in describing masses which sometimes leads to BI_RADS\nmisclassification. Using a BI_RADS prediction system is required to support the\nfinal radiologist decisions. In this study, the uncertainty information\nextracted by a Bayesian deep learning model is utilized to predict the BI_RADS\nscore. The investigation results based on the pathology information demonstrate\nthat the f1-scores of the predictions of the radiologist are 42.86%, 48.33% and\n48.28%, meanwhile, the f1-scores of the model performance are 73.33%, 59.60%\nand 59.26% in the BI_RADS 2, 3 and 5 dataset samples, respectively. Also, the\nmodel can distinguish malignant from benign samples in the BI_RADS 0 category\nof the used dataset with an accuracy of 75.86% and correctly identify all\nmalignant samples as BI_RADS 5. The Grad-CAM visualization shows the model pays\nattention to the morphological features of the lesions. Therefore, this study\nshows the uncertainty-aware Bayesian Deep Learning model can report his\nuncertainty about the malignancy of a lesion based on morphological features,\nlike a radiologist."
+    },
+    {
+        "date": "2025-03",
         "title": "ProDiF: Protecting Domain-Invariant Features to Secure Pre-Trained Models Against Extraction",
         "author": "Tong Zhou, Shijin Duan, Gaowen Liu, Charles Fleming, Ramana Rao Kompella, Shaolei Ren, and Xiaolin Xu",
         "link": "http://arxiv.org/abs/2503.13224v1",
@@ -1391,12 +1398,5 @@
         "author": "Mingyang Li, Maoqin Yuan, Luyao Li, and Han Pengsihua",
         "link": "http://arxiv.org/abs/2402.18849v1",
         "abstract": "This study discusses a new method combining image steganography technology\nwith Natural Language Processing (NLP) large models, aimed at improving the\naccuracy and robustness of extracting steganographic text. Traditional Least\nSignificant Bit (LSB) steganography techniques face challenges in accuracy and\nrobustness of information extraction when dealing with complex character\nencoding, such as Chinese characters. To address this issue, this study\nproposes an innovative LSB-NLP hybrid framework. This framework integrates the\nadvanced capabilities of NLP large models, such as error detection, correction,\nand semantic consistency analysis, as well as information reconstruction\ntechniques, thereby significantly enhancing the robustness of steganographic\ntext extraction. Experimental results show that the LSB-NLP hybrid framework\nexcels in improving the extraction accuracy of steganographic text, especially\nin handling Chinese characters. The findings of this study not only confirm the\neffectiveness of combining image steganography technology and NLP large models\nbut also propose new ideas for research and application in the field of\ninformation hiding. The successful implementation of this interdisciplinary\napproach demonstrates the great potential of integrating image steganography\ntechnology with natural language processing technology in solving complex\ninformation processing problems."
-    },
-    {
-        "date": "2024-02",
-        "title": "Vision Language Model-based Caption Evaluation Method Leveraging Visual Context Extraction",
-        "author": "Koki Maeda, Shuhei Kurita, Taiki Miyanishi, and Naoaki Okazaki",
-        "link": "http://arxiv.org/abs/2402.17969v1",
-        "abstract": "Given the accelerating progress of vision and language modeling, accurate\nevaluation of machine-generated image captions remains critical. In order to\nevaluate captions more closely to human preferences, metrics need to\ndiscriminate between captions of varying quality and content. However,\nconventional metrics fail short of comparing beyond superficial matches of\nwords or embedding similarities; thus, they still need improvement. This paper\npresents VisCE$^2$, a vision language model-based caption evaluation method.\nOur method focuses on visual context, which refers to the detailed content of\nimages, including objects, attributes, and relationships. By extracting and\norganizing them into a structured format, we replace the human-written\nreferences with visual contexts and help VLMs better understand the image,\nenhancing evaluation performance. Through meta-evaluation on multiple datasets,\nwe validated that VisCE$^2$ outperforms the conventional pre-trained metrics in\ncapturing caption quality and demonstrates superior consistency with human\njudgment."
     }
 ]
