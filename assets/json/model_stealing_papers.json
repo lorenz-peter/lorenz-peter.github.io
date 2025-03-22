@@ -528,7 +528,7 @@
         "date": "2024-10",
         "title": "Measuring memorization in language models via probabilistic extraction",
         "author": "Jamie Hayes, Marika Swanberg, Harsh Chaudhari, Itay Yona, Ilia Shumailov, Milad Nasr, Christopher A. Choquette-Choo, Katherine Lee, and A. Feder Cooper",
-        "link": "http://arxiv.org/abs/2410.19482v2",
+        "link": "http://arxiv.org/abs/2410.19482v3",
         "abstract": "Large language models (LLMs) are susceptible to memorizing training data,\nraising concerns about the potential extraction of sensitive information at\ngeneration time. Discoverable extraction is the most common method for\nmeasuring this issue: split a training example into a prefix and suffix, then\nprompt the LLM with the prefix, and deem the example extractable if the LLM\ngenerates the matching suffix using greedy sampling. This definition yields a\nyes-or-no determination of whether extraction was successful with respect to a\nsingle query. Though efficient to compute, we show that this definition is\nunreliable because it does not account for non-determinism present in more\nrealistic (non-greedy) sampling schemes, for which LLMs produce a range of\noutputs for the same prompt. We introduce probabilistic discoverable\nextraction, which, without additional cost, relaxes discoverable extraction by\nconsidering multiple queries to quantify the probability of extracting a target\nsequence. We evaluate our probabilistic measure across different models,\nsampling schemes, and training-data repetitions, and find that this measure\nprovides more nuanced information about extraction risk compared to traditional\ndiscoverable extraction."
     },
     {
