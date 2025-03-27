@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-03",
+        "title": "ICE: Intrinsic Concept Extraction from a Single Image via Diffusion Models",
+        "author": "Fernando Julio Cendra, and Kai Han",
+        "link": "http://arxiv.org/abs/2503.19902v1",
+        "abstract": "The inherent ambiguity in defining visual concepts poses significant\nchallenges for modern generative models, such as the diffusion-based\nText-to-Image (T2I) models, in accurately learning concepts from a single\nimage. Existing methods lack a systematic way to reliably extract the\ninterpretable underlying intrinsic concepts. To address this challenge, we\npresent ICE, short for Intrinsic Concept Extraction, a novel framework that\nexclusively utilizes a T2I model to automatically and systematically extract\nintrinsic concepts from a single image. ICE consists of two pivotal stages. In\nthe first stage, ICE devises an automatic concept localization module to\npinpoint relevant text-based concepts and their corresponding masks within the\nimage. This critical stage streamlines concept initialization and provides\nprecise guidance for subsequent analysis. The second stage delves deeper into\neach identified mask, decomposing the object-level concepts into intrinsic\nconcepts and general concepts. This decomposition allows for a more granular\nand interpretable breakdown of visual elements. Our framework demonstrates\nsuperior performance on intrinsic concept extraction from a single image in an\nunsupervised manner. Project page: https://visual-ai.github.io/ice"
+    },
+    {
+        "date": "2025-03",
         "title": "Model-Guardian: Protecting against Data-Free Model Stealing Using Gradient Representations and Deceptive Predictions",
         "author": "Yunfei Yang, Xiaojun Chen, Yuexin Xuan, and Zhendong Zhao",
         "link": "http://arxiv.org/abs/2503.18081v1",
@@ -1391,12 +1398,5 @@
         "author": "Ashwinee Panda, Christopher A. Choquette-Choo, Zhengming Zhang, Yaoqing Yang, and Prateek Mittal",
         "link": "http://arxiv.org/abs/2403.00871v1",
         "abstract": "When large language models are trained on private data, it can be a\nsignificant privacy risk for them to memorize and regurgitate sensitive\ninformation. In this work, we propose a new practical data extraction attack\nthat we call \"neural phishing\". This attack enables an adversary to target and\nextract sensitive or personally identifiable information (PII), e.g., credit\ncard numbers, from a model trained on user data with upwards of 10% attack\nsuccess rates, at times, as high as 50%. Our attack assumes only that an\nadversary can insert as few as 10s of benign-appearing sentences into the\ntraining dataset using only vague priors on the structure of the user data."
-    },
-    {
-        "date": "2024-02",
-        "title": "LLM-Ensemble: Optimal Large Language Model Ensemble Method for E-commerce Product Attribute Value Extraction",
-        "author": "Chenhao Fang, Xiaohan Li, Zezhong Fan, Jianpeng Xu, Kaushiki Nag, Evren Korpeoglu, Sushant Kumar, and Kannan Achan",
-        "link": "http://arxiv.org/abs/2403.00863v2",
-        "abstract": "Product attribute value extraction is a pivotal component in Natural Language\nProcessing (NLP) and the contemporary e-commerce industry. The provision of\nprecise product attribute values is fundamental in ensuring high-quality\nrecommendations and enhancing customer satisfaction. The recently emerging\nLarge Language Models (LLMs) have demonstrated state-of-the-art performance in\nnumerous attribute extraction tasks, without the need for domain-specific\ntraining data. Nevertheless, varying strengths and weaknesses are exhibited by\ndifferent LLMs due to the diversity in data, architectures, and\nhyperparameters. This variation makes them complementary to each other, with no\nsingle LLM dominating all others. Considering the diverse strengths and\nweaknesses of LLMs, it becomes necessary to develop an ensemble method that\nleverages their complementary potentials. In this paper, we propose a novel\nalgorithm called LLM-ensemble to ensemble different LLMs' outputs for attribute\nvalue extraction. We iteratively learn the weights for different LLMs to\naggregate the labels with weights to predict the final attribute value. Not\nonly can our proposed method be proven theoretically optimal, but it also\nensures efficient computation, fast convergence, and safe deployment. We have\nalso conducted extensive experiments with various state-of-the-art LLMs,\nincluding Llama2-13B, Llama2-70B, PaLM-2, GPT-3.5, and GPT-4, on Walmart's\ninternal data. Our offline metrics demonstrate that the LLM-ensemble method\noutperforms all the state-of-the-art single LLMs on Walmart's internal dataset.\nThis method has been launched in several production models, leading to improved\nGross Merchandise Volume (GMV), Click-Through Rate (CTR), Conversion Rate\n(CVR), and Add-to-Cart Rate (ATC)."
     }
 ]
