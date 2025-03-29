@@ -1,3 +1,7 @@
+# Imblanced Data
+
+[Imbalanced Data](https://aman.ai/primers/ai/data-imbalance)
+
 -   [Overview](https://aman.ai/primers/ai/data-imbalance/#overview)
 -   [Data-based Methods](https://aman.ai/primers/ai/data-imbalance/#data-based-methods)
     -   [Oversampling Techniques](https://aman.ai/primers/ai/data-imbalance/#oversampling-techniques)
