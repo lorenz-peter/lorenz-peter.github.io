@@ -8,8 +8,6 @@ categories: Recommender System
 giscus_comments: true
 ---
 
-# Recommender Systems
-
 [Source](https://aman.ai/recsys/architectures/#deep-factorization-machine--deepfm-2017)
 
 -   [Overview](https://aman.ai/recsys/architectures/#overview)
