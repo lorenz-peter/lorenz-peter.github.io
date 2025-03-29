@@ -1,3 +1,5 @@
+[Source](https://aman.ai/recsys/architectures/#deep-factorization-machine--deepfm-2017)
+
 -   [Overview](https://aman.ai/recsys/architectures/#overview)
 -   [Deep Neural Network Models for Recommender Systems](https://aman.ai/recsys/architectures/#deep-neural-network-models-for-recommender-systems)
     -   [Advantages of DNN Models for Recommender Systems](https://aman.ai/recsys/architectures/#advantages-of-dnn-models-for-recommender-systems)
