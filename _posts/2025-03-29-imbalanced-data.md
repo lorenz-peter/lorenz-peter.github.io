@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Balanced Data
+title: Imbalanced Data
 date: 2025-03-28 16:40:16
 description: 
 tags: MLSD
 categories: Recommender System
 giscus_comments: true
 ---
-
-# Imblanced Data
 
 [Source](https://aman.ai/primers/ai/data-imbalance)
 
