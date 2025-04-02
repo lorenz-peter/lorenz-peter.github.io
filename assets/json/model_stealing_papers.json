@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-03",
+        "title": "Extracting Patient History from Clinical Text: A Comparative Study of Clinical Large Language Models",
+        "author": "Hieu Nghiem, Tuan-Dung Le, Suhao Chen, Thanh Thieu, Andrew Gin, Ellie Phuong Nguyen, Dursun Delen, Johnson Thomas, Jivan Lamichhane, and Zhuqi Miao",
+        "link": "http://arxiv.org/abs/2503.23281v1",
+        "abstract": "Extracting medical history entities (MHEs) related to a patient's chief\ncomplaint (CC), history of present illness (HPI), and past, family, and social\nhistory (PFSH) helps structure free-text clinical notes into standardized EHRs,\nstreamlining downstream tasks like continuity of care, medical coding, and\nquality metrics. Fine-tuned clinical large language models (cLLMs) can assist\nin this process while ensuring the protection of sensitive data via on-premises\ndeployment. This study evaluates the performance of cLLMs in recognizing\nCC/HPI/PFSH-related MHEs and examines how note characteristics impact model\naccuracy. We annotated 1,449 MHEs across 61 outpatient-related clinical notes\nfrom the MTSamples repository. To recognize these entities, we fine-tuned seven\nstate-of-the-art cLLMs. Additionally, we assessed the models' performance when\nenhanced by integrating, problems, tests, treatments, and other basic medical\nentities (BMEs). We compared the performance of these models against GPT-4o in\na zero-shot setting. To further understand the textual characteristics\naffecting model accuracy, we conducted an error analysis focused on note\nlength, entity length, and segmentation. The cLLMs showed potential in reducing\nthe time required for extracting MHEs by over 20%. However, detecting many\ntypes of MHEs remained challenging due to their polysemous nature and the\nfrequent involvement of non-medical vocabulary. Fine-tuned GatorTron and\nGatorTronS, two of the most extensively trained cLLMs, demonstrated the highest\nperformance. Integrating pre-identified BME information improved model\nperformance for certain entities. Regarding the impact of textual\ncharacteristics on model performance, we found that longer entities were harder\nto identify, note length did not correlate with a higher error rate, and\nwell-organized segments with headings are beneficial for the extraction."
+    },
+    {
+        "date": "2025-03",
         "title": "ICE: Intrinsic Concept Extraction from a Single Image via Diffusion Models",
         "author": "Fernando Julio Cendra, and Kai Han",
         "link": "http://arxiv.org/abs/2503.19902v1",
@@ -1391,12 +1398,5 @@
         "author": "Edward Whittaker, and Ikuo Kitagishi",
         "link": "http://arxiv.org/abs/2403.00528v1",
         "abstract": "Language Models (LMs) such as BERT, have been shown to perform well on the\ntask of identifying Named Entities (NE) in text. A BERT LM is typically used as\na classifier to classify individual tokens in the input text, or to classify\nspans of tokens, as belonging to one of a set of possible NE categories.\n  In this paper, we hypothesise that decoder-only Large Language Models (LLMs)\ncan also be used generatively to extract both the NE, as well as potentially\nrecover the correct surface form of the NE, where any spelling errors that were\npresent in the input text get automatically corrected.\n  We fine-tune two BERT LMs as baselines, as well as eight open-source LLMs, on\nthe task of producing NEs from text that was obtained by applying Optical\nCharacter Recognition (OCR) to images of Japanese shop receipts; in this work,\nwe do not attempt to find or evaluate the location of NEs in the text.\n  We show that the best fine-tuned LLM performs as well as, or slightly better\nthan, the best fine-tuned BERT LM, although the differences are not\nsignificant. However, the best LLM is also shown to correct OCR errors in some\ncases, as initially hypothesised."
-    },
-    {
-        "date": "2024-03",
-        "title": "Teach LLMs to Phish: Stealing Private Information from Language Models",
-        "author": "Ashwinee Panda, Christopher A. Choquette-Choo, Zhengming Zhang, Yaoqing Yang, and Prateek Mittal",
-        "link": "http://arxiv.org/abs/2403.00871v1",
-        "abstract": "When large language models are trained on private data, it can be a\nsignificant privacy risk for them to memorize and regurgitate sensitive\ninformation. In this work, we propose a new practical data extraction attack\nthat we call \"neural phishing\". This attack enables an adversary to target and\nextract sensitive or personally identifiable information (PII), e.g., credit\ncard numbers, from a model trained on user data with upwards of 10% attack\nsuccess rates, at times, as high as 50%. Our attack assumes only that an\nadversary can insert as few as 10s of benign-appearing sentences into the\ntraining dataset using only vague priors on the structure of the user data."
     }
 ]
