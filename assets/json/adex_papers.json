@@ -157,7 +157,7 @@
         "date": "2025-03",
         "title": "Factored Agents: Decoupling In-Context Learning and Memorization for Robust Tool Use",
         "author": "Nicholas Roth, Christopher Hidey, Lucas Spangher, William F. Arnold, Chang Ye, Nick Masiewicki, Jinoo Baek, Peter Grabowski, and Eugene Ie",
-        "link": "http://arxiv.org/abs/2503.22931v1",
+        "link": "http://arxiv.org/abs/2503.22931v2",
         "abstract": "In this paper, we propose a novel factored agent architecture designed to\novercome the limitations of traditional single-agent systems in agentic AI. Our\napproach decomposes the agent into two specialized components: (1) a large\nlanguage model (LLM) that serves as a high level planner and in-context\nlearner, which may use dynamically available information in user prompts, (2) a\nsmaller language model which acts as a memorizer of tool format and output.\nThis decoupling addresses prevalent issues in monolithic designs, including\nmalformed, missing, and hallucinated API fields, as well as suboptimal planning\nin dynamic environments. Empirical evaluations demonstrate that our factored\narchitecture significantly improves planning accuracy and error resilience,\nwhile elucidating the inherent trade-off between in-context learning and static\nmemorization. These findings suggest that a factored approach is a promising\npathway for developing more robust and adaptable agentic AI systems."
     },
     {
