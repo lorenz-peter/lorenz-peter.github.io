@@ -1,5 +1,12 @@
 [
     {
+        "date": "2025-04",
+        "title": "LauraTSE: Target Speaker Extraction using Auto-Regressive Decoder-Only Language Models",
+        "author": "Beilong Tang, Bang Zeng, and Ming Li",
+        "link": "http://arxiv.org/abs/2504.07402v1",
+        "abstract": "We propose LauraTSE, an Auto-Regressive Decoder-Only Language Model for\nTarget Speaker Extraction (TSE) based on the LauraGPT backbone. It employs a\nsmall-scale auto-regressive decoder-only language model which takes the\ncontinuous representations for both the mixture and the reference speeches and\nproduces the first few layers of the target speech's discrete codec\nrepresentations. In addition, a one-step encoder-only language model\nreconstructs the sum of the predicted codec embeddings using both the mixture\nand the reference information. Our approach achieves superior or comparable\nperformance to existing generative and discriminative TSE models. To the best\nof our knowledge, LauraTSE is the first single-task TSE model to leverage an\nauto-regressive decoder-only language model as the backbone."
+    },
+    {
         "date": "2025-03",
         "title": "Extracting Patient History from Clinical Text: A Comparative Study of Clinical Large Language Models",
         "author": "Hieu Nghiem, Tuan-Dung Le, Suhao Chen, Thanh Thieu, Andrew Gin, Ellie Phuong Nguyen, Dursun Delen, Johnson Thomas, Jivan Lamichhane, and Zhuqi Miao",
@@ -1391,12 +1398,5 @@
         "author": "Dimitrios Michael Manias, Ali Chouman, and Abdallah Shami",
         "link": "http://arxiv.org/abs/2403.02238v2",
         "abstract": "The integration of Machine Learning and Artificial Intelligence (ML/AI) into\nfifth-generation (5G) networks has made evident the limitations of network\nintelligence with ever-increasing, strenuous requirements for current and\nnext-generation devices. This transition to ubiquitous intelligence demands\nhigh connectivity, synchronicity, and end-to-end communication between users\nand network operators, and will pave the way towards full network automation\nwithout human intervention. Intent-based networking is a key factor in the\nreduction of human actions, roles, and responsibilities while shifting towards\nnovel extraction and interpretation of automated network management. This paper\npresents the development of a custom Large Language Model (LLM) for 5G and\nnext-generation intent-based networking and provides insights into future LLM\ndevelopments and integrations to realize end-to-end intent-based networking for\nfully automated network intelligence."
-    },
-    {
-        "date": "2024-03",
-        "title": "Large Language Models for Simultaneous Named Entity Extraction and Spelling Correction",
-        "author": "Edward Whittaker, and Ikuo Kitagishi",
-        "link": "http://arxiv.org/abs/2403.00528v1",
-        "abstract": "Language Models (LMs) such as BERT, have been shown to perform well on the\ntask of identifying Named Entities (NE) in text. A BERT LM is typically used as\na classifier to classify individual tokens in the input text, or to classify\nspans of tokens, as belonging to one of a set of possible NE categories.\n  In this paper, we hypothesise that decoder-only Large Language Models (LLMs)\ncan also be used generatively to extract both the NE, as well as potentially\nrecover the correct surface form of the NE, where any spelling errors that were\npresent in the input text get automatically corrected.\n  We fine-tune two BERT LMs as baselines, as well as eight open-source LLMs, on\nthe task of producing NEs from text that was obtained by applying Optical\nCharacter Recognition (OCR) to images of Japanese shop receipts; in this work,\nwe do not attempt to find or evaluate the location of NEs in the text.\n  We show that the best fine-tuned LLM performs as well as, or slightly better\nthan, the best fine-tuned BERT LM, although the differences are not\nsignificant. However, the best LLM is also shown to correct OCR errors in some\ncases, as initially hypothesised."
     }
 ]
