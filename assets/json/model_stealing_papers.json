@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-04",
+        "title": "A Large-Language Model Framework for Relative Timeline Extraction from PubMed Case Reports",
+        "author": "Jing Wang, and Jeremy C Weiss",
+        "link": "http://arxiv.org/abs/2504.12350v1",
+        "abstract": "Timing of clinical events is central to characterization of patient\ntrajectories, enabling analyses such as process tracing, forecasting, and\ncausal reasoning. However, structured electronic health records capture few\ndata elements critical to these tasks, while clinical reports lack temporal\nlocalization of events in structured form. We present a system that transforms\ncase reports into textual time series-structured pairs of textual events and\ntimestamps. We contrast manual and large language model (LLM) annotations\n(n=320 and n=390 respectively) of ten randomly-sampled PubMed open-access\n(PMOA) case reports (N=152,974) and assess inter-LLM agreement (n=3,103; N=93).\nWe find that the LLM models have moderate event recall(O1-preview: 0.80) but\nhigh temporal concordance among identified events (O1-preview: 0.95). By\nestablishing the task, annotation, and assessment systems, and by demonstrating\nhigh concordance, this work may serve as a benchmark for leveraging the PMOA\ncorpus for temporal analytics."
+    },
+    {
+        "date": "2025-04",
         "title": "LauraTSE: Target Speaker Extraction using Auto-Regressive Decoder-Only Language Models",
         "author": "Beilong Tang, Bang Zeng, and Ming Li",
         "link": "http://arxiv.org/abs/2504.07402v1",
@@ -1391,12 +1398,5 @@
         "author": "Younghan Lee, Sohee Jun, Yungi Cho, Woorim Han, Hyungon Moon, and Yunheung Paek",
         "link": "http://arxiv.org/abs/2403.02870v1",
         "abstract": "With growing popularity, deep learning (DL) models are becoming larger-scale,\nand only the companies with vast training datasets and immense computing power\ncan manage their business serving such large models. Most of those DL models\nare proprietary to the companies who thus strive to keep their private models\nsafe from the model extraction attack (MEA), whose aim is to steal the model by\ntraining surrogate models. Nowadays, companies are inclined to offload the\nmodels from central servers to edge/endpoint devices. As revealed in the latest\nstudies, adversaries exploit this opportunity as new attack vectors to launch\nside-channel attack (SCA) on the device running victim model and obtain various\npieces of the model information, such as the model architecture (MA) and image\ndimension (ID). Our work provides a comprehensive understanding of such a\nrelationship for the first time and would benefit future MEA studies in both\noffensive and defensive sides in that they may learn which pieces of\ninformation exposed by SCA are more important than the others. Our analysis\nadditionally reveals that by grasping the victim model information from SCA,\nMEA can get highly effective and successful even without any prior knowledge of\nthe model. Finally, to evince the practicality of our analysis results, we\nempirically apply SCA, and subsequently, carry out MEA under realistic threat\nassumptions. The results show up to 5.8 times better performance than when the\nadversary has no model information about the victim model."
-    },
-    {
-        "date": "2024-03",
-        "title": "Towards Intent-Based Network Management: Large Language Models for Intent Extraction in 5G Core Networks",
-        "author": "Dimitrios Michael Manias, Ali Chouman, and Abdallah Shami",
-        "link": "http://arxiv.org/abs/2403.02238v2",
-        "abstract": "The integration of Machine Learning and Artificial Intelligence (ML/AI) into\nfifth-generation (5G) networks has made evident the limitations of network\nintelligence with ever-increasing, strenuous requirements for current and\nnext-generation devices. This transition to ubiquitous intelligence demands\nhigh connectivity, synchronicity, and end-to-end communication between users\nand network operators, and will pave the way towards full network automation\nwithout human intervention. Intent-based networking is a key factor in the\nreduction of human actions, roles, and responsibilities while shifting towards\nnovel extraction and interpretation of automated network management. This paper\npresents the development of a custom Large Language Model (LLM) for 5G and\nnext-generation intent-based networking and provides insights into future LLM\ndevelopments and integrations to realize end-to-end intent-based networking for\nfully automated network intelligence."
     }
 ]
