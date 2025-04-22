@@ -36,6 +36,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - Best reviewer award at AISTATS
     - year: 2023
       items:
         - Top 3% recognition at ICASSP
