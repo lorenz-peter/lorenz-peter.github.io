@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-04",
+        "title": "EMRModel: A Large Language Model for Extracting Medical Consultation Dialogues into Structured Medical Records",
+        "author": "Shuguang Zhao, Qiangzhong Feng, Zhiyang He, Peipei Sun, Yingying Wang, Xiaodong Tao, Xiaoliang Lu, Mei Cheng, Xinyue Wu, Yanyan Wang, and Wei Liang",
+        "link": "http://arxiv.org/abs/2504.16448v1",
+        "abstract": "Medical consultation dialogues contain critical clinical information, yet\ntheir unstructured nature hinders effective utilization in diagnosis and\ntreatment. Traditional methods, relying on rule-based or shallow machine\nlearning techniques, struggle to capture deep and implicit semantics. Recently,\nlarge pre-trained language models and Low-Rank Adaptation (LoRA), a lightweight\nfine-tuning method, have shown promise for structured information extraction.\nWe propose EMRModel, a novel approach that integrates LoRA-based fine-tuning\nwith code-style prompt design, aiming to efficiently convert medical\nconsultation dialogues into structured electronic medical records (EMRs).\nAdditionally, we construct a high-quality, realistically grounded dataset of\nmedical consultation dialogues with detailed annotations. Furthermore, we\nintroduce a fine-grained evaluation benchmark for medical consultation\ninformation extraction and provide a systematic evaluation methodology,\nadvancing the optimization of medical natural language processing (NLP) models.\nExperimental results show EMRModel achieves an F1 score of 88.1%, improving\nby49.5% over standard pre-trained models. Compared to traditional LoRA\nfine-tuning methods, our model shows superior performance, highlighting its\neffectiveness in structured medical record extraction tasks."
+    },
+    {
+        "date": "2025-04",
         "title": "A Large-Language Model Framework for Relative Timeline Extraction from PubMed Case Reports",
         "author": "Jing Wang, and Jeremy C Weiss",
         "link": "http://arxiv.org/abs/2504.12350v1",
@@ -1391,12 +1398,5 @@
         "author": "Younghan Lee, Sohee Jun, Yungi Cho, Woorim Han, Hyungon Moon, and Yunheung Paek",
         "link": "http://arxiv.org/abs/2403.02870v1",
         "abstract": "With growing popularity, deep learning (DL) models are becoming larger-scale,\nand only the companies with vast training datasets and immense computing power\ncan manage their business serving such large models. Most of those DL models\nare proprietary to the companies who thus strive to keep their private models\nsafe from the model extraction attack (MEA), whose aim is to steal the model by\ntraining surrogate models. Nowadays, companies are inclined to offload the\nmodels from central servers to edge/endpoint devices. As revealed in the latest\nstudies, adversaries exploit this opportunity as new attack vectors to launch\nside-channel attack (SCA) on the device running victim model and obtain various\npieces of the model information, such as the model architecture (MA) and image\ndimension (ID). Our work provides a comprehensive understanding of such a\nrelationship for the first time and would benefit future MEA studies in both\noffensive and defensive sides in that they may learn which pieces of\ninformation exposed by SCA are more important than the others. Our analysis\nadditionally reveals that by grasping the victim model information from SCA,\nMEA can get highly effective and successful even without any prior knowledge of\nthe model. Finally, to evince the practicality of our analysis results, we\nempirically apply SCA, and subsequently, carry out MEA under realistic threat\nassumptions. The results show up to 5.8 times better performance than when the\nadversary has no model information about the victim model."
-    },
-    {
-        "date": "2024-03",
-        "title": "Towards Intent-Based Network Management: Large Language Models for Intent Extraction in 5G Core Networks",
-        "author": "Dimitrios Michael Manias, Ali Chouman, and Abdallah Shami",
-        "link": "http://arxiv.org/abs/2403.02238v2",
-        "abstract": "The integration of Machine Learning and Artificial Intelligence (ML/AI) into\nfifth-generation (5G) networks has made evident the limitations of network\nintelligence with ever-increasing, strenuous requirements for current and\nnext-generation devices. This transition to ubiquitous intelligence demands\nhigh connectivity, synchronicity, and end-to-end communication between users\nand network operators, and will pave the way towards full network automation\nwithout human intervention. Intent-based networking is a key factor in the\nreduction of human actions, roles, and responsibilities while shifting towards\nnovel extraction and interpretation of automated network management. This paper\npresents the development of a custom Large Language Model (LLM) for 5G and\nnext-generation intent-based networking and provides insights into future LLM\ndevelopments and integrations to realize end-to-end intent-based networking for\nfully automated network intelligence."
     }
 ]
