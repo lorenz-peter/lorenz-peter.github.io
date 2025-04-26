@@ -715,6 +715,13 @@
     },
     {
         "date": "2024-09",
+        "title": "Feature-to-Image Data Augmentation: Improving Model Feature Extraction with Cluster-Guided Synthetic Samples",
+        "author": "Yasaman Haghbin, Hadi Moradi, and Reshad Hosseini",
+        "link": "http://arxiv.org/abs/2409.17685v2",
+        "abstract": "One of the growing trends in machine learning is the use of data generation\ntechniques, since the performance of machine learning models is dependent on\nthe quantity of the training dataset. However, in many real-world applications,\nparticularly in medical and low-resource domains, collecting large datasets is\nchallenging due to resource constraints, which leads to overfitting and poor\ngeneralization. This study introduces FICAug, a novel feature-to-image data\naugmentation framework designed to improve model generalization under limited\ndata conditions by generating structured synthetic samples.\n  FICAug first operates in the feature space, where original data are clustered\nusing the k-means algorithm. Within pure-label clusters, synthetic data are\ngenerated through Gaussian sampling to increase diversity while maintaining\nlabel consistency. These synthetic features are then projected back into the\nimage domain using a generative neural network, and a convolutional neural\nnetwork is trained on the reconstructed images to learn enhanced\nrepresentations.\n  Experimental results demonstrate that FICAug significantly improves\nclassification accuracy. In feature space, it achieved a cross-validation\naccuracy of 84.09%, while training a ResNet-18 model on the reconstructed\nimages further boosted performance to 88.63%, illustrating the effectiveness of\nthe proposed framework in extracting new and task-relevant features."
+    },
+    {
+        "date": "2024-09",
         "title": "Semi-strong Efficient Market of Bitcoin and Twitter: an Analysis of Semantic Vector Spaces of Extracted Keywords and Light Gradient Boosting Machine Models",
         "author": "Fang Wang, and Marko Gacesa",
         "link": "http://arxiv.org/abs/2409.15988v1",
@@ -1391,12 +1398,5 @@
         "author": "Jun Xu, Mengshu Sun, Zhiqiang Zhang, and Jun Zhou",
         "link": "http://arxiv.org/abs/2403.05132v1",
         "abstract": "Recent advancements in large language models have shown impressive\nperformance in general chat. However, their domain-specific capabilities,\nparticularly in information extraction, have certain limitations. Extracting\nstructured information from natural language that deviates from known schemas\nor instructions has proven challenging for previous prompt-based methods. This\nmotivated us to explore domain-specific modeling in chat-based language models\nas a solution for extracting structured information from natural language. In\nthis paper, we present ChatUIE, an innovative unified information extraction\nframework built upon ChatGLM. Simultaneously, reinforcement learning is\nemployed to improve and align various tasks that involve confusing and limited\nsamples. Furthermore, we integrate generation constraints to address the issue\nof generating elements that are not present in the input. Our experimental\nresults demonstrate that ChatUIE can significantly improve the performance of\ninformation extraction with a slight decrease in chatting ability."
-    },
-    {
-        "date": "2024-03",
-        "title": "Precise Extraction of Deep Learning Models via Side-Channel Attacks on Edge/Endpoint Devices",
-        "author": "Younghan Lee, Sohee Jun, Yungi Cho, Woorim Han, Hyungon Moon, and Yunheung Paek",
-        "link": "http://arxiv.org/abs/2403.02870v1",
-        "abstract": "With growing popularity, deep learning (DL) models are becoming larger-scale,\nand only the companies with vast training datasets and immense computing power\ncan manage their business serving such large models. Most of those DL models\nare proprietary to the companies who thus strive to keep their private models\nsafe from the model extraction attack (MEA), whose aim is to steal the model by\ntraining surrogate models. Nowadays, companies are inclined to offload the\nmodels from central servers to edge/endpoint devices. As revealed in the latest\nstudies, adversaries exploit this opportunity as new attack vectors to launch\nside-channel attack (SCA) on the device running victim model and obtain various\npieces of the model information, such as the model architecture (MA) and image\ndimension (ID). Our work provides a comprehensive understanding of such a\nrelationship for the first time and would benefit future MEA studies in both\noffensive and defensive sides in that they may learn which pieces of\ninformation exposed by SCA are more important than the others. Our analysis\nadditionally reveals that by grasping the victim model information from SCA,\nMEA can get highly effective and successful even without any prior knowledge of\nthe model. Finally, to evince the practicality of our analysis results, we\nempirically apply SCA, and subsequently, carry out MEA under realistic threat\nassumptions. The results show up to 5.8 times better performance than when the\nadversary has no model information about the victim model."
     }
 ]
