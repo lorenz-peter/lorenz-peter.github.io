@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-04",
+        "title": "Hallucinations and Key Information Extraction in Medical Texts: A Comprehensive Assessment of Open-Source Large Language Models",
+        "author": "Anindya Bijoy Das, Shibbir Ahmed, and Shahnewaz Karim Sakib",
+        "link": "http://arxiv.org/abs/2504.19061v1",
+        "abstract": "Clinical summarization is crucial in healthcare as it distills complex\nmedical data into digestible information, enhancing patient understanding and\ncare management. Large language models (LLMs) have shown significant potential\nin automating and improving the accuracy of such summarizations due to their\nadvanced natural language understanding capabilities. These models are\nparticularly applicable in the context of summarizing medical/clinical texts,\nwhere precise and concise information transfer is essential. In this paper, we\ninvestigate the effectiveness of open-source LLMs in extracting key events from\ndischarge reports, such as reasons for hospital admission, significant\nin-hospital events, and critical follow-up actions. In addition, we also assess\nthe prevalence of various types of hallucinations in the summaries produced by\nthese models. Detecting hallucinations is vital as it directly influences the\nreliability of the information, potentially affecting patient care and\ntreatment outcomes. We conduct comprehensive numerical simulations to\nrigorously evaluate the performance of these models, further probing the\naccuracy and fidelity of the extracted content in clinical summarization."
+    },
+    {
+        "date": "2025-04",
         "title": "EMRModel: A Large Language Model for Extracting Medical Consultation Dialogues into Structured Medical Records",
         "author": "Shuguang Zhao, Qiangzhong Feng, Zhiyang He, Peipei Sun, Yingying Wang, Xiaodong Tao, Xiaoliang Lu, Mei Cheng, Xinyue Wu, Yanyan Wang, and Wei Liang",
         "link": "http://arxiv.org/abs/2504.16448v1",
@@ -1391,12 +1398,5 @@
         "author": "Eda Yilmaz, and Hacer Yalim Keles",
         "link": "http://arxiv.org/abs/2403.05181v2",
         "abstract": "We introduce Adversarial Sparse Teacher (AST), a robust defense method\nagainst distillation-based model stealing attacks. Our approach trains a\nteacher model using adversarial examples to produce sparse logit responses and\nincrease the entropy of the output distribution. Typically, a model generates a\npeak in its output corresponding to its prediction. By leveraging adversarial\nexamples, AST modifies the teacher model's original response, embedding a few\naltered logits into the output while keeping the primary response slightly\nhigher. Concurrently, all remaining logits are elevated to further increase the\noutput distribution's entropy. All these complex manipulations are performed\nusing an optimization function with our proposed Exponential Predictive\nDivergence (EPD) loss function. EPD allows us to maintain higher entropy levels\ncompared to traditional KL divergence, effectively confusing attackers.\nExperiments on CIFAR-10 and CIFAR-100 datasets demonstrate that AST outperforms\nstate-of-the-art methods, providing effective defense against model stealing\nwhile preserving high accuracy. The source codes will be made publicly\navailable here soon."
-    },
-    {
-        "date": "2024-03",
-        "title": "ChatUIE: Exploring Chat-based Unified Information Extraction using Large Language Models",
-        "author": "Jun Xu, Mengshu Sun, Zhiqiang Zhang, and Jun Zhou",
-        "link": "http://arxiv.org/abs/2403.05132v1",
-        "abstract": "Recent advancements in large language models have shown impressive\nperformance in general chat. However, their domain-specific capabilities,\nparticularly in information extraction, have certain limitations. Extracting\nstructured information from natural language that deviates from known schemas\nor instructions has proven challenging for previous prompt-based methods. This\nmotivated us to explore domain-specific modeling in chat-based language models\nas a solution for extracting structured information from natural language. In\nthis paper, we present ChatUIE, an innovative unified information extraction\nframework built upon ChatGLM. Simultaneously, reinforcement learning is\nemployed to improve and align various tasks that involve confusing and limited\nsamples. Furthermore, we integrate generation constraints to address the issue\nof generating elements that are not present in the input. Our experimental\nresults demonstrate that ChatUIE can significantly improve the performance of\ninformation extraction with a slight decrease in chatting ability."
     }
 ]
