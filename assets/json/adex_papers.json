@@ -44,8 +44,8 @@
     {
         "date": "2025-05",
         "title": "G-FOCUS: Towards a Robust Method for Assessing UI Design Persuasiveness",
-        "author": "Jaehyun Jeon, Janghan Yoon, Minsoo Kim, Sumin Shim, Yejin Choi, Hanbin Kim, and Youngjae Yu",
-        "link": "http://arxiv.org/abs/2505.05026v1",
+        "author": "Jaehyun Jeon, Jang Han Yoon, Min Soo Kim, Sumin Shim, Yejin Choi, Hanbin Kim, and Youngjae Yu",
+        "link": "http://arxiv.org/abs/2505.05026v2",
         "abstract": "Evaluating user interface (UI) design effectiveness extends beyond aesthetics\nto influencing user behavior, a principle central to Design Persuasiveness. A/B\ntesting is the predominant method for determining which UI variations drive\nhigher user engagement, but it is costly and time-consuming. While recent\nVision-Language Models (VLMs) can process automated UI analysis, current\napproaches focus on isolated design attributes rather than comparative\npersuasiveness-the key factor in optimizing user interactions. To address this,\nwe introduce WiserUI-Bench, a benchmark designed for Pairwise UI Design\nPersuasiveness Assessment task, featuring 300 real-world UI image pairs labeled\nwith A/B test results and expert rationales. Additionally, we propose G-FOCUS,\na novel inference-time reasoning strategy that enhances VLM-based\npersuasiveness assessment by reducing position bias and improving evaluation\naccuracy. Experimental results show that G-FOCUS surpasses existing inference\nstrategies in consistency and accuracy for pairwise UI evaluation. Through\npromoting VLM-driven evaluation of UI persuasiveness, our work offers an\napproach to complement A/B testing, propelling progress in scalable UI\npreference modeling and design optimization. Code and data will be released\npublicly."
     },
     {
@@ -814,8 +814,8 @@
     {
         "date": "2025-05",
         "title": "Vehicular Communication Security: Multi-Channel and Multi-Factor Authentication",
-        "author": "Marco De Vincenzi, Shuyang Sun, Chen Bo Calvin Zhang, Manuel Garcia, Shaozu Ding, Chiara Bodei, Ilaria Matteucci, and Dajiang Suo",
-        "link": "http://arxiv.org/abs/2505.00340v1",
+        "author": "Marco De Vincenzi, Shuyang Sun, Chen Bo Calvin Zhang, Manuel Garcia, Shaozu Ding, Chiara Bodei, Ilaria Matteucci, Sanjay E. Sarma, and Dajiang Suo",
+        "link": "http://arxiv.org/abs/2505.00340v2",
         "abstract": "Secure and reliable communications are crucial for Intelligent Transportation\nSystems (ITSs), where Vehicle-to-Infrastructure (V2I) communication plays a key\nrole in enabling mobility-enhancing and safety-critical services. Current V2I\nauthentication relies on credential-based methods over wireless\nNon-Line-of-Sight (NLOS) channels, leaving them exposed to remote impersonation\nand proximity attacks. To mitigate these risks, we propose a unified\nMulti-Channel, Multi-Factor Authentication (MFA) scheme that combines NLOS\ncryptographic credentials with a Line-of-Sight (LOS) visual channel. Our\napproach leverages a challenge-response security paradigm: the infrastructure\nissues challenges and the vehicle's headlights respond by flashing a structured\nsequence containing encoded security data. Deep learning models on the\ninfrastructure side then decode the embedded information to authenticate the\nvehicle. Real-world experimental evaluations demonstrate high test accuracy,\nreaching an average of 95% and 96.6%, respectively, under various lighting,\nweather, speed, and distance conditions. Additionally, we conducted extensive\nexperiments on three state-of-the-art deep learning models, including detailed\nablation studies for decoding the flashing sequence. Our results indicate that\nthe optimal architecture employs a dual-channel design, enabling simultaneous\ndecoding of the flashing sequence and extraction of vehicle spatial and\nlocational features for robust authentication."
     },
     {
@@ -871,7 +871,7 @@
         "date": "2025-04",
         "title": "Sparsification Under Siege: Defending Against Poisoning Attacks in Communication-Efficient Federated Learning",
         "author": "Zhiyong Jin, Runhua Xu, Chao Li, Yizhong Liu, and Jianxin Li",
-        "link": "http://arxiv.org/abs/2505.01454v1",
+        "link": "http://arxiv.org/abs/2505.01454v2",
         "abstract": "Federated Learning (FL) enables collaborative model training across\ndistributed clients while preserving data privacy, yet it faces significant\nchallenges in communication efficiency and vulnerability to poisoning attacks.\nWhile sparsification techniques mitigate communication overhead by transmitting\nonly critical model parameters, they inadvertently amplify security risks:\nadversarial clients can exploit sparse updates to evade detection and degrade\nmodel performance. Existing defense mechanisms, designed for standard FL\ncommunication scenarios, are ineffective in addressing these vulnerabilities\nwithin sparsified FL. To bridge this gap, we propose FLARE, a novel federated\nlearning framework that integrates sparse index mask inspection and model\nupdate sign similarity analysis to detect and mitigate poisoning attacks in\nsparsified FL. Extensive experiments across multiple datasets and adversarial\nscenarios demonstrate that FLARE significantly outperforms existing defense\nstrategies, effectively securing sparsified FL against poisoning attacks while\nmaintaining communication efficiency."
     },
     {
