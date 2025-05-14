@@ -8,6 +8,13 @@
     },
     {
         "date": "2025-05",
+        "title": "DMRL: Data- and Model-aware Reward Learning for Data Extraction",
+        "author": "Zhiqiang Wang, and Ruoxi Cheng",
+        "link": "http://arxiv.org/abs/2505.06284v1",
+        "abstract": "Large language models (LLMs) are inherently vulnerable to unintended privacy\nbreaches. Consequently, systematic red-teaming research is essential for\ndeveloping robust defense mechanisms. However, current data extraction methods\nsuffer from several limitations: (1) rely on dataset duplicates (addressable\nvia deduplication), (2) depend on prompt engineering (now countered by\ndetection and defense), and (3) rely on random-search adversarial generation.\nTo address these challenges, we propose DMRL, a Data- and Model-aware Reward\nLearning approach for data extraction. This technique leverages inverse\nreinforcement learning to extract sensitive data from LLMs. Our method consists\nof two main components: (1) constructing an introspective reasoning dataset\nthat captures leakage mindsets to guide model behavior, and (2) training reward\nmodels with Group Relative Policy Optimization (GRPO), dynamically tuning\noptimization based on task difficulty at both the data and model levels.\nComprehensive experiments across various LLMs demonstrate that DMRL outperforms\nall baseline methods in data extraction performance."
+    },
+    {
+        "date": "2025-05",
         "title": "Non-Adaptive Cryptanalytic Time-Space Lower Bounds via a Shearer-like Inequality for Permutations",
         "author": "Itai Dinur, Nathan Keller, and Avichai Marmor",
         "link": "http://arxiv.org/abs/2505.00894v1",
@@ -339,7 +346,7 @@
         "date": "2025-01",
         "title": "GRID: Protecting Training Graph from Link Stealing Attacks on GNN Models",
         "author": "Jiadong Lou, Xu Yuan, Rui Zhang, Xingliang Yuan, Neil Gong, and Nian-Feng Tzeng",
-        "link": "http://arxiv.org/abs/2501.10985v1",
+        "link": "http://arxiv.org/abs/2501.10985v2",
         "abstract": "Graph neural networks (GNNs) have exhibited superior performance in various\nclassification tasks on graph-structured data. However, they encounter the\npotential vulnerability from the link stealing attacks, which can infer the\npresence of a link between two nodes via measuring the similarity of its\nincident nodes' prediction vectors produced by a GNN model. Such attacks pose\nsevere security and privacy threats to the training graph used in GNN models.\nIn this work, we propose a novel solution, called Graph Link Disguise (GRID),\nto defend against link stealing attacks with the formal guarantee of GNN model\nutility for retaining prediction accuracy. The key idea of GRID is to add\ncarefully crafted noises to the nodes' prediction vectors for disguising\nadjacent nodes as n-hop indirect neighboring nodes. We take into account the\ngraph topology and select only a subset of nodes (called core nodes) covering\nall links for adding noises, which can avert the noises offset and have the\nfurther advantages of reducing both the distortion loss and the computation\ncost. Our crafted noises can ensure 1) the noisy prediction vectors of any two\nadjacent nodes have their similarity level like that of two non-adjacent nodes\nand 2) the model prediction is unchanged to ensure zero utility loss. Extensive\nexperiments on five datasets are conducted to show the effectiveness of our\nproposed GRID solution against different representative link-stealing attacks\nunder transductive settings and inductive settings respectively, as well as two\ninfluence-based attacks. Meanwhile, it achieves a much better privacy-utility\ntrade-off than existing methods when extended to GNNs."
     },
     {
@@ -436,8 +443,8 @@
     {
         "date": "2024-12",
         "title": "Efficient and Comprehensive Feature Extraction in Large Vision-Language Model for Clinical Pathology Analysis",
-        "author": "Shengxuming Zhang, Weihan Li, Tianhong Gao, Jiacong Hu, Haoming Luo, Mingli Song, Xiuming Zhang, and Zunlei Feng",
-        "link": "http://arxiv.org/abs/2412.09521v1",
+        "author": "Shengxuming Zhang, Weihan Li, Tianhong Gao, Jiacong Hu, Haoming Luo, Xiuming Zhang, Jing Zhang, Mingli Song, and Zunlei Feng",
+        "link": "http://arxiv.org/abs/2412.09521v2",
         "abstract": "Pathological diagnosis is vital for determining disease characteristics,\nguiding treatment, and assessing prognosis, relying heavily on detailed,\nmulti-scale analysis of high-resolution whole slide images (WSI). However,\ntraditional pure vision models face challenges of redundant feature extraction,\nwhereas existing large vision-language models (LVLMs) are limited by input\nresolution constraints, hindering their efficiency and accuracy. To overcome\nthese issues, we propose two innovative strategies: the mixed task-guided\nfeature enhancement, which directs feature extraction toward lesion-related\ndetails across scales, and the prompt-guided detail feature completion, which\nintegrates coarse- and fine-grained features from WSI based on specific prompts\nwithout compromising inference speed. Leveraging a comprehensive dataset of\n490,000 samples from diverse pathology tasks-including cancer detection,\ngrading, vascular and neural invasion identification, and so on-we trained the\npathology-specialized LVLM, OmniPath. Extensive experiments demonstrate that\nthis model significantly outperforms existing methods in diagnostic accuracy\nand efficiency, offering an interactive, clinically aligned approach for\nauxiliary diagnosis in a wide range of pathology applications."
     },
     {
@@ -1391,12 +1398,5 @@
         "author": "Maria Mahbub, Gregory M. Dams, Sudarshan Srinivasan, Caitlin Rizy, Ioana Danciu, Jodie Trafton, and Kathryn Knight",
         "link": "http://arxiv.org/abs/2403.12297v1",
         "abstract": "Substance use disorder (SUD) poses a major concern due to its detrimental\neffects on health and society. SUD identification and treatment depend on a\nvariety of factors such as severity, co-determinants (e.g., withdrawal\nsymptoms), and social determinants of health. Existing diagnostic coding\nsystems used by American insurance providers, like the International\nClassification of Diseases (ICD-10), lack granularity for certain diagnoses,\nbut clinicians will add this granularity (as that found within the Diagnostic\nand Statistical Manual of Mental Disorders classification or DSM-5) as\nsupplemental unstructured text in clinical notes. Traditional natural language\nprocessing (NLP) methods face limitations in accurately parsing such diverse\nclinical language. Large Language Models (LLMs) offer promise in overcoming\nthese challenges by adapting to diverse language patterns. This study\ninvestigates the application of LLMs for extracting severity-related\ninformation for various SUD diagnoses from clinical notes. We propose a\nworkflow employing zero-shot learning of LLMs with carefully crafted prompts\nand post-processing techniques. Through experimentation with Flan-T5, an\nopen-source LLM, we demonstrate its superior recall compared to the rule-based\napproach. Focusing on 11 categories of SUD diagnoses, we show the effectiveness\nof LLMs in extracting severity information, contributing to improved risk\nassessment and treatment planning for SUD patients."
-    },
-    {
-        "date": "2024-03",
-        "title": "Towards Model Extraction Attacks in GAN-Based Image Translation via Domain Shift Mitigation",
-        "author": "Di Mi, Yanjun Zhang, Leo Yu Zhang, Shengshan Hu, Qi Zhong, Haizhuan Yuan, and Shirui Pan",
-        "link": "http://arxiv.org/abs/2403.07673v3",
-        "abstract": "Model extraction attacks (MEAs) enable an attacker to replicate the\nfunctionality of a victim deep neural network (DNN) model by only querying its\nAPI service remotely, posing a severe threat to the security and integrity of\npay-per-query DNN-based services. Although the majority of current research on\nMEAs has primarily concentrated on neural classifiers, there is a growing\nprevalence of image-to-image translation (I2IT) tasks in our everyday\nactivities. However, techniques developed for MEA of DNN classifiers cannot be\ndirectly transferred to the case of I2IT, rendering the vulnerability of I2IT\nmodels to MEA attacks often underestimated. This paper unveils the threat of\nMEA in I2IT tasks from a new perspective. Diverging from the traditional\napproach of bridging the distribution gap between attacker queries and victim\ntraining samples, we opt to mitigate the effect caused by the different\ndistributions, known as the domain shift. This is achieved by introducing a new\nregularization term that penalizes high-frequency noise, and seeking a flatter\nminimum to avoid overfitting to the shifted distribution. Extensive experiments\non different image translation tasks, including image super-resolution and\nstyle transfer, are performed on different backbone victim models, and the new\ndesign consistently outperforms the baseline by a large margin across all\nmetrics. A few real-life I2IT APIs are also verified to be extremely vulnerable\nto our attack, emphasizing the need for enhanced defenses and potentially\nrevised API publishing policies."
     }
 ]
