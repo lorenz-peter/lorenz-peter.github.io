@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-05",
+        "title": "On the interplay of Explainability, Privacy and Predictive Performance with Explanation-assisted Model Extraction",
+        "author": "Fatima Ezzeddine, Rinad Akel, Ihab Sbeity, Silvia Giordano, Marc Langheinrich, and Omran Ayoub",
+        "link": "http://arxiv.org/abs/2505.08847v1",
+        "abstract": "Machine Learning as a Service (MLaaS) has gained important attraction as a\nmeans for deploying powerful predictive models, offering ease of use that\nenables organizations to leverage advanced analytics without substantial\ninvestments in specialized infrastructure or expertise. However, MLaaS\nplatforms must be safeguarded against security and privacy attacks, such as\nmodel extraction (MEA) attacks. The increasing integration of explainable AI\n(XAI) within MLaaS has introduced an additional privacy challenge, as attackers\ncan exploit model explanations particularly counterfactual explanations (CFs)\nto facilitate MEA. In this paper, we investigate the trade offs among model\nperformance, privacy, and explainability when employing Differential Privacy\n(DP), a promising technique for mitigating CF facilitated MEA. We evaluate two\ndistinct DP strategies: implemented during the classification model training\nand at the explainer during CF generation."
+    },
+    {
+        "date": "2025-05",
         "title": "CM1 -- A Dataset for Evaluating Few-Shot Information Extraction with Large Vision Language Models",
         "author": "Fabian Wolf, Oliver T\u00fcselmann, Arthur Matei, Lukas Hennies, Christoph Rass, and Gernot A. Fink",
         "link": "http://arxiv.org/abs/2505.04214v1",
@@ -1391,12 +1398,5 @@
         "author": "Ayushi Nirmal, Amrita Bhattacharjee, Paras Sheth, and Huan Liu",
         "link": "http://arxiv.org/abs/2403.12403v2",
         "abstract": "Although social media platforms are a prominent arena for users to engage in\ninterpersonal discussions and express opinions, the facade and anonymity\noffered by social media may allow users to spew hate speech and offensive\ncontent. Given the massive scale of such platforms, there arises a need to\nautomatically identify and flag instances of hate speech. Although several hate\nspeech detection methods exist, most of these black-box methods are not\ninterpretable or explainable by design. To address the lack of\ninterpretability, in this paper, we propose to use state-of-the-art Large\nLanguage Models (LLMs) to extract features in the form of rationales from the\ninput text, to train a base hate speech classifier, thereby enabling faithful\ninterpretability by design. Our framework effectively combines the textual\nunderstanding capabilities of LLMs and the discriminative power of\nstate-of-the-art hate speech classifiers to make these classifiers faithfully\ninterpretable. Our comprehensive evaluation on a variety of English language\nsocial media hate speech datasets demonstrate: (1) the goodness of the\nLLM-extracted rationales, and (2) the surprising retention of detector\nperformance even after training to ensure interpretability. All code and data\nwill be made available at https://github.com/AmritaBh/shield."
-    },
-    {
-        "date": "2024-03",
-        "title": "Leveraging Large Language Models to Extract Information on Substance Use Disorder Severity from Clinical Notes: A Zero-shot Learning Approach",
-        "author": "Maria Mahbub, Gregory M. Dams, Sudarshan Srinivasan, Caitlin Rizy, Ioana Danciu, Jodie Trafton, and Kathryn Knight",
-        "link": "http://arxiv.org/abs/2403.12297v1",
-        "abstract": "Substance use disorder (SUD) poses a major concern due to its detrimental\neffects on health and society. SUD identification and treatment depend on a\nvariety of factors such as severity, co-determinants (e.g., withdrawal\nsymptoms), and social determinants of health. Existing diagnostic coding\nsystems used by American insurance providers, like the International\nClassification of Diseases (ICD-10), lack granularity for certain diagnoses,\nbut clinicians will add this granularity (as that found within the Diagnostic\nand Statistical Manual of Mental Disorders classification or DSM-5) as\nsupplemental unstructured text in clinical notes. Traditional natural language\nprocessing (NLP) methods face limitations in accurately parsing such diverse\nclinical language. Large Language Models (LLMs) offer promise in overcoming\nthese challenges by adapting to diverse language patterns. This study\ninvestigates the application of LLMs for extracting severity-related\ninformation for various SUD diagnoses from clinical notes. We propose a\nworkflow employing zero-shot learning of LLMs with carefully crafted prompts\nand post-processing techniques. Through experimentation with Flan-T5, an\nopen-source LLM, we demonstrate its superior recall compared to the rule-based\napproach. Focusing on 11 categories of SUD diagnoses, we show the effectiveness\nof LLMs in extracting severity information, contributing to improved risk\nassessment and treatment planning for SUD patients."
     }
 ]
