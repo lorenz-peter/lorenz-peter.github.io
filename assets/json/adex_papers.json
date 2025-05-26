@@ -45,8 +45,8 @@
         "date": "2025-05",
         "title": "Adversarial Deep Metric Learning for Cross-Modal Audio-Text Alignment in Open-Vocabulary Keyword Spotting",
         "author": "Youngmoon Jung, Yong-Hyeok Lee, Myunghun Jung, Jaeyoung Roh, Chang Woo Han, and Hoon-Young Cho",
-        "link": "http://arxiv.org/abs/2505.16735v1",
-        "abstract": "For text enrollment-based open-vocabulary keyword spotting (KWS), acoustic\nand text embeddings are typically compared at either the phoneme or utterance\nlevel. To facilitate this, we optimize acoustic and text encoders using deep\nmetric learning (DML), enabling direct comparison of multi-modal embeddings in\na shared embedding space. However, the inherent heterogeneity between audio and\ntext modalities presents a significant challenge. To address this, we propose\nModality Adversarial Learning (MAL), which reduces the domain gap in\nheterogeneous modality representations. Specifically, we train a modality\nclassifier adversarially to encourage both encoders to generate\nmodality-invariant embeddings. Additionally, we apply DML to achieve\nphoneme-level alignment between audio and text, and conduct comprehensive\ncomparisons across various DML objectives. Experiments on the Wall Street\nJournal (WSJ) and LibriPhrase datasets demonstrate the effectiveness of the\nproposed approach."
+        "link": "http://arxiv.org/abs/2505.16735v2",
+        "abstract": "For text enrollment-based open-vocabulary keyword spotting (KWS), acoustic\nand text embeddings are typically compared at either the phoneme or utterance\nlevel. To facilitate this, we optimize acoustic and text encoders using deep\nmetric learning (DML), enabling direct comparison of multi-modal embeddings in\na shared embedding space. However, the inherent heterogeneity between audio and\ntext modalities presents a significant challenge. To address this, we propose\nModality Adversarial Learning (MAL), which reduces the domain gap in\nheterogeneous modality representations. Specifically, we train a modality\nclassifier adversarially to encourage both encoders to generate\nmodality-invariant embeddings. Additionally, we apply DML to achieve\nphoneme-level alignment between audio and text, and conduct extensive\ncomparisons across various DML objectives. Experiments on the Wall Street\nJournal (WSJ) and LibriPhrase datasets demonstrate the effectiveness of the\nproposed approach."
     },
     {
         "date": "2025-05",
@@ -205,8 +205,8 @@
     {
         "date": "2025-05",
         "title": "Robust Invariant Representation Learning by Distribution Extrapolation",
-        "author": "Kotaro Yoshida, and Slavakis Konstantinos",
-        "link": "http://arxiv.org/abs/2505.16126v1",
+        "author": "Kotaro Yoshida, and Konstantinos Slavakis",
+        "link": "http://arxiv.org/abs/2505.16126v2",
         "abstract": "Invariant risk minimization (IRM) aims to enable out-of-distribution (OOD)\ngeneralization in deep learning by learning invariant representations. As IRM\nposes an inherently challenging bi-level optimization problem, most existing\napproaches -- including IRMv1 -- adopt penalty-based single-level\napproximations. However, empirical studies consistently show that these methods\noften fail to outperform well-tuned empirical risk minimization (ERM),\nhighlighting the need for more robust IRM implementations. This work\ntheoretically identifies a key limitation common to many IRM variants: their\npenalty terms are highly sensitive to limited environment diversity and\nover-parameterization, resulting in performance degradation. To address this\nissue, a novel extrapolation-based framework is proposed that enhances\nenvironmental diversity by augmenting the IRM penalty through synthetic\ndistributional shifts. Extensive experiments -- ranging from synthetic setups\nto realistic, over-parameterized scenarios -- demonstrate that the proposed\nmethod consistently outperforms state-of-the-art IRM variants, validating its\neffectiveness and robustness."
     },
     {
@@ -241,7 +241,7 @@
         "date": "2025-05",
         "title": "Challenger: Affordable Adversarial Driving Video Generation",
         "author": "Zhiyuan Xu, Bohan Li, Huan-ang Gao, Mingju Gao, Yong Chen, Ming Liu, Chenxu Yan, Hang Zhao, Shuo Feng, and Hao Zhao",
-        "link": "http://arxiv.org/abs/2505.15880v1",
+        "link": "http://arxiv.org/abs/2505.15880v2",
         "abstract": "Generating photorealistic driving videos has seen significant progress\nrecently, but current methods largely focus on ordinary, non-adversarial\nscenarios. Meanwhile, efforts to generate adversarial driving scenarios often\noperate on abstract trajectory or BEV representations, falling short of\ndelivering realistic sensor data that can truly stress-test autonomous driving\n(AD) systems. In this work, we introduce Challenger, a framework that produces\nphysically plausible yet photorealistic adversarial driving videos. Generating\nsuch videos poses a fundamental challenge: it requires jointly optimizing over\nthe space of traffic interactions and high-fidelity sensor observations.\nChallenger makes this affordable through two techniques: (1) a physics-aware\nmulti-round trajectory refinement process that narrows down candidate\nadversarial maneuvers, and (2) a tailored trajectory scoring function that\nencourages realistic yet adversarial behavior while maintaining compatibility\nwith downstream video synthesis. As tested on the nuScenes dataset, Challenger\ngenerates a diverse range of aggressive driving scenarios-including cut-ins,\nsudden lane changes, tailgating, and blind spot intrusions-and renders them\ninto multiview photorealistic videos. Extensive evaluations show that these\nscenarios significantly increase the collision rate of state-of-the-art\nend-to-end AD models (UniAD, VAD, SparseDrive, and DiffusionDrive), and\nimportantly, adversarial behaviors discovered for one model often transfer to\nothers."
     },
     {
@@ -297,7 +297,7 @@
         "date": "2025-05",
         "title": "On the Robustness of Medical Vision-Language Models: Are they Truly Generalizable?",
         "author": "Raza Imam, Rufael Marew, and Mohammad Yaqub",
-        "link": "http://arxiv.org/abs/2505.15425v1",
+        "link": "http://arxiv.org/abs/2505.15425v2",
         "abstract": "Medical Vision-Language Models (MVLMs) have achieved par excellence\ngeneralization in medical image analysis, yet their performance under noisy,\ncorrupted conditions remains largely untested. Clinical imaging is inherently\nsusceptible to acquisition artifacts and noise; however, existing evaluations\npredominantly assess generally clean datasets, overlooking robustness -- i.e.,\nthe model's ability to perform under real-world distortions. To address this\ngap, we first introduce MediMeta-C, a corruption benchmark that systematically\napplies several perturbations across multiple medical imaging datasets.\nCombined with MedMNIST-C, this establishes a comprehensive robustness\nevaluation framework for MVLMs. We further propose RobustMedCLIP, a visual\nencoder adaptation of a pretrained MVLM that incorporates few-shot tuning to\nenhance resilience against corruptions. Through extensive experiments, we\nbenchmark 5 major MVLMs across 5 medical imaging modalities, revealing that\nexisting models exhibit severe degradation under corruption and struggle with\ndomain-modality tradeoffs. Our findings highlight the necessity of diverse\ntraining and robust adaptation strategies, demonstrating that efficient\nlow-rank adaptation when paired with few-shot tuning, improves robustness while\npreserving generalization across modalities."
     },
     {
