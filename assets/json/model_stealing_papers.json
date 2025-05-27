@@ -10,7 +10,7 @@
         "date": "2025-05",
         "title": "Feature Extraction and Steering for Enhanced Chain-of-Thought Reasoning in Language Models",
         "author": "Zihao Li, Xu Wang, Yuzhe Yang, Ziyu Yao, Haoyi Xiong, and Mengnan Du",
-        "link": "http://arxiv.org/abs/2505.15634v1",
+        "link": "http://arxiv.org/abs/2505.15634v2",
         "abstract": "Large Language Models (LLMs) demonstrate the ability to solve reasoning and\nmathematical problems using the Chain-of-Thought (CoT) technique. Expanding CoT\nlength, as seen in models such as DeepSeek-R1, significantly enhances this\nreasoning for complex problems, but requires costly and high-quality long CoT\ndata and fine-tuning. This work, inspired by the deep thinking paradigm of\nDeepSeek-R1, utilizes a steering technique to enhance the reasoning ability of\nan LLM without external datasets. Our method first employs Sparse Autoencoders\n(SAEs) to extract interpretable features from vanilla CoT. These features are\nthen used to steer the LLM's internal states during generation. Recognizing\nthat many LLMs do not have corresponding pre-trained SAEs, we further introduce\na novel SAE-free steering algorithm, which directly computes steering\ndirections from the residual activations of an LLM, obviating the need for an\nexplicit SAE. Experimental results demonstrate that both our SAE-based and\nsubsequent SAE-free steering algorithms significantly enhance the reasoning\ncapabilities of LLMs."
     },
     {
@@ -304,7 +304,7 @@
         "date": "2025-02",
         "title": "Archetypal SAE: Adaptive and Stable Dictionary Learning for Concept Extraction in Large Vision Models",
         "author": "Thomas Fel, Ekdeep Singh Lubana, Jacob S. Prince, Matthew Kowal, Victor Boutin, Isabel Papadimitriou, Binxu Wang, Martin Wattenberg, Demba Ba, and Talia Konkle",
-        "link": "http://arxiv.org/abs/2502.12892v1",
+        "link": "http://arxiv.org/abs/2502.12892v2",
         "abstract": "Sparse Autoencoders (SAEs) have emerged as a powerful framework for machine\nlearning interpretability, enabling the unsupervised decomposition of model\nrepresentations into a dictionary of abstract, human-interpretable concepts.\nHowever, we reveal a fundamental limitation: existing SAEs exhibit severe\ninstability, as identical models trained on similar datasets can produce\nsharply different dictionaries, undermining their reliability as an\ninterpretability tool. To address this issue, we draw inspiration from the\nArchetypal Analysis framework introduced by Cutler & Breiman (1994) and present\nArchetypal SAEs (A-SAE), wherein dictionary atoms are constrained to the convex\nhull of data. This geometric anchoring significantly enhances the stability of\ninferred dictionaries, and their mildly relaxed variants RA-SAEs further match\nstate-of-the-art reconstruction abilities. To rigorously assess dictionary\nquality learned by SAEs, we introduce two new benchmarks that test (i)\nplausibility, if dictionaries recover \"true\" classification directions and (ii)\nidentifiability, if dictionaries disentangle synthetic concept mixtures. Across\nall evaluations, RA-SAEs consistently yield more structured representations\nwhile uncovering novel, semantically meaningful concepts in large-scale vision\nmodels."
     },
     {
