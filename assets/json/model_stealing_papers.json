@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-05",
+        "title": "A Lightweight Multi-Expert Generative Language Model System for Engineering Information and Knowledge Extraction",
+        "author": "Bogdan Bogachov, and Yaoyao Fiona Zhao",
+        "link": "http://arxiv.org/abs/2505.21109v1",
+        "abstract": "Despite recent advancements in domain adaptation techniques for large\nlanguage models, these methods remain computationally intensive, and the\nresulting models can still exhibit hallucination issues. Most existing\nadaptation methods do not prioritize reducing the computational resources\nrequired for fine-tuning and inference of language models. Hallucination issues\nhave gradually decreased with each new model release. However, they remain\nprevalent in engineering contexts, where generating well-structured text with\nminimal errors and inconsistencies is critical. This work introduces a novel\napproach called the Small Language Graph (SLG), which is a lightweight\nadaptation solution designed to address the two key challenges outlined above.\nThe system is structured in the form of a graph, where each node represents a\nlightweight expert - a small language model fine-tuned on specific and concise\ntexts. The results of this study have shown that SLG was able to surpass\nconventional fine-tuning methods on the Exact Match metric by 3 times.\nAdditionally, the fine-tuning process was 1.7 times faster compared to that of\na larger stand-alone language model. These findings introduce a potential for\nsmall to medium-sized engineering companies to confidently use generative AI\ntechnologies, such as LLMs, without the necessity to invest in expensive\ncomputational resources. Also, the graph architecture and the small size of\nexpert nodes offer a possible opportunity for distributed AI systems, thus\npotentially diverting the global need for expensive centralized compute\nclusters."
+    },
+    {
+        "date": "2025-05",
         "title": "RADEP: A Resilient Adaptive Defense Framework Against Model Extraction Attacks",
         "author": "Amit Chakraborty, Sayyed Farid Ahamed, Sandip Roy, Soumya Banerjee, Kevin Choi, Abdul Rahman, Alison Hu, Edward Bowen, and Sachin Shetty",
         "link": "http://arxiv.org/abs/2505.19364v1",
@@ -1391,12 +1398,5 @@
         "author": "Shanglun Feng, and Florian Tram\u00e8r",
         "link": "http://arxiv.org/abs/2404.00473v1",
         "abstract": "Practitioners commonly download pretrained machine learning models from open\nrepositories and finetune them to fit specific applications. We show that this\npractice introduces a new risk of privacy backdoors. By tampering with a\npretrained model's weights, an attacker can fully compromise the privacy of the\nfinetuning data. We show how to build privacy backdoors for a variety of\nmodels, including transformers, which enable an attacker to reconstruct\nindividual finetuning samples, with a guaranteed success! We further show that\nbackdoored models allow for tight privacy attacks on models trained with\ndifferential privacy (DP). The common optimistic practice of training DP models\nwith loose privacy guarantees is thus insecure if the model is not trusted.\nOverall, our work highlights a crucial and overlooked supply chain attack on\nmachine learning privacy."
-    },
-    {
-        "date": "2024-03",
-        "title": "Efficient Data-Free Model Stealing with Label Diversity",
-        "author": "Yiyong Liu, Rui Wen, Michael Backes, and Yang Zhang",
-        "link": "http://arxiv.org/abs/2404.00108v1",
-        "abstract": "Machine learning as a Service (MLaaS) allows users to query the machine\nlearning model in an API manner, which provides an opportunity for users to\nenjoy the benefits brought by the high-performance model trained on valuable\ndata. This interface boosts the proliferation of machine learning based\napplications, while on the other hand, it introduces the attack surface for\nmodel stealing attacks. Existing model stealing attacks have relaxed their\nattack assumptions to the data-free setting, while keeping the effectiveness.\nHowever, these methods are complex and consist of several components, which\nobscure the core on which the attack really depends. In this paper, we revisit\nthe model stealing problem from a diversity perspective and demonstrate that\nkeeping the generated data samples more diverse across all the classes is the\ncritical point for improving the attack performance. Based on this conjecture,\nwe provide a simplified attack framework. We empirically signify our conjecture\nby evaluating the effectiveness of our attack, and experimental results show\nthat our approach is able to achieve comparable or even better performance\ncompared with the state-of-the-art method. Furthermore, benefiting from the\nabsence of redundant components, our method demonstrates its advantages in\nattack efficiency and query budget."
     }
 ]
