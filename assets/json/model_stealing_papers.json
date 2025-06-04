@@ -262,7 +262,7 @@
         "date": "2025-02",
         "title": "PolyPrompt: Automating Knowledge Extraction from Multilingual Language Models with Dynamic Prompt Generation",
         "author": "Nathan Roll",
-        "link": "http://arxiv.org/abs/2502.19756v1",
+        "link": "http://arxiv.org/abs/2502.19756v2",
         "abstract": "Large language models (LLMs) showcase increasingly impressive English\nbenchmark scores, however their performance profiles remain inconsistent across\nmultilingual settings. To address this gap, we introduce PolyPrompt, a novel,\nparameter-efficient framework for enhancing the multilingual capabilities of\nLLMs. Our method learns a set of trigger tokens for each language through a\ngradient-based search, identifying the input query's language and selecting the\ncorresponding trigger tokens which are prepended to the prompt during\ninference. We perform experiments on two ~1 billion parameter models, with\nevaluations on the global MMLU benchmark across fifteen typologically and\nresource diverse languages, demonstrating accuracy gains of 3.7%-19.9% compared\nto naive and translation-pipeline baselines."
     },
     {
