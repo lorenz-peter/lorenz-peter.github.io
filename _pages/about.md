@@ -9,7 +9,7 @@ profile:
   image: profile_blue.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Researcher</p>
+    <p>Researcher and </p>
     <p>Software Engineer</p>
 
 news: true # includes a list of news items
