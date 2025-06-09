@@ -253,10 +253,10 @@
     },
     {
         "date": "2025-06",
-        "title": "ViTSGMM: A Robust Semi-Supervised Image Recognition Network Using Sparse Labels",
+        "title": "SemiOccam: A Robust Semi-Supervised Image Recognition Network Using Sparse Labels",
         "author": "Rui Yann, and Xianglei Xing",
-        "link": "http://arxiv.org/abs/2506.03582v1",
-        "abstract": "We present ViTSGMM, an image recognition network that leverages\nsemi-supervised learning in a highly efficient manner. Existing works often\nrely on complex training techniques and architectures, while their\ngeneralization ability when dealing with extremely limited labeled data remains\nto be improved. To address these limitations, we construct a hierarchical\nmixture density classification decision mechanism by optimizing mutual\ninformation between feature representations and target classes, compressing\nredundant information while retaining crucial discriminative components.\nExperimental results demonstrate that our method achieves state-of-the-art\nperformance on STL-10 and CIFAR-10/100 datasets when using negligible labeled\nsamples. Notably, this paper also reveals a long-overlooked data leakage issue\nin the STL-10 dataset for semi-supervised learning tasks and removes duplicates\nto ensure the reliability of experimental results. Code available at\nhttps://github.com/Shu1L0n9/ViTSGMM."
+        "link": "http://arxiv.org/abs/2506.03582v2",
+        "abstract": "We present SemiOccam, an image recognition network that leverages\nsemi-supervised learning in a highly efficient manner. Existing works often\nrely on complex training techniques and architectures, requiring hundreds of\nGPU hours for training, while their generalization ability when dealing with\nextremely limited labeled data remains to be improved. To address these\nlimitations, we construct a hierarchical mixture density classification\ndecision mechanism by optimizing mutual information between feature\nrepresentations and target classes, compressing redundant information while\nretaining crucial discriminative components. Experimental results demonstrate\nthat our method achieves state-of-the-art performance on various datasets when\nusing negligible labeled samples, and its simple architecture keeps training\ntime to minute-level. Notably, this paper reveals a long-overlooked data\nleakage issue in the STL-10 dataset for semi-supervised learning tasks and\nremoves duplicates to ensure the reliability of experimental results. We also\nrelease the deduplicated CleanSTL-10 dataset to facilitate fair and reliable\nresearch in future semi-supervised learning. Code available at\nhttps://github.com/Shu1L0n9/SemiOccam."
     },
     {
         "date": "2025-06",
