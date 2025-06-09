@@ -178,8 +178,8 @@
         "date": "2025-04",
         "title": "LauraTSE: Target Speaker Extraction using Auto-Regressive Decoder-Only Language Models",
         "author": "Beilong Tang, Bang Zeng, and Ming Li",
-        "link": "http://arxiv.org/abs/2504.07402v1",
-        "abstract": "We propose LauraTSE, an Auto-Regressive Decoder-Only Language Model for\nTarget Speaker Extraction (TSE) based on the LauraGPT backbone. It employs a\nsmall-scale auto-regressive decoder-only language model which takes the\ncontinuous representations for both the mixture and the reference speeches and\nproduces the first few layers of the target speech's discrete codec\nrepresentations. In addition, a one-step encoder-only language model\nreconstructs the sum of the predicted codec embeddings using both the mixture\nand the reference information. Our approach achieves superior or comparable\nperformance to existing generative and discriminative TSE models. To the best\nof our knowledge, LauraTSE is the first single-task TSE model to leverage an\nauto-regressive decoder-only language model as the backbone."
+        "link": "http://arxiv.org/abs/2504.07402v2",
+        "abstract": "We propose LauraTSE, an Auto-Regressive Decoder-Only Language Model for\nTarget Speaker Extraction built upon the LauraGPT backbone. LauraTSE employs a\nsmall-scale auto-regressive decoder-only language model that generates the\ninitial layers of the target speech's discrete codec representations from the\ncontinuous embeddings of both the mixture and reference speech. These outputs\nserve as coarse-grained predictions. To refine them, a one-step encoder-only\nlanguage model reconstructs the full codec representation by integrating\ninformation from both the mixture and the reference speech, adding fine-grained\ndetails. Our approach achieves superior or comparable performance to existing\nTSE models. Additionally, we conduct ablation studies to investigate the data\nscalability and the contribution of the encoder-only model."
     },
     {
         "date": "2025-03",
