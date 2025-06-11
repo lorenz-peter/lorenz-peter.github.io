@@ -15,6 +15,13 @@
     },
     {
         "date": "2025-06",
+        "title": "AssetDropper: Asset Extraction via Diffusion Models with Reward-Driven Optimization",
+        "author": "Lanjiong Li, Guanhua Zhao, Lingting Zhu, Zeyu Cai, Lequan Yu, Jian Zhang, and Zeyu Wang",
+        "link": "http://arxiv.org/abs/2506.07738v1",
+        "abstract": "Recent research on generative models has primarily focused on creating\nproduct-ready visual outputs; however, designers often favor access to\nstandardized asset libraries, a domain that has yet to be significantly\nenhanced by generative capabilities. Although open-world scenes provide ample\nraw materials for designers, efficiently extracting high-quality, standardized\nassets remains a challenge. To address this, we introduce AssetDropper, the\nfirst framework designed to extract assets from reference images, providing\nartists with an open-world asset palette. Our model adeptly extracts a front\nview of selected subjects from input images, effectively handling complex\nscenarios such as perspective distortion and subject occlusion. We establish a\nsynthetic dataset of more than 200,000 image-subject pairs and a real-world\nbenchmark with thousands more for evaluation, facilitating the exploration of\nfuture research in downstream tasks. Furthermore, to ensure precise asset\nextraction that aligns well with the image prompts, we employ a pre-trained\nreward model to fulfill a closed-loop with feedback. We design the reward model\nto perform an inverse task that pastes the extracted assets back into the\nreference sources, which assists training with additional consistency and\nmitigates hallucination. Extensive experiments show that, with the aid of\nreward-driven optimization, AssetDropper achieves the state-of-the-art results\nin asset extraction. Project page: AssetDropper.github.io."
+    },
+    {
+        "date": "2025-06",
         "title": "A Threat Intelligence Event Extraction Conceptual Model for Cyber Threat Intelligence Feeds",
         "author": "Jamal H. Al-Yasiri, Mohamad Fadli Bin Zolkipli, Nik Fatinah N Mohd Farid, Mohammed Alsamman, and Zainab Ali Mohammed",
         "link": "http://arxiv.org/abs/2506.03551v1",
@@ -115,7 +122,7 @@
         "date": "2025-05",
         "title": "MARVEL: Multi-Agent RTL Vulnerability Extraction using Large Language Models",
         "author": "Luca Collini, Baleegh Ahmad, Joey Ah-kiow, and Ramesh Karri",
-        "link": "http://arxiv.org/abs/2505.11963v1",
+        "link": "http://arxiv.org/abs/2505.11963v2",
         "abstract": "Hardware security verification is a challenging and time-consuming task. For\nthis purpose, design engineers may utilize tools such as formal verification,\nlinters, and functional simulation tests, coupled with analysis and a deep\nunderstanding of the hardware design being inspected. Large Language Models\n(LLMs) have been used to assist during this task, either directly or in\nconjunction with existing tools. We improve the state of the art by proposing\nMARVEL, a multi-agent LLM framework for a unified approach to decision-making,\ntool use, and reasoning. MARVEL mimics the cognitive process of a designer\nlooking for security vulnerabilities in RTL code. It consists of a supervisor\nagent that devises the security policy of the system-on-chips (SoCs) using its\nsecurity documentation. It delegates tasks to validate the security policy to\nindividual executor agents. Each executor agent carries out its assigned task\nusing a particular strategy. Each executor agent may use one or more tools to\nidentify potential security bugs in the design and send the results back to the\nsupervisor agent for further analysis and confirmation. MARVEL includes\nexecutor agents that leverage formal tools, linters, simulation tests,\nLLM-based detection schemes, and static analysis-based checks. We test our\napproach on a known buggy SoC based on OpenTitan from the Hack@DATE\ncompetition. We find that 20 of the 48 issues reported by MARVEL pose security\nvulnerabilities."
     },
     {
@@ -1391,12 +1398,5 @@
         "author": "Qinfeng Li, Zhiqiang Shen, Zhenghan Qin, Yangfan Xie, Xuhong Zhang, Tianyu Du, and Jianwei Yin",
         "link": "http://arxiv.org/abs/2404.11121v2",
         "abstract": "Proprietary large language models (LLMs) have been widely applied in various\nscenarios. Additionally, deploying LLMs on edge devices is trending for\nefficiency and privacy reasons. However, edge deployment of proprietary LLMs\nintroduces new security challenges: edge-deployed models are exposed as\nwhite-box accessible to users, enabling adversaries to conduct effective model\nstealing (MS) attacks. Unfortunately, existing defense mechanisms fail to\nprovide effective protection. Specifically, we identify four critical\nprotection properties that existing methods fail to simultaneously satisfy: (1)\nmaintaining protection after a model is physically copied; (2) authorizing\nmodel access at request level; (3) safeguarding runtime reverse engineering;\n(4) achieving high security with negligible runtime overhead. To address the\nabove issues, we propose TransLinkGuard, a plug-and-play model protection\napproach against model stealing on edge devices. The core part of\nTransLinkGuard is a lightweight authorization module residing in a secure\nenvironment, e.g., TEE. The authorization module can freshly authorize each\nrequest based on its input. Extensive experiments show that TransLinkGuard\nachieves the same security protection as the black-box security guarantees with\nnegligible overhead."
-    },
-    {
-        "date": "2024-04",
-        "title": "A LayoutLMv3-Based Model for Enhanced Relation Extraction in Visually-Rich Documents",
-        "author": "Wiam Adnan, Joel Tang, Yassine Bel Khayat Zouggari, Seif Edinne Laatiri, Laurent Lam, and Fabien Caspani",
-        "link": "http://arxiv.org/abs/2404.10848v1",
-        "abstract": "Document Understanding is an evolving field in Natural Language Processing\n(NLP). In particular, visual and spatial features are essential in addition to\nthe raw text itself and hence, several multimodal models were developed in the\nfield of Visual Document Understanding (VDU). However, while research is mainly\nfocused on Key Information Extraction (KIE), Relation Extraction (RE) between\nidentified entities is still under-studied. For instance, RE is crucial to\nregroup entities or obtain a comprehensive hierarchy of data in a document. In\nthis paper, we present a model that, initialized from LayoutLMv3, can match or\noutperform the current state-of-the-art results in RE applied to Visually-Rich\nDocuments (VRD) on FUNSD and CORD datasets, without any specific pre-training\nand with fewer parameters. We also report an extensive ablation study performed\non FUNSD, highlighting the great impact of certain features and modelization\nchoices on the performances."
     }
 ]
