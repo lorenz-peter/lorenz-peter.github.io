@@ -1,6 +1,20 @@
 [
     {
         "date": "2025-06",
+        "title": "VideoMat: Extracting PBR Materials from Video Diffusion Models",
+        "author": "Jacob Munkberg, Zian Wang, Ruofan Liang, Tianchang Shen, and Jon Hasselgren",
+        "link": "http://arxiv.org/abs/2506.09665v1",
+        "abstract": "We leverage finetuned video diffusion models, intrinsic decomposition of\nvideos, and physically-based differentiable rendering to generate high quality\nmaterials for 3D models given a text prompt or a single image. We condition a\nvideo diffusion model to respect the input geometry and lighting condition.\nThis model produces multiple views of a given 3D model with coherent material\nproperties. Secondly, we use a recent model to extract intrinsics (base color,\nroughness, metallic) from the generated video. Finally, we use the intrinsics\nalongside the generated video in a differentiable path tracer to robustly\nextract PBR materials directly compatible with common content creation tools."
+    },
+    {
+        "date": "2025-06",
+        "title": "GLD-Road:A global-local decoding road network extraction model for remote sensing images",
+        "author": "Ligao Deng, Yupeng Deng, Yu Meng, Jingbo Chen, Zhihao Xi, Diyou Liu, and Qifeng Chu",
+        "link": "http://arxiv.org/abs/2506.09553v1",
+        "abstract": "Road networks are crucial for mapping, autonomous driving, and disaster\nresponse. While manual annotation is costly, deep learning offers efficient\nextraction. Current methods include postprocessing (prone to errors), global\nparallel (fast but misses nodes), and local iterative (accurate but slow). We\npropose GLD-Road, a two-stage model combining global efficiency and local\nprecision. First, it detects road nodes and connects them via a Connect Module.\nThen, it iteratively refines broken roads using local searches, drastically\nreducing computation. Experiments show GLD-Road outperforms state-of-the-art\nmethods, improving APLS by 1.9% (City-Scale) and 0.67% (SpaceNet3). It also\nreduces retrieval time by 40% vs. Sat2Graph (global) and 92% vs. RNGDet++\n(local). The experimental results are available at\nhttps://github.com/ucas-dlg/GLD-Road."
+    },
+    {
+        "date": "2025-06",
         "title": "Simple Yet Effective: Extracting Private Data Across Clients in Federated Fine-Tuning of Large Language Models",
         "author": "Yingqi Hu, Zhuo Zhang, Jingyuan Zhang, Lizhen Qu, and Zenglin Xu",
         "link": "http://arxiv.org/abs/2506.06060v1",
@@ -1384,19 +1398,5 @@
         "author": "Urchade Zaratiana, Nadi Tomeh, Niama El Khbir, Pierre Holat, and Thierry Charnois",
         "link": "http://arxiv.org/abs/2404.12491v1",
         "abstract": "Information extraction (IE) is an important task in Natural Language\nProcessing (NLP), involving the extraction of named entities and their\nrelationships from unstructured text. In this paper, we propose a novel\napproach to this task by formulating it as graph structure learning (GSL). By\nformulating IE as GSL, we enhance the model's ability to dynamically refine and\noptimize the graph structure during the extraction process. This formulation\nallows for better interaction and structure-informed decisions for entity and\nrelation prediction, in contrast to previous models that have separate or\nuntied predictions for these tasks. When compared against state-of-the-art\nbaselines on joint entity and relation extraction benchmarks, our model,\nGraphER, achieves competitive results."
-    },
-    {
-        "date": "2024-04",
-        "title": "AI-Enhanced Cognitive Behavioral Therapy: Deep Learning and Large Language Models for Extracting Cognitive Pathways from Social Media Texts",
-        "author": "Meng Jiang, Yi Jing Yu, Qing Zhao, Jianqiang Li, Changwei Song, Hongzhi Qi, Wei Zhai, Dan Luo, Xiaoqin Wang, Guanghui Fu, and Bing Xiang Yang",
-        "link": "http://arxiv.org/abs/2404.11449v1",
-        "abstract": "Cognitive Behavioral Therapy (CBT) is an effective technique for addressing\nthe irrational thoughts stemming from mental illnesses, but it necessitates\nprecise identification of cognitive pathways to be successfully implemented in\npatient care. In current society, individuals frequently express negative\nemotions on social media on specific topics, often exhibiting cognitive\ndistortions, including suicidal behaviors in extreme cases. Yet, there is a\nnotable absence of methodologies for analyzing cognitive pathways that could\naid psychotherapists in conducting effective interventions online. In this\nstudy, we gathered data from social media and established the task of\nextracting cognitive pathways, annotating the data based on a cognitive\ntheoretical framework. We initially categorized the task of extracting\ncognitive pathways as a hierarchical text classification with four main\ncategories and nineteen subcategories. Following this, we structured a text\nsummarization task to help psychotherapists quickly grasp the essential\ninformation. Our experiments evaluate the performance of deep learning and\nlarge language models (LLMs) on these tasks. The results demonstrate that our\ndeep learning method achieved a micro-F1 score of 62.34% in the hierarchical\ntext classification task. Meanwhile, in the text summarization task, GPT-4\nattained a Rouge-1 score of 54.92 and a Rouge-2 score of 30.86, surpassing the\nexperimental deep learning model's performance. However, it may suffer from an\nissue of hallucination. We have made all models and codes publicly available to\nsupport further research in this field."
-    },
-    {
-        "date": "2024-04",
-        "title": "TransLinkGuard: Safeguarding Transformer Models Against Model Stealing in Edge Deployment",
-        "author": "Qinfeng Li, Zhiqiang Shen, Zhenghan Qin, Yangfan Xie, Xuhong Zhang, Tianyu Du, and Jianwei Yin",
-        "link": "http://arxiv.org/abs/2404.11121v2",
-        "abstract": "Proprietary large language models (LLMs) have been widely applied in various\nscenarios. Additionally, deploying LLMs on edge devices is trending for\nefficiency and privacy reasons. However, edge deployment of proprietary LLMs\nintroduces new security challenges: edge-deployed models are exposed as\nwhite-box accessible to users, enabling adversaries to conduct effective model\nstealing (MS) attacks. Unfortunately, existing defense mechanisms fail to\nprovide effective protection. Specifically, we identify four critical\nprotection properties that existing methods fail to simultaneously satisfy: (1)\nmaintaining protection after a model is physically copied; (2) authorizing\nmodel access at request level; (3) safeguarding runtime reverse engineering;\n(4) achieving high security with negligible runtime overhead. To address the\nabove issues, we propose TransLinkGuard, a plug-and-play model protection\napproach against model stealing on edge devices. The core part of\nTransLinkGuard is a lightweight authorization module residing in a secure\nenvironment, e.g., TEE. The authorization module can freshly authorize each\nrequest based on its input. Extensive experiments show that TransLinkGuard\nachieves the same security protection as the black-box security guarantees with\nnegligible overhead."
     }
 ]
