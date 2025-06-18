@@ -3,7 +3,7 @@
         "date": "2025-06",
         "title": "VideoMat: Extracting PBR Materials from Video Diffusion Models",
         "author": "Jacob Munkberg, Zian Wang, Ruofan Liang, Tianchang Shen, and Jon Hasselgren",
-        "link": "http://arxiv.org/abs/2506.09665v1",
+        "link": "http://arxiv.org/abs/2506.09665v2",
         "abstract": "We leverage finetuned video diffusion models, intrinsic decomposition of\nvideos, and physically-based differentiable rendering to generate high quality\nmaterials for 3D models given a text prompt or a single image. We condition a\nvideo diffusion model to respect the input geometry and lighting condition.\nThis model produces multiple views of a given 3D model with coherent material\nproperties. Secondly, we use a recent model to extract intrinsics (base color,\nroughness, metallic) from the generated video. Finally, we use the intrinsics\nalongside the generated video in a differentiable path tracer to robustly\nextract PBR materials directly compatible with common content creation tools."
     },
     {
