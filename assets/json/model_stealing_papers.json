@@ -1,6 +1,34 @@
 [
     {
         "date": "2025-06",
+        "title": "PARALLELPROMPT: Extracting Parallelism from Large Language Model Queries",
+        "author": "Steven Kolawole, Keshav Santhanam, Virginia Smith, and Pratiksha Thaker",
+        "link": "http://arxiv.org/abs/2506.18728v1",
+        "abstract": "LLM serving systems typically treat user prompts as monolithic inputs,\noptimizing inference through decoding tricks or inter-query batching. However,\nmany real-world prompts contain latent semantic parallelism--decomposable\nstructures where subtasks can be executed independently to reduce latency while\npreserving meaning. We introduce PARALLELPROMPT, the first benchmark for\nmeasuring intra-query parallelism in natural user prompts. Our dataset\ncomprises over 37,000 real-world prompts from public LLM chat logs, each\nannotated with a structured schema capturing task templates, shared context,\nand iteration inputs. These schemas are extracted using LLM-assisted prompting\nwith rule-based multilingual validation. To evaluate the benefits of\ndecomposition, we provide an execution suite that benchmarks serial vs.\nparallel strategies, measuring latency, structural adherence, and semantic\nfidelity. Our results show that intra-query parallelism can be successfully\nparsed in over 75% of curated datasets, unlocking up to 5x speedups on tasks\nlike translation, comprehension, and comparative analysis, with minimal quality\ndegradation. By releasing this benchmark, curation pipeline, and evaluation\nsuite, we provide the first standardized testbed for studying structure-aware\nexecution in LLM serving pipelines."
+    },
+    {
+        "date": "2025-06",
+        "title": "A Large Language Model-based Multi-Agent Framework for Analog Circuits' Sizing Relationships Extraction",
+        "author": "Chengjie Liu, Weiyu Chen, Huiyao Xu, Yuan Du, Jun Yang, and Li Du",
+        "link": "http://arxiv.org/abs/2506.18424v1",
+        "abstract": "In the design process of the analog circuit pre-layout phase, device sizing\nis an important step in determining whether an analog circuit can meet the\nrequired performance metrics. Many existing techniques extract the circuit\nsizing task as a mathematical optimization problem to solve and continuously\nimprove the optimization efficiency from a mathematical perspective. But they\nignore the automatic introduction of prior knowledge, fail to achieve effective\npruning of the search space, which thereby leads to a considerable compression\nmargin remaining in the search space. To alleviate this problem, we propose a\nlarge language model (LLM)-based multi-agent framework for analog circuits'\nsizing relationships extraction from academic papers. The search space in the\nsizing process can be effectively pruned based on the sizing relationship\nextracted by this framework. Eventually, we conducted tests on 3 types of\ncircuits, and the optimization efficiency was improved by $2.32 \\sim 26.6\n\\times$. This work demonstrates that the LLM can effectively prune the search\nspace for analog circuit sizing, providing a new solution for the combination\nof LLMs and conventional analog circuit design automation methods."
+    },
+    {
+        "date": "2025-06",
+        "title": "CEGA: A Cost-Effective Approach for Graph-Based Model Extraction and Acquisition",
+        "author": "Zebin Wang, Menghan Lin, Bolin Shen, Ken Anderson, Molei Liu, Tianxi Cai, and Yushun Dong",
+        "link": "http://arxiv.org/abs/2506.17709v1",
+        "abstract": "Graph Neural Networks (GNNs) have demonstrated remarkable utility across\ndiverse applications, and their growing complexity has made Machine Learning as\na Service (MLaaS) a viable platform for scalable deployment. However, this\naccessibility also exposes GNN to serious security threats, most notably model\nextraction attacks (MEAs), in which adversaries strategically query a deployed\nmodel to construct a high-fidelity replica. In this work, we evaluate the\nvulnerability of GNNs to MEAs and explore their potential for cost-effective\nmodel acquisition in non-adversarial research settings. Importantly, adaptive\nnode querying strategies can also serve a critical role in research,\nparticularly when labeling data is expensive or time-consuming. By selectively\nsampling informative nodes, researchers can train high-performing GNNs with\nminimal supervision, which is particularly valuable in domains such as\nbiomedicine, where annotations often require expert input. To address this, we\npropose a node querying strategy tailored to a highly practical yet\nunderexplored scenario, where bulk queries are prohibited, and only a limited\nset of initial nodes is available. Our approach iteratively refines the node\nselection mechanism over multiple learning cycles, leveraging historical\nfeedback to improve extraction efficiency. Extensive experiments on benchmark\ngraph datasets demonstrate our superiority over comparable baselines on\naccuracy, fidelity, and F1 score under strict query-size constraints. These\nresults highlight both the susceptibility of deployed GNNs to extraction\nattacks and the promise of ethical, efficient GNN acquisition methods to\nsupport low-resource research environments."
+    },
+    {
+        "date": "2025-06",
+        "title": "Context-Aware Scientific Knowledge Extraction on Linked Open Data using Large Language Models",
+        "author": "Sajratul Y. Rubaiat, and Hasan M. Jamil",
+        "link": "http://arxiv.org/abs/2506.17580v1",
+        "abstract": "The exponential growth of scientific literature challenges researchers\nextracting and synthesizing knowledge. Traditional search engines return many\nsources without direct, detailed answers, while general-purpose LLMs may offer\nconcise responses that lack depth or omit current information. LLMs with search\ncapabilities are also limited by context window, yielding short, incomplete\nanswers. This paper introduces WISE (Workflow for Intelligent Scientific\nKnowledge Extraction), a system addressing these limits by using a structured\nworkflow to extract, refine, and rank query-specific knowledge. WISE uses an\nLLM-powered, tree-based architecture to refine data, focusing on query-aligned,\ncontext-aware, and non-redundant information. Dynamic scoring and ranking\nprioritize unique contributions from each source, and adaptive stopping\ncriteria minimize processing overhead. WISE delivers detailed, organized\nanswers by systematically exploring and synthesizing knowledge from diverse\nsources. Experiments on HBB gene-associated diseases demonstrate WISE reduces\nprocessed text by over 80% while achieving significantly higher recall over\nbaselines like search engines and other LLM-based approaches. ROUGE and BLEU\nmetrics reveal WISE's output is more unique than other systems, and a novel\nlevel-based metric shows it provides more in-depth information. We also explore\nhow the WISE workflow can be adapted for diverse domains like drug discovery,\nmaterial science, and social science, enabling efficient knowledge extraction\nand synthesis from unstructured scientific papers and web sources."
+    },
+    {
+        "date": "2025-06",
         "title": "VideoMat: Extracting PBR Materials from Video Diffusion Models",
         "author": "Jacob Munkberg, Zian Wang, Ruofan Liang, Tianchang Shen, and Jon Hasselgren",
         "link": "http://arxiv.org/abs/2506.09665v2",
@@ -876,6 +904,13 @@
     },
     {
         "date": "2024-10",
+        "title": "Leveraging Model Guidance to Extract Training Data from Personalized Diffusion Models",
+        "author": "Xiaoyu Wu, Jiaru Zhang, and Zhiwei Steven Wu",
+        "link": "http://arxiv.org/abs/2410.03039v2",
+        "abstract": "Diffusion Models (DMs) have become powerful image generation tools,\nespecially for few-shot fine-tuning where a pretrained DM is fine-tuned on a\nsmall image set to capture specific styles or objects. Many people upload these\npersonalized checkpoints online, fostering communities such as Civitai and\nHuggingFace. However, model owners may overlook the data leakage risks when\nreleasing fine-tuned checkpoints. Moreover, concerns regarding copyright\nviolations arise when unauthorized data is used during fine-tuning. In this\npaper, we ask: \"Can training data be extracted from these fine-tuned DMs shared\nonline?\" A successful extraction would present not only data leakage threats\nbut also offer tangible evidence of copyright infringement. To answer this, we\npropose FineXtract, a framework for extracting fine-tuning data. Our method\napproximates fine-tuning as a gradual shift in the model's learned distribution\n-- from the original pretrained DM toward the fine-tuning data. By\nextrapolating the models before and after fine-tuning, we guide the generation\ntoward high-probability regions within the fine-tuned data distribution. We\nthen apply a clustering algorithm to extract the most probable images from\nthose generated using this extrapolated guidance. Experiments on DMs fine-tuned\nwith datasets including WikiArt, DreamBooth, and real-world checkpoints posted\nonline validate the effectiveness of our method, extracting about 20% of\nfine-tuning data in most cases. The code is available\nhttps://github.com/Nicholas0228/FineXtract."
+    },
+    {
+        "date": "2024-10",
         "title": "Extracting Training Data from Unconditional Diffusion Models",
         "author": "Yunhao Chen, Shujie Wang, Difan Zou, and Xingjun Ma",
         "link": "http://arxiv.org/abs/2410.02467v6",
@@ -1363,40 +1398,5 @@
         "author": "Menglin Li, and Kwan Hui Lim",
         "link": "http://arxiv.org/abs/2405.06665v1",
         "abstract": "The Financial Relation Extraction (FinRE) task involves identifying the\nentities and their relation, given a piece of financial statement/text. To\nsolve this FinRE problem, we propose a simple but effective strategy that\nimproves the performance of pre-trained language models by augmenting them with\nNamed Entity Recognition (NER) and Part-Of-Speech (POS), as well as different\napproaches to combine these information. Experiments on a financial relations\ndataset show promising results and highlights the benefits of incorporating NER\nand POS in existing models. Our dataset and codes are available at\nhttps://github.com/kwanhui/FinRelExtract."
-    },
-    {
-        "date": "2024-04",
-        "title": "ECC Analyzer: Extract Trading Signal from Earnings Conference Calls using Large Language Model for Stock Performance Prediction",
-        "author": "Yupeng Cao, Zhi Chen, Qingyun Pei, Nathan Jinseok Lee, K. P. Subbalakshmi, and Papa Momar Ndiaye",
-        "link": "http://arxiv.org/abs/2404.18470v2",
-        "abstract": "In the realm of financial analytics, leveraging unstructured data, such as\nearnings conference calls (ECCs), to forecast stock volatility is a critical\nchallenge that has attracted both academics and investors. While previous\nstudies have used multimodal deep learning-based models to obtain a general\nview of ECCs for volatility predicting, they often fail to capture detailed,\ncomplex information. Our research introduces a novel framework: \\textbf{ECC\nAnalyzer}, which utilizes large language models (LLMs) to extract richer, more\npredictive content from ECCs to aid the model's prediction performance. We use\nthe pre-trained large models to extract textual and audio features from ECCs\nand implement a hierarchical information extraction strategy to extract more\nfine-grained information. This strategy first extracts paragraph-level general\ninformation by summarizing the text and then extracts fine-grained focus\nsentences using Retrieval-Augmented Generation (RAG). These features are then\nfused through multimodal feature fusion to perform volatility prediction.\nExperimental results demonstrate that our model outperforms traditional\nanalytical benchmarks, confirming the effectiveness of advanced LLM techniques\nin financial analysis."
-    },
-    {
-        "date": "2024-04",
-        "title": "Learnable Linguistic Watermarks for Tracing Model Extraction Attacks on Large Language Models",
-        "author": "Minhao Bai, Kaiyi Pang, and Yongfeng Huang",
-        "link": "http://arxiv.org/abs/2405.01509v1",
-        "abstract": "In the rapidly evolving domain of artificial intelligence, safeguarding the\nintellectual property of Large Language Models (LLMs) is increasingly crucial.\nCurrent watermarking techniques against model extraction attacks, which rely on\nsignal insertion in model logits or post-processing of generated text, remain\nlargely heuristic. We propose a novel method for embedding learnable linguistic\nwatermarks in LLMs, aimed at tracing and preventing model extraction attacks.\nOur approach subtly modifies the LLM's output distribution by introducing\ncontrolled noise into token frequency distributions, embedding an statistically\nidentifiable controllable watermark.We leverage statistical hypothesis testing\nand information theory, particularly focusing on Kullback-Leibler Divergence,\nto differentiate between original and modified distributions effectively. Our\nwatermarking method strikes a delicate well balance between robustness and\noutput quality, maintaining low false positive/negative rates and preserving\nthe LLM's original performance."
-    },
-    {
-        "date": "2024-04",
-        "title": "Utilizing Large Language Models for Information Extraction from Real Estate Transactions",
-        "author": "Yu Zhao, and Haoxiang Gao",
-        "link": "http://arxiv.org/abs/2404.18043v2",
-        "abstract": "Real estate sales contracts contain crucial information for property\ntransactions, but manual data extraction can be time-consuming and error-prone.\nThis paper explores the application of large language models, specifically\ntransformer-based architectures, for automated information extraction from real\nestate contracts. We discuss challenges, techniques, and future directions in\nleveraging these models to improve efficiency and accuracy in real estate\ncontract analysis. We generated synthetic contracts using the real-world\ntransaction dataset, thereby fine-tuning the large-language model and achieving\nsignificant metrics improvements and qualitative improvements in information\nretrieval and reasoning tasks."
-    },
-    {
-        "date": "2024-04",
-        "title": "Empirical Analysis of Dialogue Relation Extraction with Large Language Models",
-        "author": "Guozheng Li, Zijie Xu, Ziyu Shang, Jiajun Liu, Ke Ji, and Yikai Guo",
-        "link": "http://arxiv.org/abs/2404.17802v1",
-        "abstract": "Dialogue relation extraction (DRE) aims to extract relations between two\narguments within a dialogue, which is more challenging than standard RE due to\nthe higher person pronoun frequency and lower information density in dialogues.\nHowever, existing DRE methods still suffer from two serious issues: (1) hard to\ncapture long and sparse multi-turn information, and (2) struggle to extract\ngolden relations based on partial dialogues, which motivates us to discover\nmore effective methods that can alleviate the above issues. We notice that the\nrise of large language models (LLMs) has sparked considerable interest in\nevaluating their performance across diverse tasks. To this end, we initially\ninvestigate the capabilities of different LLMs in DRE, considering both\nproprietary models and open-source models. Interestingly, we discover that LLMs\nsignificantly alleviate two issues in existing DRE methods. Generally, we have\nfollowing findings: (1) scaling up model size substantially boosts the overall\nDRE performance and achieves exceptional results, tackling the difficulty of\ncapturing long and sparse multi-turn information; (2) LLMs encounter with much\nsmaller performance drop from entire dialogue setting to partial dialogue\nsetting compared to existing methods; (3) LLMs deliver competitive or superior\nperformances under both full-shot and few-shot settings compared to current\nstate-of-the-art; (4) LLMs show modest performances on inverse relations but\nmuch stronger improvements on general relations, and they can handle dialogues\nof various lengths especially for longer sequences."
-    },
-    {
-        "date": "2024-04",
-        "title": "GraphER: A Structure-aware Text-to-Graph Model for Entity and Relation Extraction",
-        "author": "Urchade Zaratiana, Nadi Tomeh, Niama El Khbir, Pierre Holat, and Thierry Charnois",
-        "link": "http://arxiv.org/abs/2404.12491v1",
-        "abstract": "Information extraction (IE) is an important task in Natural Language\nProcessing (NLP), involving the extraction of named entities and their\nrelationships from unstructured text. In this paper, we propose a novel\napproach to this task by formulating it as graph structure learning (GSL). By\nformulating IE as GSL, we enhance the model's ability to dynamically refine and\noptimize the graph structure during the extraction process. This formulation\nallows for better interaction and structure-informed decisions for entity and\nrelation prediction, in contrast to previous models that have separate or\nuntied predictions for these tasks. When compared against state-of-the-art\nbaselines on joint entity and relation extraction benchmarks, our model,\nGraphER, achieves competitive results."
     }
 ]
