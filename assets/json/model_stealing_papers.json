@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-06",
+        "title": "Assessing Risk of Stealing Proprietary Models for Medical Imaging Tasks",
+        "author": "Ankita Raj, Harsh Swaika, Deepankar Varma, and Chetan Arora",
+        "link": "http://arxiv.org/abs/2506.19464v1",
+        "abstract": "The success of deep learning in medical imaging applications has led several\ncompanies to deploy proprietary models in diagnostic workflows, offering\nmonetized services. Even though model weights are hidden to protect the\nintellectual property of the service provider, these models are exposed to\nmodel stealing (MS) attacks, where adversaries can clone the model's\nfunctionality by querying it with a proxy dataset and training a thief model on\nthe acquired predictions. While extensively studied on general vision tasks,\nthe susceptibility of medical imaging models to MS attacks remains inadequately\nexplored. This paper investigates the vulnerability of black-box medical\nimaging models to MS attacks under realistic conditions where the adversary\nlacks access to the victim model's training data and operates with limited\nquery budgets. We demonstrate that adversaries can effectively execute MS\nattacks by using publicly available datasets. To further enhance MS\ncapabilities with limited query budgets, we propose a two-step model stealing\napproach termed QueryWise. This method capitalizes on unlabeled data obtained\nfrom a proxy distribution to train the thief model without incurring additional\nqueries. Evaluation on two medical imaging models for Gallbladder Cancer and\nCOVID-19 classification substantiates the effectiveness of the proposed attack.\nThe source code is available at https://github.com/rajankita/QueryWise."
+    },
+    {
+        "date": "2025-06",
         "title": "PARALLELPROMPT: Extracting Parallelism from Large Language Model Queries",
         "author": "Steven Kolawole, Keshav Santhanam, Virginia Smith, and Pratiksha Thaker",
         "link": "http://arxiv.org/abs/2506.18728v1",
@@ -710,7 +717,7 @@
         "date": "2024-11",
         "title": "Bounding-box Watermarking: Defense against Model Extraction Attacks on Object Detectors",
         "author": "Satoru Koda, and Ikuya Morikawa",
-        "link": "http://arxiv.org/abs/2411.13047v1",
+        "link": "http://arxiv.org/abs/2411.13047v2",
         "abstract": "Deep neural networks (DNNs) deployed in a cloud often allow users to query\nmodels via the APIs. However, these APIs expose the models to model extraction\nattacks (MEAs). In this attack, the attacker attempts to duplicate the target\nmodel by abusing the responses from the API. Backdoor-based DNN watermarking is\nknown as a promising defense against MEAs, wherein the defender injects a\nbackdoor into extracted models via API responses. The backdoor is used as a\nwatermark of the model; if a suspicious model has the watermark (i.e.,\nbackdoor), it is verified as an extracted model. This work focuses on object\ndetection (OD) models. Existing backdoor attacks on OD models are not\napplicable for model watermarking as the defense against MEAs on a realistic\nthreat model. Our proposed approach involves inserting a backdoor into\nextracted models via APIs by stealthily modifying the bounding-boxes (BBs) of\nobjects detected in queries while keeping the OD capability. In our experiments\non three OD datasets, the proposed approach succeeded in identifying the\nextracted models with 100% accuracy in a wide variety of experimental\nscenarios."
     },
     {
@@ -1391,12 +1398,5 @@
         "author": "Hye Sun Yun, David Pogrebitskiy, Iain J. Marshall, and Byron C. Wallace",
         "link": "http://arxiv.org/abs/2405.01686v2",
         "abstract": "Meta-analyses statistically aggregate the findings of different randomized\ncontrolled trials (RCTs) to assess treatment effectiveness. Because this yields\nrobust estimates of treatment effectiveness, results from meta-analyses are\nconsidered the strongest form of evidence. However, rigorous evidence syntheses\nare time-consuming and labor-intensive, requiring manual extraction of data\nfrom individual trials to be synthesized. Ideally, language technologies would\npermit fully automatic meta-analysis, on demand. This requires accurately\nextracting numerical results from individual trials, which has been beyond the\ncapabilities of natural language processing (NLP) models to date. In this work,\nwe evaluate whether modern large language models (LLMs) can reliably perform\nthis task. We annotate (and release) a modest but granular evaluation dataset\nof clinical trial reports with numerical findings attached to interventions,\ncomparators, and outcomes. Using this dataset, we evaluate the performance of\nseven LLMs applied zero-shot for the task of conditionally extracting numerical\nfindings from trial reports. We find that massive LLMs that can accommodate\nlengthy inputs are tantalizingly close to realizing fully automatic\nmeta-analysis, especially for dichotomous (binary) outcomes (e.g., mortality).\nHowever, LLMs -- including ones trained on biomedical texts -- perform poorly\nwhen the outcome measures are complex and tallying the results requires\ninference. This work charts a path toward fully automatic meta-analysis of RCTs\nvia LLMs, while also highlighting the limitations of existing models for this\naim."
-    },
-    {
-        "date": "2024-05",
-        "title": "Enhancing Language Models for Financial Relation Extraction with Named Entities and Part-of-Speech",
-        "author": "Menglin Li, and Kwan Hui Lim",
-        "link": "http://arxiv.org/abs/2405.06665v1",
-        "abstract": "The Financial Relation Extraction (FinRE) task involves identifying the\nentities and their relation, given a piece of financial statement/text. To\nsolve this FinRE problem, we propose a simple but effective strategy that\nimproves the performance of pre-trained language models by augmenting them with\nNamed Entity Recognition (NER) and Part-Of-Speech (POS), as well as different\napproaches to combine these information. Experiments on a financial relations\ndataset show promising results and highlights the benefits of incorporating NER\nand POS in existing models. Our dataset and codes are available at\nhttps://github.com/kwanhui/FinRelExtract."
     }
 ]
