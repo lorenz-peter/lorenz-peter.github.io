@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-06",
+        "title": "A Survey on Model Extraction Attacks and Defenses for Large Language Models",
+        "author": "Kaixiang Zhao, Lincan Li, Kaize Ding, Neil Zhenqiang Gong, Yue Zhao, and Yushun Dong",
+        "link": "http://arxiv.org/abs/2506.22521v1",
+        "abstract": "Model extraction attacks pose significant security threats to deployed\nlanguage models, potentially compromising intellectual property and user\nprivacy. This survey provides a comprehensive taxonomy of LLM-specific\nextraction attacks and defenses, categorizing attacks into functionality\nextraction, training data extraction, and prompt-targeted attacks. We analyze\nvarious attack methodologies including API-based knowledge distillation, direct\nquerying, parameter recovery, and prompt stealing techniques that exploit\ntransformer architectures. We then examine defense mechanisms organized into\nmodel protection, data privacy protection, and prompt-targeted strategies,\nevaluating their effectiveness across different deployment scenarios. We\npropose specialized metrics for evaluating both attack effectiveness and\ndefense performance, addressing the specific challenges of generative language\nmodels. Through our analysis, we identify critical limitations in current\napproaches and propose promising research directions, including integrated\nattack methodologies and adaptive defense mechanisms that balance security with\nmodel utility. This work serves NLP researchers, ML engineers, and security\nprofessionals seeking to protect language models in production environments."
+    },
+    {
+        "date": "2025-06",
         "title": "Extracting Interpretable Models from Tree Ensembles: Computational and Statistical Perspectives",
         "author": "Brian Liu, Rahul Mazumder, and Peter Radchenko",
         "link": "http://arxiv.org/abs/2506.20114v1",
@@ -1391,12 +1398,5 @@
         "author": "Yang Bai, Ge Pei, Jindong Gu, Yong Yang, and Xingjun Ma",
         "link": "http://arxiv.org/abs/2405.05990v2",
         "abstract": "Large language models (LLMs) have achieved remarkable performance on a wide\nrange of tasks. However, recent studies have shown that LLMs can memorize\ntraining data and simple repeated tokens can trick the model to leak the data.\nIn this paper, we take a step further and show that certain special characters\nor their combinations with English letters are stronger memory triggers,\nleading to more severe data leakage. The intuition is that, since LLMs are\ntrained with massive data that contains a substantial amount of special\ncharacters (e.g. structural symbols {, } of JSON files, and @, # in emails and\nonline posts), the model may memorize the co-occurrence between these special\ncharacters and the raw texts. This motivates us to propose a simple but\neffective Special Characters Attack (SCA) to induce training data leakage. Our\nexperiments verify the high effectiveness of SCA against state-of-the-art LLMs:\nthey can leak diverse training data, such as code corpus, web pages, and\npersonally identifiable information, and sometimes generate non-stop outputs as\na byproduct. We further show that the composition of the training data corpus\ncan be revealed by inspecting the leaked data -- one crucial piece of\ninformation for pre-training high-performance LLMs. Our work can help\nunderstand the sensitivity of LLMs to special characters and identify potential\nareas for improvement."
-    },
-    {
-        "date": "2024-05",
-        "title": "Lightweight Spatial Modeling for Combinatorial Information Extraction From Documents",
-        "author": "Yanfei Dong, Lambert Deng, Jiazheng Zhang, Xiaodong Yu, Ting Lin, Francesco Gelli, Soujanya Poria, and Wee Sun Lee",
-        "link": "http://arxiv.org/abs/2405.06701v1",
-        "abstract": "Documents that consist of diverse templates and exhibit complex spatial\nstructures pose a challenge for document entity classification. We propose\nKNN-former, which incorporates a new kind of spatial bias in attention\ncalculation based on the K-nearest-neighbor (KNN) graph of document entities.\nWe limit entities' attention only to their local radius defined by the KNN\ngraph. We also use combinatorial matching to address the one-to-one mapping\nproperty that exists in many documents, where one field has only one\ncorresponding entity. Moreover, our method is highly parameter-efficient\ncompared to existing approaches in terms of the number of trainable parameters.\nDespite this, experiments across various datasets show our method outperforms\nbaselines in most entity types. Many real-world documents exhibit combinatorial\nproperties which can be leveraged as inductive biases to improve extraction\naccuracy, but existing datasets do not cover these documents. To facilitate\nfuture research into these types of documents, we release a new ID document\ndataset that covers diverse templates and languages. We also release enhanced\nannotations for an existing dataset."
     }
 ]
