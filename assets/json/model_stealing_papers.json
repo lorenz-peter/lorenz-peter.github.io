@@ -10,7 +10,7 @@
         "date": "2025-06",
         "title": "Extracting Interpretable Models from Tree Ensembles: Computational and Statistical Perspectives",
         "author": "Brian Liu, Rahul Mazumder, and Peter Radchenko",
-        "link": "http://arxiv.org/abs/2506.20114v1",
+        "link": "http://arxiv.org/abs/2506.20114v2",
         "abstract": "Tree ensembles are non-parametric methods widely recognized for their\naccuracy and ability to capture complex interactions. While these models excel\nat prediction, they are difficult to interpret and may fail to uncover useful\nrelationships in the data. We propose an estimator to extract compact sets of\ndecision rules from tree ensembles. The extracted models are accurate and can\nbe manually examined to reveal relationships between the predictors and the\nresponse. A key novelty of our estimator is the flexibility to jointly control\nthe number of rules extracted and the interaction depth of each rule, which\nimproves accuracy. We develop a tailored exact algorithm to efficiently solve\noptimization problems underlying our estimator and an approximate algorithm for\ncomputing regularization paths, sequences of solutions that correspond to\nvarying model sizes. We also establish novel non-asymptotic prediction error\nbounds for our proposed approach, comparing it to an oracle that chooses the\nbest data-dependent linear combination of the rules in the ensemble subject to\nthe same complexity constraint as our estimator. The bounds illustrate that the\nlarge-sample predictive performance of our estimator is on par with that of the\noracle. Through experiments, we demonstrate that our estimator outperforms\nexisting algorithms for rule extraction."
     },
     {
