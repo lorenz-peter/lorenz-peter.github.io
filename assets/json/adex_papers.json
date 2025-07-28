@@ -360,7 +360,7 @@
         "date": "2025-07",
         "title": "Pulse-Level Simulation of Crosstalk Attacks on Superconducting Quantum Hardware",
         "author": "Syed Emad Uddin Shubha, and Tasnuva Farheen",
-        "link": "http://arxiv.org/abs/2507.16181v1",
+        "link": "http://arxiv.org/abs/2507.16181v2",
         "abstract": "Hardware crosstalk in multi-tenant superconducting quantum computers poses a\nsevere security threat, allowing adversaries to induce targeted errors across\ntenant boundaries by injecting carefully engineered pulses. We present a\nsimulation-based study of active crosstalk attacks at the pulse level,\nanalyzing how adversarial control of pulse timing, shape, amplitude, and\ncoupling can disrupt a victim's computation. Our framework models the\ntime-dependent dynamics of a three-qubit system in the rotating frame,\ncapturing both always-on couplings and injected drive pulses. We examine two\nattack strategies: attacker-first (pulse before victim operation) and\nvictim-first (pulse after), and systematically identify the pulse and coupling\nconfigurations that cause the largest logical errors. Protocol-level\nexperiments on quantum coin flip and XOR classification circuits show that some\nprotocols are highly vulnerable to these attacks, while others remain robust.\nBased on these findings, we discuss practical methods for detection and\nmitigation to improve security in quantum cloud platforms."
     },
     {
