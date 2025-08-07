@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-08",
+        "title": "VisuCraft: Enhancing Large Vision-Language Models for Complex Visual-Guided Creative Content Generation via Structured Information Extraction",
+        "author": "Rongxin Jiang, Robert Long, Chenghao Gu, and Mingrui Yan",
+        "link": "http://arxiv.org/abs/2508.02890v1",
+        "abstract": "This paper introduces VisuCraft, a novel framework designed to significantly\nenhance the capabilities of Large Vision-Language Models (LVLMs) in complex\nvisual-guided creative content generation. Existing LVLMs often exhibit\nlimitations in maintaining high visual fidelity, genuine creativity, and\nprecise adherence to nuanced user instructions when generating long-form texts.\nVisuCraft addresses these challenges by integrating a multimodal structured\ninformation extractor (E) and a dynamic prompt generation module (G). The\nextractor distills fine-grained visual attributes from input images into a\nrich, structured representation, which the dynamic prompt module then combines\nwith user instructions to create highly optimized prompts for underlying LVLMs\n(e.g., LLaVA, InstructBLIP). Evaluated on the self-constructed\nImageStoryGen-500K dataset using VisuGen Metrics (Visual Grounding, Creativity,\nand Instruction Adherence), VisuCraft consistently outperforms baseline LVLMs\nacross tasks like story generation and poetry composition. Our results\ndemonstrate remarkable improvements, particularly in creativity and instruction\nadherence, validating VisuCraft's effectiveness in producing imaginative,\nvisually grounded, and user-aligned long-form creative text. This work unlocks\nnew potential for LVLMs in sophisticated creative AI applications."
+    },
+    {
+        "date": "2025-08",
         "title": "Contextual Graph Transformer: A Small Language Model for Enhanced Engineering Document Information Extraction",
         "author": "Karan Reddy, and Mayukha Pal",
         "link": "http://arxiv.org/abs/2508.02532v1",
@@ -1391,12 +1398,5 @@
         "author": "Zepeng Ding, Ruiyang Ke, Wenhao Huang, Guochao Jiang, Yanda Li, Deqing Yang, and Jiaqing Liang",
         "link": "http://arxiv.org/abs/2406.11455v2",
         "abstract": "Existing research on large language models (LLMs) shows that they can solve\ninformation extraction tasks through multi-step planning. However, their\nextraction behavior on complex sentences and tasks is unstable, emerging issues\nsuch as false positives and missing elements. We observe that decomposing\ncomplex extraction tasks and extracting them step by step can effectively\nimprove LLMs' performance, and the extraction orders of entities significantly\naffect the final results of LLMs. This paper proposes a two-stage multi-step\nmethod for LLM-based information extraction and adopts the RL framework to\nexecute the multi-step planning. We regard sequential extraction as a Markov\ndecision process, build an LLM-based extraction environment, design a decision\nmodule to adaptively provide the optimal order for sequential entity extraction\non different sentences, and utilize the DDQN algorithm to train the decision\nmodel. We also design the rewards and evaluation metrics suitable for the\nextraction results of LLMs. We conduct extensive experiments on multiple public\ndatasets to demonstrate the effectiveness of our method in improving the\ninformation extraction capabilities of LLMs."
-    },
-    {
-        "date": "2024-06",
-        "title": "How Should We Extract Discrete Audio Tokens from Self-Supervised Models?",
-        "author": "Pooneh Mousavi, Jarod Duret, Salah Zaiem, Luca Della Libera, Artem Ploujnikov, Cem Subakan, and Mirco Ravanelli",
-        "link": "http://arxiv.org/abs/2406.10735v1",
-        "abstract": "Discrete audio tokens have recently gained attention for their potential to\nbridge the gap between audio and language processing. Ideal audio tokens must\npreserve content, paralinguistic elements, speaker identity, and many other\naudio details. Current audio tokenization methods fall into two categories:\nSemantic tokens, acquired through quantization of Self-Supervised Learning\n(SSL) models, and Neural compression-based tokens (codecs). Although previous\nstudies have benchmarked codec models to identify optimal configurations, the\nideal setup for quantizing pretrained SSL models remains unclear. This paper\nexplores the optimal configuration of semantic tokens across discriminative and\ngenerative tasks. We propose a scalable solution to train a universal vocoder\nacross multiple SSL layers. Furthermore, an attention mechanism is employed to\nidentify task-specific influential layers, enhancing the adaptability and\nperformance of semantic tokens in diverse audio applications."
     }
 ]
