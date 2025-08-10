@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WizardMath
+title: WizardMath - LLM reasnoning for math problem solving
 date: 2025-08-07 16:40:16
 description: Reasoning capability comparison of open-source and closed source models in math.
 tags: foundation models, reasoning, llms
