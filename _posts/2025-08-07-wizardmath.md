@@ -7,8 +7,9 @@ tags: foundation models, reasoning, llms
 categories: tech
 giscus_comments: true
 ---
+Paper Review
 
-# WizardMath - Paper Review
+**Table of Contents**
 
 - [Summary	2](#summary2)
 - [Analysis Report	2](#analysisreport2)
