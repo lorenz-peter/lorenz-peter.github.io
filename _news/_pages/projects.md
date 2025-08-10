@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of awsome projects.
 nav: true
 nav_order: 3
-display_categories: [awsome, fun]
+display_categories: [work, fun]
 horizontal: false
 ---
 
