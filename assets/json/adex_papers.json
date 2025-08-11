@@ -1130,7 +1130,7 @@
         "date": "2025-07",
         "title": "RANA: Robust Active Learning for Noisy Network Alignment",
         "author": "Yixuan Nan, Xixun Lin, Yanmin Shang, Zhuofan Li, Can Zhao, and Yanan Cao",
-        "link": "http://arxiv.org/abs/2507.22434v1",
+        "link": "http://arxiv.org/abs/2507.22434v2",
         "abstract": "Network alignment has attracted widespread attention in various fields.\nHowever, most existing works mainly focus on the problem of label sparsity,\nwhile overlooking the issue of noise in network alignment, which can\nsubstantially undermine model performance. Such noise mainly includes\nstructural noise from noisy edges and labeling noise caused by human-induced\nand process-driven errors. To address these problems, we propose RANA, a Robust\nActive learning framework for noisy Network Alignment. RANA effectively tackles\nboth structure noise and label noise while addressing the sparsity of anchor\nlink annotations, which can improve the robustness of network alignment models.\nSpecifically, RANA introduces the proposed Noise-aware Selection Module and the\nLabel Denoising Module to address structural noise and labeling noise,\nrespectively. In the first module, we design a noise-aware maximization\nobjective to select node pairs, incorporating a cleanliness score to address\nstructural noise. In the second module, we propose a novel multi-source fusion\ndenoising strategy that leverages model and twin node pairs labeling to provide\nmore accurate labels for node pairs. Empirical results on three real-world\ndatasets demonstrate that RANA outperforms state-of-the-art active\nlearning-based methods in alignment accuracy. Our code is available at\nhttps://github.com/YXNan0110/RANA."
     },
     {
