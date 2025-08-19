@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-08",
+        "title": "Model Interpretability and Rationale Extraction by Input Mask Optimization",
+        "author": "Marc Brinner, and Sina Zarriess",
+        "link": "http://arxiv.org/abs/2508.11388v1",
+        "abstract": "Concurrent to the rapid progress in the development of neural-network based\nmodels in areas like natural language processing and computer vision, the need\nfor creating explanations for the predictions of these black-box models has\nrisen steadily. We propose a new method to generate extractive explanations for\npredictions made by neural networks, that is based on masking parts of the\ninput which the model does not consider to be indicative of the respective\nclass. The masking is done using gradient-based optimization combined with a\nnew regularization scheme that enforces sufficiency, comprehensiveness and\ncompactness of the generated explanation, three properties that are known to be\ndesirable from the related field of rationale extraction in natural language\nprocessing. In this way, we bridge the gap between model interpretability and\nrationale extraction, thereby proving that the latter of which can be performed\nwithout training a specialized model, only on the basis of a trained\nclassifier. We further apply the same method to image inputs and obtain high\nquality explanations for image classifications, which indicates that the\nconditions proposed for rationale extraction in natural language processing are\nmore broadly applicable to different input types."
+    },
+    {
+        "date": "2025-08",
         "title": "Schema Lineage Extraction at Scale: Multilingual Pipelines, Composite Evaluation, and Language-Model Benchmarks",
         "author": "Jiaqi Yin, Yi-Wei Chen, Meng-Lung Lee, and Xiya Liu",
         "link": "http://arxiv.org/abs/2508.07179v1",
@@ -423,8 +430,8 @@
         "date": "2025-04",
         "title": "LauraTSE: Target Speaker Extraction using Auto-Regressive Decoder-Only Language Models",
         "author": "Beilong Tang, Bang Zeng, and Ming Li",
-        "link": "http://arxiv.org/abs/2504.07402v2",
-        "abstract": "We propose LauraTSE, an Auto-Regressive Decoder-Only Language Model for\nTarget Speaker Extraction built upon the LauraGPT backbone. LauraTSE employs a\nsmall-scale auto-regressive decoder-only language model that generates the\ninitial layers of the target speech's discrete codec representations from the\ncontinuous embeddings of both the mixture and reference speech. These outputs\nserve as coarse-grained predictions. To refine them, a one-step encoder-only\nlanguage model reconstructs the full codec representation by integrating\ninformation from both the mixture and the reference speech, adding fine-grained\ndetails. Our approach achieves superior or comparable performance to existing\nTSE models. Additionally, we conduct ablation studies to investigate the data\nscalability and the contribution of the encoder-only model."
+        "link": "http://arxiv.org/abs/2504.07402v3",
+        "abstract": "We propose LauraTSE, an Auto-Regressive Decoder-Only Language Model for\nTarget Speaker Extraction built upon the LauraGPT backbone. LauraTSE employs a\nsmall-scale auto-regressive decoder-only language model that generates the\ninitial layers of the target speech's discrete codec representations from the\ncontinuous embeddings of both the mixture and reference speech. These outputs\nserve as coarse-grained predictions. To refine them, a one-step encoder-only\nlanguage model reconstructs the full codec representation by integrating\ninformation from both the mixture and the reference speech, adding fine-grained\ndetails. Experimental results show that our approach can achieve promising\nperformance. Additionally, we conduct ablation studies to investigate the data\nscalability and the contribution of the encoder-only model."
     },
     {
         "date": "2025-03",
@@ -1391,12 +1398,5 @@
         "author": "Yu Chen, Tianyu Cui, Alexander Capstick, Nan Fletcher-Loyd, and Payam Barnaghi",
         "link": "http://arxiv.org/abs/2406.17885v3",
         "abstract": "In Explainable AI, rule extraction translates model knowledge into logical\nrules, such as IF-THEN statements, crucial for understanding patterns learned\nby black-box models. This could significantly aid in fields like disease\ndiagnosis, disease progression estimation, or drug discovery. However, such\napplication domains often contain imbalanced data, with the class of interest\nunderrepresented. Existing methods inevitably compromise the performance of\nrules for the minor class to maximise the overall performance. As the first\nattempt in this field, we propose a model-agnostic approach for extracting\nrules from specific subgroups of data, featuring automatic rule generation for\nnumerical features. This method enhances the regional explainability of machine\nlearning models and offers wider applicability compared to existing methods. We\nadditionally introduce a new method for selecting features to compose rules,\nreducing computational costs in high-dimensional spaces. Experiments across\nvarious datasets and models demonstrate the effectiveness of our methods."
-    },
-    {
-        "date": "2024-06",
-        "title": "Compact Model Parameter Extraction via Derivative-Free Optimization",
-        "author": "Rafael Perez Martinez, Masaya Iwamoto, Kelly Woo, Zhengliang Bian, Roberto Tinti, Stephen Boyd, and Srabanti Chowdhury",
-        "link": "http://arxiv.org/abs/2406.16355v2",
-        "abstract": "In this paper, we address the problem of compact model parameter extraction\nto simultaneously extract tens of parameters via derivative-free optimization.\nTraditionally, parameter extraction is performed manually by dividing the\ncomplete set of parameters into smaller subsets, each targeting different\noperational regions of the device, a process that can take several days or\nweeks. Our approach streamlines this process by employing derivative-free\noptimization to identify a good parameter set that best fits the compact model\nwithout performing an exhaustive number of simulations. We further enhance the\noptimization process to address three critical issues in device modeling by\ncarefully choosing a loss function that focuses on relative errors rather than\nabsolute errors to ensure consistent performance across different orders of\nmagnitude, prioritizes accuracy in key operational regions above a specific\nthreshold, and reduces sensitivity to outliers. Furthermore, we utilize the\nconcept of train-test split to assess the model fit and avoid overfitting. We\ndemonstrate the effectiveness of our approach by successfully modeling a\ndiamond Schottky diode with the SPICE diode model and a GaN-on-SiC HEMT with\nthe ASM-HEMT model. For the latter, which involves extracting 35 parameters for\nthe ASM-HEMT DC model, we identified the best set of parameters in under 6,000\ntrials. Additional examples using both devices are provided to demonstrate\nrobustness to outliers, showing that an excellent fit is achieved even with\nover 25% of the data purposely corrupted. These examples demonstrate the\npracticality of our approach, highlighting the benefits of derivative-free\noptimization in device modeling."
     }
 ]
