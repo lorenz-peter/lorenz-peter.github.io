@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-08",
+        "title": "Extracting Structured Requirements from Unstructured Building Technical Specifications for Building Information Modeling",
+        "author": "Insaf Nahri, Romain Pinqui\u00e9, Philippe V\u00e9ron, Nicolas Bus, and Mathieu Thorel",
+        "link": "http://arxiv.org/abs/2508.13833v1",
+        "abstract": "This study explores the integration of Building Information Modeling (BIM)\nwith Natural Language Processing (NLP) to automate the extraction of\nrequirements from unstructured French Building Technical Specification (BTS)\ndocuments within the construction industry. Employing Named Entity Recognition\n(NER) and Relation Extraction (RE) techniques, the study leverages the\ntransformer-based model CamemBERT and applies transfer learning with the French\nlanguage model Fr\\_core\\_news\\_lg, both pre-trained on a large French corpus in\nthe general domain. To benchmark these models, additional approaches ranging\nfrom rule-based to deep learning-based methods are developed. For RE, four\ndifferent supervised models, including Random Forest, are implemented using a\ncustom feature vector. A hand-crafted annotated dataset is used to compare the\neffectiveness of NER approaches and RE models. Results indicate that CamemBERT\nand Fr\\_core\\_news\\_lg exhibited superior performance in NER, achieving\nF1-scores over 90\\%, while Random Forest proved most effective in RE, with an\nF1 score above 80\\%. The outcomes are intended to be represented as a knowledge\ngraph in future work to further enhance automatic verification systems."
+    },
+    {
+        "date": "2025-08",
         "title": "Finite Automata Extraction: Low-data World Model Learning as Programs from Gameplay Video",
         "author": "Dave Goel, Matthew Guzdial, and Anurag Sarkar",
         "link": "http://arxiv.org/abs/2508.11836v1",
@@ -423,7 +430,7 @@
         "date": "2025-04",
         "title": "Hallucinations and Key Information Extraction in Medical Texts: A Comprehensive Assessment of Open-Source Large Language Models",
         "author": "Anindya Bijoy Das, Shibbir Ahmed, and Shahnewaz Karim Sakib",
-        "link": "http://arxiv.org/abs/2504.19061v2",
+        "link": "http://arxiv.org/abs/2504.19061v3",
         "abstract": "Clinical summarization is crucial in healthcare as it distills complex\nmedical data into digestible information, enhancing patient understanding and\ncare management. Large language models (LLMs) have shown significant potential\nin automating and improving the accuracy of such summarizations due to their\nadvanced natural language understanding capabilities. These models are\nparticularly applicable in the context of summarizing medical/clinical texts,\nwhere precise and concise information transfer is essential. In this paper, we\ninvestigate the effectiveness of open-source LLMs in extracting key events from\ndischarge reports, including admission reasons, major in-hospital events, and\ncritical follow-up actions. In addition, we also assess the prevalence of\nvarious types of hallucinations in the summaries produced by these models.\nDetecting hallucinations is vital as it directly influences the reliability of\nthe information, potentially affecting patient care and treatment outcomes. We\nconduct comprehensive simulations to rigorously evaluate the performance of\nthese models, further probing the accuracy and fidelity of the extracted\ncontent in clinical summarization. Our results reveal that while the LLMs\n(e.g., Qwen2.5 and DeepSeek-v2) perform quite well in capturing admission\nreasons and hospitalization events, they are generally less consistent when it\ncomes to identifying follow-up recommendations, highlighting broader challenges\nin leveraging LLMs for comprehensive summarization."
     },
     {
@@ -1391,12 +1398,5 @@
         "author": "Lokesh Mishra, Sohayl Dhibi, Yusik Kim, Cesar Berrospi Ramis, Shubham Gupta, Michele Dolfi, and Peter Staar",
         "link": "http://arxiv.org/abs/2406.19102v1",
         "abstract": "Environment, Social, and Governance (ESG) KPIs assess an organization's\nperformance on issues such as climate change, greenhouse gas emissions, water\nconsumption, waste management, human rights, diversity, and policies. ESG\nreports convey this valuable quantitative information through tables.\nUnfortunately, extracting this information is difficult due to high variability\nin the table structure as well as content. We propose Statements, a novel\ndomain agnostic data structure for extracting quantitative facts and related\ninformation. We propose translating tables to statements as a new supervised\ndeep-learning universal information extraction task. We introduce SemTabNet - a\ndataset of over 100K annotated tables. Investigating a family of T5-based\nStatement Extraction Models, our best model generates statements which are 82%\nsimilar to the ground-truth (compared to baseline of 21%). We demonstrate the\nadvantages of statements by applying our model to over 2700 tables from ESG\nreports. The homogeneous nature of statements permits exploratory data analysis\non expansive information found in large collections of ESG reports."
-    },
-    {
-        "date": "2024-06",
-        "title": "Research on Information Extraction of LCSTS Dataset Based on an Improved BERTSum-LSTM Model",
-        "author": "Yiming Chen, Haobin Chen, Simin Liu, Yunyun Liu, Fanhao Zhou, and Bing Wei",
-        "link": "http://arxiv.org/abs/2406.18364v1",
-        "abstract": "With the continuous advancement of artificial intelligence, natural language\nprocessing technology has become widely utilized in various fields. At the same\ntime, there are many challenges in creating Chinese news summaries. First of\nall, the semantics of Chinese news is complex, and the amount of information is\nenormous. Extracting critical information from Chinese news presents a\nsignificant challenge. Second, the news summary should be concise and clear,\nfocusing on the main content and avoiding redundancy. In addition, the\nparticularity of the Chinese language, such as polysemy, word segmentation,\netc., makes it challenging to generate Chinese news summaries. Based on the\nabove, this paper studies the information extraction method of the LCSTS\ndataset based on an improved BERTSum-LSTM model. We improve the BERTSum-LSTM\nmodel to make it perform better in generating Chinese news summaries. The\nexperimental results show that the proposed method has a good effect on\ncreating news summaries, which is of great importance to the construction of\nnews summaries."
     }
 ]
