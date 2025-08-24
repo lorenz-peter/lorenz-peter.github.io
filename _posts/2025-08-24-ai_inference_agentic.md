@@ -13,13 +13,13 @@ giscus_comments: true
 
 Agentic AI is a term describing that an AI is considered as a whole system and can think and act in an environment autonomously. One prominent example is that Agentic AI is an evolution of conversational AI, enabling systems to act more autonomously and proactively. While traditional conversational AI focuses on natural language interactions, agentic AI adds the capability for systems to set goals, make decisions, and take actions to achieve those goals with limited human intervention.
 
-One essential component of these AI systems is Large language models (LLMs). LLMs are usually in the backend, which needs to be trained (pre-trained) and then tuned to a specific task (post-training) [5]. Pre-training and post-training take a lot of effort in data and training, and computing power, and as a result, the models become larger and larger. 
+One essential component of these AI systems is Large language models (LLMs). LLMs are usually in the backend, which needs to be trained (pre-trained) and then tuned to a specific task (post-training) [5]. Pre-training and post-training take a lot of effort in data and training, and computing power, and as a result, the models become larger and larger.
 
 In 2024, Snell et al. [1] stated that “Scaling LLM Test-Time to Compute Optimally Can Be More Effective than Scaling Model Parameters”.  Brown et al. [2] went a step further: At inference, a model should make more than one attempt at a problem. Similarly, Hao et al. [3] introduced “COCONUT” (Chain of Continuous Thought).
 
 ![image](assets/proposal_inference/image.png)
 
-Fig.: Inference will become increasingly important in the future. At inference (aka test-time), the model could make many decisions that have not been discovered. (Image source: https://upaspro.com/inference-time-scaling-vs-training-compute) 
+Fig.: Inference will become increasingly important in the future. At inference (aka test-time), the model could make many decisions that have not been discovered. (Image source: https://upaspro.com/inference-time-scaling-vs-training-compute)
 
 Recently, a first attempt at AI safety assessment has been evaluated [4] on closed-source models. They also proposed a reinforcement-based approach to mitigate safety issues. For mitigating AI safety issues can be mitigated with post-training [5]. [7] states that expanding reasoning with safety improves generalization. [8] found out that increasing inference-time computation improves the adversarial robustness of reasoning LLMs in many cases in terms of reducing the rate of successful attacks.
 
