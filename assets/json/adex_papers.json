@@ -31,7 +31,7 @@
         "date": "2025-08",
         "title": "Publish to Perish: Prompt Injection Attacks on LLM-Assisted Peer Review",
         "author": "Matteo Gioele Collu, Umberto Salviati, Roberto Confalonieri, Mauro Conti, and Giovanni Apruzzese",
-        "link": "http://arxiv.org/abs/2508.20863v1",
+        "link": "http://arxiv.org/abs/2508.20863v2",
         "abstract": "Large Language Models (LLMs) are increasingly being integrated into the\nscientific peer-review process, raising new questions about their reliability\nand resilience to manipulation. In this work, we investigate the potential for\nhidden prompt injection attacks, where authors embed adversarial text within a\npaper's PDF to influence the LLM-generated review. We begin by formalising\nthree distinct threat models that envision attackers with different motivations\n-- not all of which implying malicious intent. For each threat model, we design\nadversarial prompts that remain invisible to human readers yet can steer an\nLLM's output toward the author's desired outcome. Using a user study with\ndomain scholars, we derive four representative reviewing prompts used to elicit\npeer reviews from LLMs. We then evaluate the robustness of our adversarial\nprompts across (i) different reviewing prompts, (ii) different commercial\nLLM-based systems, and (iii) different peer-reviewed papers. Our results show\nthat adversarial prompts can reliably mislead the LLM, sometimes in ways that\nadversely affect a \"honest-but-lazy\" reviewer. Finally, we propose and\nempirically assess methods to reduce detectability of adversarial prompts under\nautomated content checks."
     },
     {
