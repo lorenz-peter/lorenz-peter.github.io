@@ -1,5 +1,26 @@
 [
     {
+        "date": "2025-09",
+        "title": "Speech transformer models for extracting information from baby cries",
+        "author": "Guillem Bonafos, J\u00e9remy Rouch, L\u00e9ny Lego, David Reby, Hugues Patural, Nicolas Mathevon, and R\u00e9my Emonet",
+        "link": "http://arxiv.org/abs/2509.02259v1",
+        "abstract": "Transfer learning using latent representations from pre-trained speech models\nachieves outstanding performance in tasks where labeled data is scarce.\nHowever, their applicability to non-speech data and the specific acoustic\nproperties encoded in these representations remain largely unexplored. In this\nstudy, we investigate both aspects. We evaluate five pre-trained speech models\non eight baby cries datasets, encompassing 115 hours of audio from 960 babies.\nFor each dataset, we assess the latent representations of each model across all\navailable classification tasks. Our results demonstrate that the latent\nrepresentations of these models can effectively classify human baby cries and\nencode key information related to vocal source instability and identity of the\ncrying baby. In addition, a comparison of the architectures and training\nstrategies of these models offers valuable insights for the design of future\nmodels tailored to similar tasks, such as emotion detection."
+    },
+    {
+        "date": "2025-09",
+        "title": "Application Of Large Language Models For The Extraction Of Information From Particle Accelerator Technical Documentation",
+        "author": "Qing Dai, Rasmus Ischebeck, Maruisz Sapinski, and Adam Grycner",
+        "link": "http://arxiv.org/abs/2509.02227v1",
+        "abstract": "The large set of technical documentation of legacy accelerator systems,\ncoupled with the retirement of experienced personnel, underscores the urgent\nneed for efficient methods to preserve and transfer specialized knowledge. This\npaper explores the application of large language models (LLMs), to automate and\nenhance the extraction of information from particle accelerator technical\ndocuments. By exploiting LLMs, we aim to address the challenges of knowledge\nretention, enabling the retrieval of domain expertise embedded in legacy\ndocumentation. We present initial results of adapting LLMs to this specialized\ndomain. Our evaluation demonstrates the effectiveness of LLMs in extracting,\nsummarizing, and organizing knowledge, significantly reducing the risk of\nlosing valuable insights as personnel retire. Furthermore, we discuss the\nlimitations of current LLMs, such as interpretability and handling of rare\ndomain-specific terms, and propose strategies for improvement. This work\nhighlights the potential of LLMs to play a pivotal role in preserving\ninstitutional knowledge and ensuring continuity in highly specialized fields."
+    },
+    {
+        "date": "2025-09",
+        "title": "Extracting OPQRST in Electronic Health Records using Large Language Models with Reasoning",
+        "author": "Zhimeng Luo, Abhibha Gupta, Adam Frisch, and Daqing He",
+        "link": "http://arxiv.org/abs/2509.01885v1",
+        "abstract": "The extraction of critical patient information from Electronic Health Records\n(EHRs) poses significant challenges due to the complexity and unstructured\nnature of the data. Traditional machine learning approaches often fail to\ncapture pertinent details efficiently, making it difficult for clinicians to\nutilize these tools effectively in patient care. This paper introduces a novel\napproach to extracting the OPQRST assessment from EHRs by leveraging the\ncapabilities of Large Language Models (LLMs). We propose to reframe the task\nfrom sequence labeling to text generation, enabling the models to provide\nreasoning steps that mimic a physician's cognitive processes. This approach\nenhances interpretability and adapts to the limited availability of labeled\ndata in healthcare settings. Furthermore, we address the challenge of\nevaluating the accuracy of machine-generated text in clinical contexts by\nproposing a modification to traditional Named Entity Recognition (NER) metrics.\nThis includes the integration of semantic similarity measures, such as the BERT\nScore, to assess the alignment between generated text and the clinical intent\nof the original records. Our contributions demonstrate a significant\nadvancement in the use of AI in healthcare, offering a scalable solution that\nimproves the accuracy and usability of information extraction from EHRs,\nthereby aiding clinicians in making more informed decisions and enhancing\npatient care outcomes."
+    },
+    {
         "date": "2025-08",
         "title": "I Stolenly Swear That I Am Up to (No) Good: Design and Evaluation of Model Stealing Attacks",
         "author": "Daryna Oliynyk, Rudolf Mayer, Kathrin Grosse, and Andreas Rauber",
@@ -1377,26 +1398,5 @@
         "author": "Seethalakshmi Gopalakrishnan, Luciana Garbayo, and Wlodek Zadrozny",
         "link": "http://arxiv.org/abs/2407.10020v1",
         "abstract": "This study explores the potential of natural language models, including large\nlanguage models, to extract causal relations from medical texts, specifically\nfrom Clinical Practice Guidelines (CPGs). The outcomes causality extraction\nfrom Clinical Practice Guidelines for gestational diabetes are presented,\nmarking a first in the field. We report on a set of experiments using variants\nof BERT (BioBERT, DistilBERT, and BERT) and using Large Language Models (LLMs),\nnamely GPT-4 and LLAMA2. Our experiments show that BioBERT performed better\nthan other models, including the Large Language Models, with an average\nF1-score of 0.72. GPT-4 and LLAMA2 results show similar performance but less\nconsistency. We also release the code and an annotated a corpus of causal\nstatements within the Clinical Practice Guidelines for gestational diabetes."
-    },
-    {
-        "date": "2024-07",
-        "title": "Empowering Few-Shot Relation Extraction with The Integration of Traditional RE Methods and Large Language Models",
-        "author": "Ye Liu, Kai Zhang, Aoran Gan, Linan Yue, Feng Hu, Qi Liu, and Enhong Chen",
-        "link": "http://arxiv.org/abs/2407.08967v1",
-        "abstract": "Few-Shot Relation Extraction (FSRE), a subtask of Relation Extraction (RE)\nthat utilizes limited training instances, appeals to more researchers in\nNatural Language Processing (NLP) due to its capability to extract textual\ninformation in extremely low-resource scenarios. The primary methodologies\nemployed for FSRE have been fine-tuning or prompt tuning techniques based on\nPre-trained Language Models (PLMs). Recently, the emergence of Large Language\nModels (LLMs) has prompted numerous researchers to explore FSRE through\nIn-Context Learning (ICL). However, there are substantial limitations\nassociated with methods based on either traditional RE models or LLMs.\nTraditional RE models are hampered by a lack of necessary prior knowledge,\nwhile LLMs fall short in their task-specific capabilities for RE. To address\nthese shortcomings, we propose a Dual-System Augmented Relation Extractor\n(DSARE), which synergistically combines traditional RE models with LLMs.\nSpecifically, DSARE innovatively injects the prior knowledge of LLMs into\ntraditional RE models, and conversely enhances LLMs' task-specific aptitude for\nRE through relation extraction augmentation. Moreover, an Integrated Prediction\nmodule is employed to jointly consider these two respective predictions and\nderive the final results. Extensive experiments demonstrate the efficacy of our\nproposed method."
-    },
-    {
-        "date": "2024-07",
-        "title": "Extracting Training Data from Document-Based VQA Models",
-        "author": "Francesco Pinto, Nathalie Rauschmayr, Florian Tram\u00e8r, Philip Torr, and Federico Tombari",
-        "link": "http://arxiv.org/abs/2407.08707v1",
-        "abstract": "Vision-Language Models (VLMs) have made remarkable progress in document-based\nVisual Question Answering (i.e., responding to queries about the contents of an\ninput document provided as an image). In this work, we show these models can\nmemorize responses for training samples and regurgitate them even when the\nrelevant visual information has been removed. This includes Personal\nIdentifiable Information (PII) repeated once in the training set, indicating\nthese models could divulge memorised sensitive information and therefore pose a\nprivacy risk. We quantitatively measure the extractability of information in\ncontrolled experiments and differentiate between cases where it arises from\ngeneralization capabilities or from memorization. We further investigate the\nfactors that influence memorization across multiple state-of-the-art models and\npropose an effective heuristic countermeasure that empirically prevents the\nextractability of PII."
-    },
-    {
-        "date": "2024-07",
-        "title": "ConceptExpress: Harnessing Diffusion Models for Single-image Unsupervised Concept Extraction",
-        "author": "Shaozhe Hao, Kai Han, Zhengyao Lv, Shihao Zhao, and Kwan-Yee K. Wong",
-        "link": "http://arxiv.org/abs/2407.07077v1",
-        "abstract": "While personalized text-to-image generation has enabled the learning of a\nsingle concept from multiple images, a more practical yet challenging scenario\ninvolves learning multiple concepts within a single image. However, existing\nworks tackling this scenario heavily rely on extensive human annotations. In\nthis paper, we introduce a novel task named Unsupervised Concept Extraction\n(UCE) that considers an unsupervised setting without any human knowledge of the\nconcepts. Given an image that contains multiple concepts, the task aims to\nextract and recreate individual concepts solely relying on the existing\nknowledge from pretrained diffusion models. To achieve this, we present\nConceptExpress that tackles UCE by unleashing the inherent capabilities of\npretrained diffusion models in two aspects. Specifically, a concept\nlocalization approach automatically locates and disentangles salient concepts\nby leveraging spatial correspondence from diffusion self-attention; and based\non the lookup association between a concept and a conceptual token, a\nconcept-wise optimization process learns discriminative tokens that represent\neach individual concept. Finally, we establish an evaluation protocol tailored\nfor the UCE task. Extensive experiments demonstrate that ConceptExpress is a\npromising solution to the UCE task. Our code and data are available at:\nhttps://github.com/haoosz/ConceptExpress"
     }
 ]
