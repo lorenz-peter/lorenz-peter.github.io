@@ -31,8 +31,8 @@
         "date": "2025-09",
         "title": "Revisiting Third-Party Library Detection: A Ground Truth Dataset and Its Implications Across Security Tasks",
         "author": "Jintao Gu, Haolang Lu, Guoshun Nan, Yihan Lin, Kun Wang, Yuchun Guo, Yigui Cao, and Yang Liu",
-        "link": "http://arxiv.org/abs/2509.04091v1",
-        "abstract": "Accurate detection of third-party libraries (TPLs) is fundamental to Android\nsecurity, supporting vulnerability tracking, malware detection, and supply\nchain auditing. Despite many proposed tools, their real-world effectiveness\nremains unclear.We present the first large-scale empirical study of ten\nstate-of-the-art TPL detection techniques across over 6,000 apps, enabled by a\nnew ground truth dataset with precise version-level annotations for both remote\nand local dependencies.Our evaluation exposes tool fragility to R8-era\ntransformations, weak version discrimination, inaccurate correspondence of\ncandidate libraries, difficulty in generalizing similarity thresholds, and\nprohibitive runtime/memory overheads at scale.Beyond tool assessment, we\nfurther analyze how TPLs shape downstream tasks, including vulnerability\nanalysis, malware detection, secret leakage assessment, and LLM-based\nevaluation. From this perspective, our study provides concrete insights into\nhow TPL characteristics affect these tasks and informs future improvements in\nsecurity analysis."
+        "link": "http://arxiv.org/abs/2509.04091v2",
+        "abstract": "Accurate detection of third-party libraries (TPLs) is fundamental to Android\nsecurity, supporting vulnerability tracking, malware detection, and supply\nchain auditing. Despite many proposed tools, their real-world effectiveness\nremains unclear. We present the first large-scale empirical study of ten\nstate-of-the-art TPL detection techniques across over 6,000 apps, enabled by a\nnew ground truth dataset with precise version-level annotations for both remote\nand local dependencies. Our evaluation exposes tool fragility to R8-era\ntransformations, weak version discrimination, inaccurate correspondence of\ncandidate libraries, difficulty in generalizing similarity thresholds, and\nprohibitive runtime/memory overheads at scale. Beyond tool assessment, we\nfurther analyze how TPLs shape downstream tasks, including vulnerability\nanalysis, malware detection, secret leakage assessment, and LLM-based\nevaluation. From this perspective, our study provides concrete insights into\nhow TPL characteristics affect these tasks and informs future improvements in\nsecurity analysis."
     },
     {
         "date": "2025-09",
@@ -275,8 +275,8 @@
     {
         "date": "2025-09",
         "title": "Abex-rat: Synergizing Abstractive Augmentation and Adversarial Training for Classification of Occupational Accident Reports",
-        "author": "Jian Chen, Jinbao Tian, Yunqi Xu, and Zhou Li",
-        "link": "http://arxiv.org/abs/2509.02072v1",
+        "author": "Jian Chen, Jiabao Dou, Jinbao Tian, Yunqi Xu, and Zhou Li",
+        "link": "http://arxiv.org/abs/2509.02072v2",
         "abstract": "The automatic classification of occupational accident reports is a critical\nresearch area for enhancing workplace safety and enabling large-scale risk\nanalysis. However, the severe class imbalance inherent in these real-world\ndatasets often compromises the performance of analytical models, particularly\nfor rare but severe incident types, hindering the development of reliable\nautomated systems. To address this challenge, we propose ABEX-RAT, a novel and\nefficient framework that synergizes generative data augmentation with robust\nadversarial training. Our approach first employs a twostep\nabstractive-expansive (ABEX) pipeline, which leverages a large language model\nto distill core incident semantics and then uses a generative model to create\ndiverse, highquality synthetic samples for underrepresented classes.\nSubsequently, a lightweight classifier is trained on the augmented data using a\ncomputationally efficient random adversarial training (RAT) protocol, which\nstochastically applies perturbations to enhance model generalization and\nrobustness without significant overhead. Experimental results on the public\nOSHA dataset demonstrate that our method achieves new state-of-the-art\nperformance, reaching a macro-F1 score of 90.32% and significantly\noutperforming previous SOTA and fine-tuned large model baselines. Our work\nvalidates that this synergistic strategy is a highly effective and efficient\nalternative to brute-force fine-tuning for specialized, imbalanced\nclassification tasks. The code is publicly available\nat:https://github.com/nxcc-lab/ABEX-RAT."
     },
     {
@@ -667,8 +667,8 @@
     {
         "date": "2025-08",
         "title": "MitoDetect++: A Domain-Robust Pipeline for Mitosis Detection and Atypical Subtyping",
-        "author": "Esha Sadia Nasir, Jiaqi Lv, Mostafa Jahanifer, and Shan E Ahmed Raza",
-        "link": "http://arxiv.org/abs/2509.02586v1",
+        "author": "Esha Sadia Nasir, Jiaqi Lv, Mostafa Jahanifar, and Shan E Ahmed Raza",
+        "link": "http://arxiv.org/abs/2509.02586v2",
         "abstract": "Automated detection and classification of mitotic figures especially\ndistinguishing atypical from normal remain critical challenges in computational\npathology. We present MitoDetect++, a unified deep learning pipeline designed\nfor the MIDOG 2025 challenge, addressing both mitosis detection and atypical\nmitosis classification. For detection (Track 1), we employ a U-Net-based\nencoder-decoder architecture with EfficientNetV2-L as the backbone, enhanced\nwith attention modules, and trained via combined segmentation losses. For\nclassification (Track 2), we leverage the Virchow2 vision transformer,\nfine-tuned efficiently using Low-Rank Adaptation (LoRA) to minimize resource\nconsumption. To improve generalization and mitigate domain shifts, we integrate\nstrong augmentations, focal loss, and group-aware stratified 5-fold\ncross-validation. At inference, we deploy test-time augmentation (TTA) to boost\nrobustness. Our method achieves a balanced accuracy of 0.892 across validation\ndomains, highlighting its clinical applicability and scalability across tasks."
     },
     {
