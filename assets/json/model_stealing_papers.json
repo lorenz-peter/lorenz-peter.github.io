@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-09",
+        "title": "A Study of Large Language Models for Patient Information Extraction: Model Architecture, Fine-Tuning Strategy, and Multi-task Instruction Tuning",
+        "author": "Cheng Peng, Xinyu Dong, Mengxian Lyu, Daniel Paredes, Yaoyun Zhang, and Yonghui Wu",
+        "link": "http://arxiv.org/abs/2509.04753v1",
+        "abstract": "Natural language processing (NLP) is a key technology to extract important\npatient information from clinical narratives to support healthcare\napplications. The rapid development of large language models (LLMs) has\nrevolutionized many NLP tasks in the clinical domain, yet their optimal use in\npatient information extraction tasks requires further exploration. This study\nexamines LLMs' effectiveness in patient information extraction, focusing on LLM\narchitectures, fine-tuning strategies, and multi-task instruction tuning\ntechniques for developing robust and generalizable patient information\nextraction systems. This study aims to explore key concepts of using LLMs for\nclinical concept and relation extraction tasks, including: (1) encoder-only or\ndecoder-only LLMs, (2) prompt-based parameter-efficient fine-tuning (PEFT)\nalgorithms, and (3) multi-task instruction tuning on few-shot learning\nperformance. We benchmarked a suite of LLMs, including encoder-based LLMs\n(BERT, GatorTron) and decoder-based LLMs (GatorTronGPT, Llama 3.1,\nGatorTronLlama), across five datasets. We compared traditional full-size\nfine-tuning and prompt-based PEFT. We explored a multi-task instruction tuning\nframework that combines both tasks across four datasets to evaluate the\nzero-shot and few-shot learning performance using the leave-one-dataset-out\nstrategy."
+    },
+    {
+        "date": "2025-09",
         "title": "Speech transformer models for extracting information from baby cries",
         "author": "Guillem Bonafos, J\u00e9remy Rouch, L\u00e9ny Lego, David Reby, Hugues Patural, Nicolas Mathevon, and R\u00e9my Emonet",
         "link": "http://arxiv.org/abs/2509.02259v1",
@@ -1391,12 +1398,5 @@
         "author": "Mara Schilling-Wilhelmi, Marti\u00f1o R\u00edos-Garc\u00eda, Sherjeel Shabih, Mar\u00eda Victoria Gil, Santiago Miret, Christoph T. Koch, Jos\u00e9 A. M\u00e1rquez, and Kevin Maik Jablonka",
         "link": "http://arxiv.org/abs/2407.16867v2",
         "abstract": "The vast majority of materials science knowledge exists in unstructured\nnatural language, yet structured data is crucial for innovative and systematic\nmaterials design. Traditionally, the field has relied on manual curation and\npartial automation for data extraction for specific use cases. The advent of\nlarge language models (LLMs) represents a significant shift, potentially\nenabling efficient extraction of structured, actionable data from unstructured\ntext by non-experts. While applying LLMs to materials science data extraction\npresents unique challenges, domain knowledge offers opportunities to guide and\nvalidate LLM outputs. This review provides a comprehensive overview of\nLLM-based structured data extraction in materials science, synthesizing current\nknowledge and outlining future directions. We address the lack of standardized\nguidelines and present frameworks for leveraging the synergy between LLMs and\nmaterials science expertise. This work serves as a foundational resource for\nresearchers aiming to harness LLMs for data-driven materials research. The\ninsights presented here could significantly enhance how researchers across\ndisciplines access and utilize scientific information, potentially accelerating\nthe development of novel materials for critical societal needs."
-    },
-    {
-        "date": "2024-07",
-        "title": "Causality extraction from medical text using Large Language Models (LLMs)",
-        "author": "Seethalakshmi Gopalakrishnan, Luciana Garbayo, and Wlodek Zadrozny",
-        "link": "http://arxiv.org/abs/2407.10020v1",
-        "abstract": "This study explores the potential of natural language models, including large\nlanguage models, to extract causal relations from medical texts, specifically\nfrom Clinical Practice Guidelines (CPGs). The outcomes causality extraction\nfrom Clinical Practice Guidelines for gestational diabetes are presented,\nmarking a first in the field. We report on a set of experiments using variants\nof BERT (BioBERT, DistilBERT, and BERT) and using Large Language Models (LLMs),\nnamely GPT-4 and LLAMA2. Our experiments show that BioBERT performed better\nthan other models, including the Large Language Models, with an average\nF1-score of 0.72. GPT-4 and LLAMA2 results show similar performance but less\nconsistency. We also release the code and an annotated a corpus of causal\nstatements within the Clinical Practice Guidelines for gestational diabetes."
     }
 ]
