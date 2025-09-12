@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-09",
+        "title": "Low-Resource Fine-Tuning for Multi-Task Structured Information Extraction with a Billion-Parameter Instruction-Tuned Model",
+        "author": "Yu Cheng Chih, and Yong Hao Hou",
+        "link": "http://arxiv.org/abs/2509.08381v1",
+        "abstract": "Deploying large language models (LLMs) for structured data extraction in\ndomains such as financial compliance reporting, legal document analytics, and\nmultilingual knowledge base construction is often impractical for smaller teams\ndue to the high cost of running large architectures and the difficulty of\npreparing large, high-quality datasets. Most recent instruction-tuning studies\nfocus on seven-billion-parameter or larger models, leaving limited evidence on\nwhether much smaller models can work reliably under low-resource, multi-task\nconditions. This work presents ETLCH, a billion-parameter LLaMA-based model\nfine-tuned with low-rank adaptation on only a few hundred to one thousand\nsamples per task for JSON extraction, knowledge graph extraction, and named\nentity recognition. Despite its small scale, ETLCH outperforms strong baselines\nacross most evaluation metrics, with substantial gains observed even at the\nlowest data scale. These findings demonstrate that well-tuned small models can\ndeliver stable and accurate structured outputs at a fraction of the\ncomputational cost, enabling cost-effective and reliable information extraction\npipelines in resource-constrained environments."
+    },
+    {
+        "date": "2025-09",
         "title": "A Study of Large Language Models for Patient Information Extraction: Model Architecture, Fine-Tuning Strategy, and Multi-task Instruction Tuning",
         "author": "Cheng Peng, Xinyu Dong, Mengxian Lyu, Daniel Paredes, Yaoyun Zhang, and Yonghui Wu",
         "link": "http://arxiv.org/abs/2509.04753v1",
@@ -1391,12 +1398,5 @@
         "author": "Bernardo Consoli, Xizhi Wu, Song Wang, Xinyu Zhao, Yanshan Wang, Justin Rousseau, Tom Hartvigsen, Li Shen, Huanmei Wu, Yifan Peng, Qi Long, Tianlong Chen, and Ying Ding",
         "link": "http://arxiv.org/abs/2407.17126v1",
         "abstract": "Extracting social determinants of health (SDoH) from unstructured medical\nnotes depends heavily on labor-intensive annotations, which are typically\ntask-specific, hampering reusability and limiting sharing. In this study we\nintroduced SDoH-GPT, a simple and effective few-shot Large Language Model (LLM)\nmethod leveraging contrastive examples and concise instructions to extract SDoH\nwithout relying on extensive medical annotations or costly human intervention.\nIt achieved tenfold and twentyfold reductions in time and cost respectively,\nand superior consistency with human annotators measured by Cohen's kappa of up\nto 0.92. The innovative combination of SDoH-GPT and XGBoost leverages the\nstrengths of both, ensuring high accuracy and computational efficiency while\nconsistently maintaining 0.90+ AUROC scores. Testing across three distinct\ndatasets has confirmed its robustness and accuracy. This study highlights the\npotential of leveraging LLMs to revolutionize medical note classification,\ndemonstrating their capability to achieve highly accurate classifications with\nsignificantly reduced time and cost."
-    },
-    {
-        "date": "2024-07",
-        "title": "From Text to Insight: Large Language Models for Materials Science Data Extraction",
-        "author": "Mara Schilling-Wilhelmi, Marti\u00f1o R\u00edos-Garc\u00eda, Sherjeel Shabih, Mar\u00eda Victoria Gil, Santiago Miret, Christoph T. Koch, Jos\u00e9 A. M\u00e1rquez, and Kevin Maik Jablonka",
-        "link": "http://arxiv.org/abs/2407.16867v2",
-        "abstract": "The vast majority of materials science knowledge exists in unstructured\nnatural language, yet structured data is crucial for innovative and systematic\nmaterials design. Traditionally, the field has relied on manual curation and\npartial automation for data extraction for specific use cases. The advent of\nlarge language models (LLMs) represents a significant shift, potentially\nenabling efficient extraction of structured, actionable data from unstructured\ntext by non-experts. While applying LLMs to materials science data extraction\npresents unique challenges, domain knowledge offers opportunities to guide and\nvalidate LLM outputs. This review provides a comprehensive overview of\nLLM-based structured data extraction in materials science, synthesizing current\nknowledge and outlining future directions. We address the lack of standardized\nguidelines and present frameworks for leveraging the synergy between LLMs and\nmaterials science expertise. This work serves as a foundational resource for\nresearchers aiming to harness LLMs for data-driven materials research. The\ninsights presented here could significantly enhance how researchers across\ndisciplines access and utilize scientific information, potentially accelerating\nthe development of novel materials for critical societal needs."
     }
 ]
