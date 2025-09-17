@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-09",
+        "title": "Stabilizing Data-Free Model Extraction",
+        "author": "Dat-Thinh Nguyen, Kim-Hung Le, and Nhien-An Le-Khac",
+        "link": "http://arxiv.org/abs/2509.11159v1",
+        "abstract": "Model extraction is a severe threat to Machine Learning-as-a-Service systems,\nespecially through data-free approaches, where dishonest users can replicate\nthe functionality of a black-box target model without access to realistic data.\nDespite recent advancements, existing data-free model extraction methods suffer\nfrom the oscillating accuracy of the substitute model. This oscillation, which\ncould be attributed to the constant shift in the generated data distribution\nduring the attack, makes the attack impractical since the optimal substitute\nmodel cannot be determined without access to the target model's in-distribution\ndata. Hence, we propose MetaDFME, a novel data-free model extraction method\nthat employs meta-learning in the generator training to reduce the distribution\nshift, aiming to mitigate the substitute model's accuracy oscillation. In\ndetail, we train our generator to iteratively capture the meta-representations\nof the synthetic data during the attack. These meta-representations can be\nadapted with a few steps to produce data that facilitates the substitute model\nto learn from the target model while reducing the effect of distribution\nshifts. Our experiments on popular baseline image datasets, MNIST, SVHN,\nCIFAR-10, and CIFAR-100, demonstrate that MetaDFME outperforms the current\nstate-of-the-art data-free model extraction method while exhibiting a more\nstable substitute model's accuracy during the attack."
+    },
+    {
+        "date": "2025-09",
         "title": "Low-Resource Fine-Tuning for Multi-Task Structured Information Extraction with a Billion-Parameter Instruction-Tuned Model",
         "author": "Yu Cheng Chih, and Yong Hao Hou",
         "link": "http://arxiv.org/abs/2509.08381v1",
@@ -1391,12 +1398,5 @@
         "author": "Julian Neuberger, Lars Ackermann, Han van der Aa, and Stefan Jablonski",
         "link": "http://arxiv.org/abs/2407.18540v1",
         "abstract": "Over the past decade, extensive research efforts have been dedicated to the\nextraction of information from textual process descriptions. Despite the\nremarkable progress witnessed in natural language processing (NLP), information\nextraction within the Business Process Management domain remains predominantly\nreliant on rule-based systems and machine learning methodologies. Data scarcity\nhas so far prevented the successful application of deep learning techniques.\nHowever, the rapid progress in generative large language models (LLMs) makes it\npossible to solve many NLP tasks with very high quality without the need for\nextensive data. Therefore, we systematically investigate the potential of LLMs\nfor extracting information from textual process descriptions, targeting the\ndetection of process elements such as activities and actors, and relations\nbetween them. Using a heuristic algorithm, we demonstrate the suitability of\nthe extracted information for process model generation. Based on a novel\nprompting strategy, we show that LLMs are able to outperform state-of-the-art\nmachine learning approaches with absolute performance improvements of up to 8\\%\n$F_1$ score across three different datasets. We evaluate our prompting strategy\non eight different LLMs, showing it is universally applicable, while also\nanalyzing the impact of certain prompt parts on extraction quality. The number\nof example texts, the specificity of definitions, and the rigour of format\ninstructions are identified as key for improving the accuracy of extracted\ninformation. Our code, prompts, and data are publicly available."
-    },
-    {
-        "date": "2024-07",
-        "title": "SDoH-GPT: Using Large Language Models to Extract Social Determinants of Health (SDoH)",
-        "author": "Bernardo Consoli, Xizhi Wu, Song Wang, Xinyu Zhao, Yanshan Wang, Justin Rousseau, Tom Hartvigsen, Li Shen, Huanmei Wu, Yifan Peng, Qi Long, Tianlong Chen, and Ying Ding",
-        "link": "http://arxiv.org/abs/2407.17126v1",
-        "abstract": "Extracting social determinants of health (SDoH) from unstructured medical\nnotes depends heavily on labor-intensive annotations, which are typically\ntask-specific, hampering reusability and limiting sharing. In this study we\nintroduced SDoH-GPT, a simple and effective few-shot Large Language Model (LLM)\nmethod leveraging contrastive examples and concise instructions to extract SDoH\nwithout relying on extensive medical annotations or costly human intervention.\nIt achieved tenfold and twentyfold reductions in time and cost respectively,\nand superior consistency with human annotators measured by Cohen's kappa of up\nto 0.92. The innovative combination of SDoH-GPT and XGBoost leverages the\nstrengths of both, ensuring high accuracy and computational efficiency while\nconsistently maintaining 0.90+ AUROC scores. Testing across three distinct\ndatasets has confirmed its robustness and accuracy. This study highlights the\npotential of leveraging LLMs to revolutionize medical note classification,\ndemonstrating their capability to achieve highly accurate classifications with\nsignificantly reduced time and cost."
     }
 ]
