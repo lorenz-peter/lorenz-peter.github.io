@@ -66,7 +66,7 @@
         "date": "2025-09",
         "title": "Threat Modeling for Enhancing Security of IoT Audio Classification Devices under a Secure Protocols Framework",
         "author": "Sergio Benlloch-Lopez, Miquel Viel-Vazquez, Javier Naranjo-Alcazar, Jordi Grau-Haro, and Pedro Zuccarello",
-        "link": "http://arxiv.org/abs/2509.14657v1",
+        "link": "http://arxiv.org/abs/2509.14657v2",
         "abstract": "The rapid proliferation of IoT nodes equipped with microphones and capable of\nperforming on-device audio classification exposes highly sensitive data while\noperating under tight resource constraints. To protect against this, we present\na defence-in-depth architecture comprising a security protocol that treats the\nedge device, cellular network and cloud backend as three separate trust\ndomains, linked by TPM-based remote attestation and mutually authenticated TLS\n1.3. A STRIDE-driven threat model and attack-tree analysis guide the design. At\nstartup, each boot stage is measured into TPM PCRs. The node can only decrypt\nits LUKS-sealed partitions after the cloud has verified a TPM quote and\nreleased a one-time unlock key. This ensures that rogue or tampered devices\nremain inert. Data in transit is protected by TLS 1.3 and hybridised with Kyber\nand Dilithium to provide post-quantum resilience. Meanwhile, end-to-end\nencryption and integrity hashes safeguard extracted audio features. Signed,\nrollback-protected AI models and tamper-responsive sensors harden firmware and\nhardware. Data at rest follows a 3-2-1 strategy comprising a solid-state drive\nsealed with LUKS, an offline cold archive encrypted with a hybrid post-quantum\ncipher and an encrypted cloud replica. Finally, we set out a plan for\nevaluating the physical and logical security of the proposed protocol."
     },
     {
@@ -122,14 +122,14 @@
         "date": "2025-09",
         "title": "TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning",
         "author": "Ziyuan Chen, Zhenghui Zhao, Zhangye Han, Miancan Liu, Xianhang Ye, Yiqing Li, Hongbo Min, Jinkui Ren, Xiantao Zhang, and Guitao Cao",
-        "link": "http://arxiv.org/abs/2509.14172v1",
+        "link": "http://arxiv.org/abs/2509.14172v2",
         "abstract": "With the rapid advancement of large language models and vision-language\nmodels, employing large models as Web Agents has become essential for automated\nweb interaction. However, training Web Agents with reinforcement learning faces\ncritical challenges including credit assignment misallocation, prohibitively\nhigh annotation costs, and reward sparsity. To address these issues, we propose\nTree-Guided Preference Optimization (TGPO), an offline reinforcement learning\nframework that proposes a tree-structured trajectory representation merging\nsemantically identical states across trajectories to eliminate label conflicts.\nOur framework incorporates a Process Reward Model that automatically generates\nfine-grained rewards through subgoal progress, redundancy detection, and action\nverification. Additionally, a dynamic weighting mechanism prioritizes\nhigh-impact decision points during training. Experiments on Online-Mind2Web and\nour self-constructed C-WebShop datasets demonstrate that TGPO significantly\noutperforms existing methods, achieving higher success rates with fewer\nredundant steps."
     },
     {
         "date": "2025-09",
         "title": "Cybersecurity AI: Humanoid Robots as Attack Vectors",
         "author": "V\u00edctor Mayoral-Vilches",
-        "link": "http://arxiv.org/abs/2509.14139v1",
+        "link": "http://arxiv.org/abs/2509.14139v2",
         "abstract": "We present a systematic security assessment of the Unitree G1 humanoid\nshowing it operates simultaneously as a covert surveillance node and can be\npurposed as an active cyber operations platform. Partial reverse engineering of\nUnitree's proprietary FMX encryption reveal a static Blowfish-ECB layer and a\npredictable LCG mask-enabled inspection of the system's otherwise sophisticated\nsecurity architecture, the most mature we have observed in commercial robotics.\nTwo empirical case studies expose the critical risk of this humanoid robot: (a)\nthe robot functions as a trojan horse, continuously exfiltrating multi-modal\nsensor and service-state telemetry to 43.175.228.18:17883 and\n43.175.229.18:17883 every 300 seconds without operator notice, creating\nviolations of GDPR Articles 6 and 13; (b) a resident Cybersecurity AI (CAI)\nagent can pivot from reconnaissance to offensive preparation against any\ntarget, such as the manufacturer's cloud control plane, demonstrating\nescalation from passive monitoring to active counter-operations. These findings\nargue for adaptive CAI-powered defenses as humanoids move into critical\ninfrastructure, contributing the empirical evidence needed to shape future\nsecurity standards for physical-cyber convergence systems."
     },
     {
@@ -157,7 +157,7 @@
         "date": "2025-09",
         "title": "Towards Robust Defense against Customization via Protective Perturbation Resistant to Diffusion-based Purification",
         "author": "Wenkui Yang, Jie Cao, Junxian Duan, and Ran He",
-        "link": "http://arxiv.org/abs/2509.13922v1",
+        "link": "http://arxiv.org/abs/2509.13922v2",
         "abstract": "Diffusion models like Stable Diffusion have become prominent in visual\nsynthesis tasks due to their powerful customization capabilities, which also\nintroduce significant security risks, including deepfakes and copyright\ninfringement. In response, a class of methods known as protective perturbation\nemerged, which mitigates image misuse by injecting imperceptible adversarial\nnoise. However, purification can remove protective perturbations, thereby\nexposing images again to the risk of malicious forgery. In this work, we\nformalize the anti-purification task, highlighting challenges that hinder\nexisting approaches, and propose a simple diagnostic protective perturbation\nnamed AntiPure. AntiPure exposes vulnerabilities of purification within the\n\"purification-customization\" workflow, owing to two guidance mechanisms: 1)\nPatch-wise Frequency Guidance, which reduces the model's influence over\nhigh-frequency components in the purified image, and 2) Erroneous Timestep\nGuidance, which disrupts the model's denoising strategy across different\ntimesteps. With additional guidance, AntiPure embeds imperceptible\nperturbations that persist under representative purification settings,\nachieving effective post-customization distortion. Experiments show that, as a\nstress test for purification, AntiPure achieves minimal perceptual discrepancy\nand maximal distortion, outperforming other protective perturbation methods\nwithin the purification-customization workflow."
     },
     {
@@ -801,7 +801,7 @@
         "date": "2025-09",
         "title": "Online Robust Planning under Model Uncertainty: A Sample-Based Approach",
         "author": "Tamir Shazman, Idan Lev-Yehudi, Ron Benchetit, and Vadim Indelman",
-        "link": "http://arxiv.org/abs/2509.10162v1",
+        "link": "http://arxiv.org/abs/2509.10162v2",
         "abstract": "Online planning in Markov Decision Processes (MDPs) enables agents to make\nsequential decisions by simulating future trajectories from the current state,\nmaking it well-suited for large-scale or dynamic environments. Sample-based\nmethods such as Sparse Sampling and Monte Carlo Tree Search (MCTS) are widely\nadopted for their ability to approximate optimal actions using a generative\nmodel. However, in practical settings, the generative model is often learned\nfrom limited data, introducing approximation errors that can degrade\nperformance or lead to unsafe behaviors. To address these challenges, Robust\nMDPs (RMDPs) offer a principled framework for planning under model uncertainty,\nyet existing approaches are typically computationally intensive and not suited\nfor real-time use. In this work, we introduce Robust Sparse Sampling (RSS), the\nfirst online planning algorithm for RMDPs with finite-sample theoretical\nperformance guarantees. Unlike Sparse Sampling, which estimates the nominal\nvalue function, RSS computes a robust value function by leveraging the\nefficiency and theoretical properties of Sample Average Approximation (SAA),\nenabling tractable robust policy computation in online settings. RSS is\napplicable to infinite or continuous state spaces, and its sample and\ncomputational complexities are independent of the state space size. We provide\ntheoretical performance guarantees and empirically show that RSS outperforms\nstandard Sparse Sampling in environments with uncertain dynamics."
     },
     {
@@ -1277,7 +1277,7 @@
         "date": "2025-09",
         "title": "When Secure Isn't: Assessing the Security of Machine Learning Model Sharing",
         "author": "Gabriele Digregorio, Marco Di Gennaro, Stefano Zanero, Stefano Longari, and Michele Carminati",
-        "link": "http://arxiv.org/abs/2509.06703v1",
+        "link": "http://arxiv.org/abs/2509.06703v2",
         "abstract": "The rise of model-sharing through frameworks and dedicated hubs makes Machine\nLearning significantly more accessible. Despite their benefits, these tools\nexpose users to underexplored security risks, while security awareness remains\nlimited among both practitioners and developers. To enable a more\nsecurity-conscious culture in Machine Learning model sharing, in this paper we\nevaluate the security posture of frameworks and hubs, assess whether\nsecurity-oriented mechanisms offer real protection, and survey how users\nperceive the security narratives surrounding model sharing. Our evaluation\nshows that most frameworks and hubs address security risks partially at best,\noften by shifting responsibility to the user. More concerningly, our analysis\nof frameworks advertising security-oriented settings and complete model sharing\nuncovered six 0-day vulnerabilities enabling arbitrary code execution. Through\nthis analysis, we debunk the misconceptions that the model-sharing problem is\nlargely solved and that its security can be guaranteed by the file format used\nfor sharing. As expected, our survey shows that the surrounding security\nnarrative leads users to consider security-oriented settings as trustworthy,\ndespite the weaknesses shown in this work. From this, we derive takeaways and\nsuggestions to strengthen the security of model-sharing ecosystems."
     },
     {
