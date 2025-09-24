@@ -1,6 +1,20 @@
 [
     {
         "date": "2025-09",
+        "title": "Delving into Cryptanalytic Extraction of PReLU Neural Networks",
+        "author": "Yi Chen, Xiaoyang Dong, Ruijie Ma, Yantian Shen, Anyu Wang, Hongbo Yu, and Xiaoyun Wang",
+        "link": "http://arxiv.org/abs/2509.16620v1",
+        "abstract": "The machine learning problem of model extraction was first introduced in 1991\nand gained prominence as a cryptanalytic challenge starting with Crypto 2020.\nFor over three decades, research in this field has primarily focused on\nReLU-based neural networks. In this work, we take the first step towards the\ncryptanalytic extraction of PReLU neural networks, which employ more complex\nnonlinear activation functions than their ReLU counterparts. We propose a raw\noutput-based parameter recovery attack for PReLU networks and extend it to more\nrestrictive scenarios where only the top-m probability scores are accessible.\nOur attacks are rigorously evaluated through end-to-end experiments on diverse\nPReLU neural networks, including models trained on the MNIST dataset. To the\nbest of our knowledge, this is the first practical demonstration of PReLU\nneural network extraction across three distinct attack scenarios."
+    },
+    {
+        "date": "2025-09",
+        "title": "Train to Defend: First Defense Against Cryptanalytic Neural Network Parameter Extraction Attacks",
+        "author": "Ashley Kurian, and Aydin Aysu",
+        "link": "http://arxiv.org/abs/2509.16546v1",
+        "abstract": "Neural networks are valuable intellectual property due to the significant\ncomputational cost, expert labor, and proprietary data involved in their\ndevelopment. Consequently, protecting their parameters is critical not only for\nmaintaining a competitive advantage but also for enhancing the model's security\nand privacy. Prior works have demonstrated the growing capability of\ncryptanalytic attacks to scale to deeper models. In this paper, we present the\nfirst defense mechanism against cryptanalytic parameter extraction attacks. Our\nkey insight is to eliminate the neuron uniqueness necessary for these attacks\nto succeed. We achieve this by a novel, extraction-aware training method.\nSpecifically, we augment the standard loss function with an additional\nregularization term that minimizes the distance between neuron weights within a\nlayer. Therefore, the proposed defense has zero area-delay overhead during\ninference. We evaluate the effectiveness of our approach in mitigating\nextraction attacks while analyzing the model accuracy across different\narchitectures and datasets. When re-trained with the same model architecture,\nthe results show that our defense incurs a marginal accuracy change of less\nthan 1% with the modified loss function. Moreover, we present a theoretical\nframework to quantify the success probability of the attack. When tested\ncomprehensively with prior attack settings, our defense demonstrated empirical\nsuccess for sustained periods of extraction, whereas unprotected networks are\nextracted between 14 minutes to 4 hours."
+    },
+    {
+        "date": "2025-09",
         "title": "G-CSEA: A Graph-Based Conflict Set Extraction Algorithm for Identifying Infeasibility in Pseudo-Boolean Models",
         "author": "Kanishk Garg, Saranya D., Sanal Kumar, Saurabh Singh, and Anupam Purwar",
         "link": "http://arxiv.org/abs/2509.13203v1",
@@ -1384,19 +1398,5 @@
         "author": "Balaji Muralidharan, Hayden Beadles, Reza Marzban, and Kalyan Sashank Mupparaju",
         "link": "http://arxiv.org/abs/2408.04651v1",
         "abstract": "This project investigates the efficacy of Large Language Models (LLMs) in\nunderstanding and extracting scientific knowledge across specific domains and\nto create a deep learning framework: Knowledge AI. As a part of this framework,\nwe employ pre-trained models and fine-tune them on datasets in the scientific\ndomain. The models are adapted for four key Natural Language Processing (NLP)\ntasks: summarization, text generation, question answering, and named entity\nrecognition. Our results indicate that domain-specific fine-tuning\nsignificantly enhances model performance in each of these tasks, thereby\nimproving their applicability for scientific contexts. This adaptation enables\nnon-experts to efficiently query and extract information within targeted\nscientific fields, demonstrating the potential of fine-tuned LLMs as a tool for\nknowledge discovery in the sciences."
-    },
-    {
-        "date": "2024-08",
-        "title": "Integrating Large Language Models and Knowledge Graphs for Extraction and Validation of Textual Test Data",
-        "author": "Antonio De Santis, Marco Balduini, Federico De Santis, Andrea Proia, Arsenio Leo, Marco Brambilla, and Emanuele Della Valle",
-        "link": "http://arxiv.org/abs/2408.01700v1",
-        "abstract": "Aerospace manufacturing companies, such as Thales Alenia Space, design,\ndevelop, integrate, verify, and validate products characterized by high\ncomplexity and low volume. They carefully document all phases for each product\nbut analyses across products are challenging due to the heterogeneity and\nunstructured nature of the data in documents. In this paper, we propose a\nhybrid methodology that leverages Knowledge Graphs (KGs) in conjunction with\nLarge Language Models (LLMs) to extract and validate data contained in these\ndocuments. We consider a case study focused on test data related to electronic\nboards for satellites. To do so, we extend the Semantic Sensor Network\nontology. We store the metadata of the reports in a KG, while the actual test\nresults are stored in parquet accessible via a Virtual Knowledge Graph. The\nvalidation process is managed using an LLM-based approach. We also conduct a\nbenchmarking study to evaluate the performance of state-of-the-art LLMs in\nexecuting this task. Finally, we analyze the costs and benefits of automating\npreexisting processes of manual data extraction and validation for subsequent\ncross-report analyses."
-    },
-    {
-        "date": "2024-07",
-        "title": "FIARSE: Model-Heterogeneous Federated Learning via Importance-Aware Submodel Extraction",
-        "author": "Feijie Wu, Xingchen Wang, Yaqing Wang, Tianci Liu, Lu Su, and Jing Gao",
-        "link": "http://arxiv.org/abs/2407.19389v3",
-        "abstract": "In federated learning (FL), accommodating clients' varied computational\ncapacities poses a challenge, often limiting the participation of those with\nconstrained resources in global model training. To address this issue, the\nconcept of model heterogeneity through submodel extraction has emerged,\noffering a tailored solution that aligns the model's complexity with each\nclient's computational capacity. In this work, we propose Federated\nImportance-Aware Submodel Extraction (FIARSE), a novel approach that\ndynamically adjusts submodels based on the importance of model parameters,\nthereby overcoming the limitations of previous static and dynamic submodel\nextraction methods. Compared to existing works, the proposed method offers a\ntheoretical foundation for the submodel extraction and eliminates the need for\nadditional information beyond the model parameters themselves to determine\nparameter importance, significantly reducing the overhead on clients. Extensive\nexperiments are conducted on various datasets to showcase the superior\nperformance of the proposed FIARSE."
     }
 ]
