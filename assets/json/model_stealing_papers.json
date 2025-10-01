@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-09",
+        "title": "Extract-0: A Specialized Language Model for Document Information Extraction",
+        "author": "Henrique Godoy",
+        "link": "http://arxiv.org/abs/2509.22906v1",
+        "abstract": "This paper presents Extract-0, a 7-billion parameter language model\nspecifically optimized for document information extraction that achieves\nperformance exceeding models with parameter counts several orders of magnitude\nlarger. Through a novel combination of synthetic data generation, supervised\nfine-tuning with Low-Rank Adaptation (LoRA), and reinforcement learning via\nGroup Relative Policy Optimization (GRPO), Extract-0 achieves a mean reward of\n0.573 on a benchmark of 1,000 diverse document extraction tasks, outperforming\nGPT-4.1 (0.457), o3 (0.464), and GPT-4.1-2025 (0.459). The training methodology\nemploys a memory-preserving synthetic data generation pipeline that produces\n280,128 training examples from diverse document sources, followed by\nparameterefficient fine-tuning that modifies only 0.53% of model weights (40.4M\nout of 7.66B parameters). The reinforcement learning phase introduces a novel\nsemantic similarity-based reward function that handles the inherent ambiguity\nin information extraction tasks. This research demonstrates that task-specific\noptimization can yield models that surpass general-purpose systems while\nrequiring substantially fewer computational resource."
+    },
+    {
+        "date": "2025-09",
         "title": "Systematic Comparative Analysis of Large Pretrained Language Models on Contextualized Medication Event Extraction",
         "author": "Tariq Abdul-Quddoos, Xishuang Dong, and Lijun Qian",
         "link": "http://arxiv.org/abs/2509.19224v1",
@@ -1391,12 +1398,5 @@
         "author": "Zi Liang, Haibo Hu, Qingqing Ye, Yaxin Xiao, and Haoyang Li",
         "link": "http://arxiv.org/abs/2408.02416v2",
         "abstract": "The drastic increase of large language models' (LLMs) parameters has led to a\nnew research direction of fine-tuning-free downstream customization by prompts,\ni.e., task descriptions. While these prompt-based services (e.g. OpenAI's GPTs)\nplay an important role in many businesses, there has emerged growing concerns\nabout the prompt leakage, which undermines the intellectual properties of these\nservices and causes downstream attacks. In this paper, we analyze the\nunderlying mechanism of prompt leakage, which we refer to as prompt\nmemorization, and develop corresponding defending strategies. By exploring the\nscaling laws in prompt extraction, we analyze key attributes that influence\nprompt extraction, including model sizes, prompt lengths, as well as the types\nof prompts. Then we propose two hypotheses that explain how LLMs expose their\nprompts. The first is attributed to the perplexity, i.e. the familiarity of\nLLMs to texts, whereas the second is based on the straightforward token\ntranslation path in attention matrices. To defend against such threats, we\ninvestigate whether alignments can undermine the extraction of prompts. We find\nthat current LLMs, even those with safety alignments like GPT-4, are highly\nvulnerable to prompt extraction attacks, even under the most straightforward\nuser attacks. Therefore, we put forward several defense strategies with the\ninspiration of our findings, which achieve 83.8\\% and 71.0\\% drop in the prompt\nextraction rate for Llama2-7B and GPT-3.5, respectively. Source code is\navaliable at https://github.com/liangzid/PromptExtractionEval."
-    },
-    {
-        "date": "2024-08",
-        "title": "A Few-Shot Approach for Relation Extraction Domain Adaptation using Large Language Models",
-        "author": "Vanni Zavarella, Juan Carlos Gamero-Salinas, and Sergio Consoli",
-        "link": "http://arxiv.org/abs/2408.02377v1",
-        "abstract": "Knowledge graphs (KGs) have been successfully applied to the analysis of\ncomplex scientific and technological domains, with automatic KG generation\nmethods typically building upon relation extraction models capturing\nfine-grained relations between domain entities in text. While these relations\nare fully applicable across scientific areas, existing models are trained on\nfew domain-specific datasets such as SciERC and do not perform well on new\ntarget domains. In this paper, we experiment with leveraging in-context\nlearning capabilities of Large Language Models to perform schema-constrained\ndata annotation, collecting in-domain training instances for a\nTransformer-based relation extraction model deployed on titles and abstracts of\nresearch papers in the Architecture, Construction, Engineering and Operations\n(AECO) domain. By assessing the performance gain with respect to a baseline\nDeep Learning architecture trained on off-domain data, we show that by using a\nfew-shot learning strategy with structured prompts and only minimal expert\nannotation the presented approach can potentially support domain adaptation of\na science KG generation model."
     }
 ]
