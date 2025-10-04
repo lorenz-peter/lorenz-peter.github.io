@@ -67,13 +67,11 @@ The paper is published after being accepted at peer-reviewed conference.
 
 ArXiv serves as a platform where you can upload your paper simultaneously with conference submission, ensuring it remains permanently accessible. However, once uploaded, papers cannot be removed. Often, authors must reformat their work to fit ArXiv's LaTeX template, as not all conferences permit the use of their own templates for preprints.
 
-Also read: 
+Also read:
  - [Blogpost: thoughts on ArXiv](https://abetterscientist.wordpress.com/2013/07/09/thoughts-on-arxiv-and-journals/)
  - [To ArXiv or not to ArXiv](https://openreview.net/forum?id=ywiegsPRSF)
 
-
-
-## Research Trends 
+## Research Trends
 
 - [NeurIPS keywords](https://colab.research.google.com/drive/1u51Id90ML79UdZaKD23qglY0ZkEmmdwk?usp=sharing#scrollTo=metallic-aquatic)
 - [CVPR Trends](https://public.tableau.com/app/profile/joshpreston/viz/CVPR2024/CVPRtrends)

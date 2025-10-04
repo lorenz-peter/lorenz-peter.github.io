@@ -8,8 +8,6 @@ categories: thesis
 giscus_comments: true
 ---
 
-# Analysis of Adversarial Examples
-
 I earned my PhD with magna cum laude from Heidelberg University, Germany, where I was advised by my ex-team lead Janis Keuper ([FHG ITWM](https://www.itwm.fraunhofer.de/en/departments/hpc/staff/janis-keuper.html)) and supervised by Prof. Ullrich Köthe ([Heidelberg University](https://hci.iwr.uni-heidelberg.de/vislearn/people/ullrich-koethe)). I am an external Ph.D. student at the University of Heidelberg (2nd best-ranked German university).
 My key research interest was the **analysis of adversarial examples** on DNN.
 In particular, deep neural networks' **robustness** and **trustworthiness**.
@@ -21,9 +19,8 @@ Our "Visual Prompting for Adversarial Robustness" paper achieved recognition wit
 
 The rise of artificial intelligence (AI) has significantly impacted the field of computer vision (CV). In particular, deep learning (DL) has advanced the development of algorithms that comprehend visual data. In specific tasks, DL exhibits human capabilities and is impacting our everyday lives such as virtual assistants, entertainment or web searches. Despite of the success of visual algorithms, in this thesis we study the threat adversarial examples, which are input manipulation to let to misclassification.
 
-
 ## Important Links
 
- - [Defense announcement](https://www.mathinf.uni-heidelberg.de/en/thesis-defenses/analysis-of-adversarial-examples-2024-07-30)
- - [Slides](https://drive.google.com/file/d/1tgZ5exAoadPo64Rd4rc7cAEjTGCuQi63/view?usp=sharing)
- - [Thesis](https://archiv.ub.uni-heidelberg.de/volltextserver/35211/1/main.pdf)
+- [Defense announcement](https://www.mathinf.uni-heidelberg.de/en/thesis-defenses/analysis-of-adversarial-examples-2024-07-30)
+- [Slides](https://drive.google.com/file/d/1tgZ5exAoadPo64Rd4rc7cAEjTGCuQi63/view?usp=sharing)
+- [Thesis](https://archiv.ub.uni-heidelberg.de/volltextserver/35211/1/main.pdf)

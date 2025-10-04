@@ -2,7 +2,7 @@
 layout: post
 title: Proposal AI infernece + Agentic AI
 date: 2025-08-24 16:40:16
-description: Reasoning capability comparison of open-source and closed source models in math.
+description: 
 tags: inference, agentic
 categories: tech
 giscus_comments: true

@@ -83,7 +83,7 @@ Note: In Appendix A2 - remarks by the reviewers:  \
 
 In Figure 1 (copied from [1]), the 3 steps of the WizardMath method are illustrated.
 
-![Enter image alt description](assets/wizardmath/yNZ_Image_1.png)
+![yNZ_Image_1](assets/wizardmath/yNZ_Image_1.png)
 
 As illustrated in Figure 1, the authors propose a novel method called Reinforcement Learning from Evol-Instruct Feedback (RLEIF). This approach aims to generate diverse math instruction data through a newly introduced framework, Math Evol-Instruct, which incorporates both downward and upward evolution processes. The downward evolution generates grade school math problems, while the upward evolution tackles more challenging high school-level math. (More in Section 2.1)
 
