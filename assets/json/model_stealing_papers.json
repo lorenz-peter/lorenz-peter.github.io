@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-10",
+        "title": "You May Speak Freely: Improving the Fine-Grained Visual Recognition Capabilities of Multimodal Large Language Models with Answer Extraction",
+        "author": "Logan Lawrence, Oindrila Saha, Megan Wei, Chen Sun, Subhransu Maji, and Grant Van Horn",
+        "link": "http://arxiv.org/abs/2510.14885v1",
+        "abstract": "Despite the renewed interest in zero-shot visual classification due to the\nrise of Multimodal Large Language Models (MLLMs), the problem of evaluating\nfree-form responses of auto-regressive models remains a persistent challenge.\nMost existing works focus on language-only tasks or don't consider Multiple\nChoice Questions (MCQs) beyond 5-way options, both of which are critical\ncapabilities to solve tasks in Fine-Grained Visual Classification (FGVC) where\nchoice counts are in the hundreds to thousands and the choices are highly\nrelated. Furthermore, in this highly multi-way MCQ setting it is not clear how\nto extend LLM choice extraction to retrieval-based problems, where computing\nprobabilities over the choice set is computationally costly. In this work we\ninvestigate nlg2choice, a simple two-stage method which first asks the MLLM an\nopen-ended question for the task with minimal constraints, then uses text-only\nconstrained decoding to predict the most likely choice. In retrieval settings,\nwe compute the probability of the constrained response taking that choice with\nan early stopping method to significantly improve throughput. Our results show\nimprovement over a suite of seven fine-grained visual datasets when evaluating\nin terms of classification and retrieval, and show that this performance holds\nover the various ways that users of LLMs can implement tasks in natural\nlanguage."
+    },
+    {
+        "date": "2025-10",
         "title": "A Large-Language-Model Assisted Automated Scale Bar Detection and Extraction Framework for Scanning Electron Microscopic Images",
         "author": "Yuxuan Chen, Ruotong Yang, Zhengyang Zhang, Mehreen Ahmed, and Yanming Wang",
         "link": "http://arxiv.org/abs/2510.11260v1",
@@ -12,6 +19,13 @@
         "author": "A H M Rezaul Karim, and Ozlem Uzuner",
         "link": "http://arxiv.org/abs/2510.10475v1",
         "abstract": "Medical order extraction is essential for structuring actionable clinical\ninformation, supporting decision-making, and enabling downstream applications\nsuch as documentation and workflow automation. Orders may be embedded in\ndiverse sources, including electronic health records, discharge summaries, and\nmulti-turn doctor-patient dialogues, and can span categories such as\nmedications, laboratory tests, imaging studies, and follow-up actions. The\nMEDIQA-OE 2025 shared task focuses on extracting structured medical orders from\nextended conversational transcripts, requiring the identification of order\ntype, description, reason, and provenance. We present the MasonNLP submission,\nwhich ranked 5th among 17 participating teams with 105 total submissions. Our\napproach uses a general-purpose, instruction-tuned LLaMA-4 17B model without\ndomain-specific fine-tuning, guided by a single in-context example. This\nfew-shot configuration achieved an average F1 score of 37.76, with notable\nimprovements in reason and provenance accuracy. These results demonstrate that\nlarge, non-domain-specific LLMs, when paired with effective prompt engineering,\ncan serve as strong, scalable baselines for specialized clinical NLP tasks."
+    },
+    {
+        "date": "2025-10",
+        "title": "Meronymic Ontology Extraction via Large Language Models",
+        "author": "Dekai Zhang, Simone Conia, and Antonio Rago",
+        "link": "http://arxiv.org/abs/2510.13839v1",
+        "abstract": "Ontologies have become essential in today's digital age as a way of\norganising the vast amount of readily available unstructured text. In providing\nformal structure to this information, ontologies have immense value and\napplication across various domains, e.g., e-commerce, where countless product\nlistings necessitate proper product organisation. However, the manual\nconstruction of these ontologies is a time-consuming, expensive and laborious\nprocess. In this paper, we harness the recent advancements in large language\nmodels (LLMs) to develop a fully-automated method of extracting product\nontologies, in the form of meronymies, from raw review texts. We demonstrate\nthat the ontologies produced by our method surpass an existing, BERT-based\nbaseline when evaluating using an LLM-as-a-judge. Our investigation provides\nthe groundwork for LLMs to be used more generally in (product or otherwise)\nontology extraction."
     },
     {
         "date": "2025-10",
@@ -1384,19 +1398,5 @@
         "author": "Mohamed Sobhi Jabal, Pranav Warman, Jikai Zhang, Kartikeye Gupta, Ayush Jain, Maciej Mazurowski, Walter Wiggins, Kirti Magudia, and Evan Calabrese",
         "link": "http://arxiv.org/abs/2409.10576v2",
         "abstract": "Purpose: To develop and evaluate an automated system for extracting\nstructured clinical information from unstructured radiology and pathology\nreports using open-weights large language models (LMs) and retrieval augmented\ngeneration (RAG), and to assess the effects of model configuration variables on\nextraction performance. Methods and Materials: The study utilized two datasets:\n7,294 radiology reports annotated for Brain Tumor Reporting and Data System\n(BT-RADS) scores and 2,154 pathology reports annotated for isocitrate\ndehydrogenase (IDH) mutation status. An automated pipeline was developed to\nbenchmark the performance of various LMs and RAG configurations. The impact of\nmodel size, quantization, prompting strategies, output formatting, and\ninference parameters was systematically evaluated. Results: The best performing\nmodels achieved over 98% accuracy in extracting BT-RADS scores from radiology\nreports and over 90% for IDH mutation status extraction from pathology reports.\nThe top model being medical fine-tuned llama3. Larger, newer, and domain\nfine-tuned models consistently outperformed older and smaller models. Model\nquantization had minimal impact on performance. Few-shot prompting\nsignificantly improved accuracy. RAG improved performance for complex pathology\nreports but not for shorter radiology reports. Conclusions: Open LMs\ndemonstrate significant potential for automated extraction of structured\nclinical data from unstructured clinical reports with local privacy-preserving\napplication. Careful model selection, prompt engineering, and semi-automated\noptimization using annotated data are critical for optimal performance. These\napproaches could be reliable enough for practical use in research workflows,\nhighlighting the potential for human-machine collaboration in healthcare data\nextraction."
-    },
-    {
-        "date": "2024-09",
-        "title": "TSELM: Target Speaker Extraction using Discrete Tokens and Language Models",
-        "author": "Beilong Tang, Bang Zeng, and Ming Li",
-        "link": "http://arxiv.org/abs/2409.07841v3",
-        "abstract": "We propose TSELM, a novel target speaker extraction network that leverages\ndiscrete tokens and language models. TSELM utilizes multiple discretized layers\nfrom WavLM as input tokens and incorporates cross-attention mechanisms to\nintegrate target speaker information. Language models are employed to capture\nthe sequence dependencies, while a scalable HiFi-GAN is used to reconstruct the\naudio from the tokens. By applying a cross-entropy loss, TSELM models the\nprobability distribution of output tokens, thus converting the complex\nregression problem of audio generation into a classification task. Experimental\nresults show that TSELM achieves excellent results in speech quality and\ncomparable results in speech intelligibility."
-    },
-    {
-        "date": "2024-09",
-        "title": "\"Yes, My LoRD.\" Guiding Language Model Extraction with Locality Reinforced Distillation",
-        "author": "Zi Liang, Qingqing Ye, Yanyun Wang, Sen Zhang, Yaxin Xiao, Ronghua Li, Jianliang Xu, and Haibo Hu",
-        "link": "http://arxiv.org/abs/2409.02718v3",
-        "abstract": "Model extraction attacks (MEAs) on large language models (LLMs) have received\nincreasing attention in recent research. However, existing attack methods\ntypically adapt the extraction strategies originally developed for deep neural\nnetworks (DNNs). They neglect the underlying inconsistency between the training\ntasks of MEA and LLM alignment, leading to suboptimal attack performance. To\ntackle this issue, we propose Locality Reinforced Distillation (LoRD), a novel\nmodel extraction algorithm specifically designed for LLMs. In particular, LoRD\nemploys a newly defined policy-gradient-style training task that utilizes the\nresponses of victim model as the signal to guide the crafting of preference for\nthe local model. Theoretical analyses demonstrate that I) The convergence\nprocedure of LoRD in model extraction is consistent with the alignment\nprocedure of LLMs, and II) LoRD can reduce query complexity while mitigating\nwatermark protection through our exploration-based stealing. Extensive\nexperiments validate the superiority of our method in extracting various\nstate-of-the-art commercial LLMs. Our code is available at:\nhttps://github.com/liangzid/LoRD-MEA ."
     }
 ]
