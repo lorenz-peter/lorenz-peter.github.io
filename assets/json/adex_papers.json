@@ -220,7 +220,7 @@
         "date": "2025-10",
         "title": "PIShield: Detecting Prompt Injection Attacks via Intrinsic LLM Features",
         "author": "Wei Zou, Yupei Liu, Yanting Wang, Ying Chen, Neil Gong, and Jinyuan Jia",
-        "link": "http://arxiv.org/abs/2510.14005v1",
+        "link": "http://arxiv.org/abs/2510.14005v2",
         "abstract": "LLM-integrated applications are vulnerable to prompt injection attacks, where\nan attacker contaminates the input to inject malicious prompts, causing the LLM\nto follow the attacker's intent instead of the original user's. Existing prompt\ninjection detection methods often have sub-optimal performance and/or high\ncomputational overhead. In this work, we propose PIShield, a detection method\nthat is both effective and efficient. Our key observation is that the internal\nrepresentation of the final token in a prompt-extracted from a specific layer\nof the LLM, which we term the injection-critical layer-captures distinguishing\nfeatures between clean and contaminated prompts. Leveraging this insight, we\ntrain a simple linear classifier on these internal representations using a\nlabeled set of clean and contaminated prompts. We compare PIShield against 11\nbaselines across 5 diverse benchmark datasets and 8 prompt injection attacks.\nThe results demonstrate that PIShield is both highly effective and efficient,\nsubstantially outperforming existing methods. Additionally, we show that\nPIShield resists strong adaptive attacks."
     },
     {
@@ -486,7 +486,7 @@
         "date": "2025-10",
         "title": "PromptLocate: Localizing Prompt Injection Attacks",
         "author": "Yuqi Jia, Yupei Liu, Zedian Shao, Jinyuan Jia, and Neil Gong",
-        "link": "http://arxiv.org/abs/2510.12252v1",
+        "link": "http://arxiv.org/abs/2510.12252v2",
         "abstract": "Prompt injection attacks deceive a large language model into completing an\nattacker-specified task instead of its intended task by contaminating its input\ndata with an injected prompt, which consists of injected instruction(s) and\ndata. Localizing the injected prompt within contaminated data is crucial for\npost-attack forensic analysis and data recovery. Despite its growing\nimportance, prompt injection localization remains largely unexplored. In this\nwork, we bridge this gap by proposing PromptLocate, the first method for\nlocalizing injected prompts. PromptLocate comprises three steps: (1) splitting\nthe contaminated data into semantically coherent segments, (2) identifying\nsegments contaminated by injected instructions, and (3) pinpointing segments\ncontaminated by injected data. We show PromptLocate accurately localizes\ninjected prompts across eight existing and eight adaptive attacks."
     },
     {
