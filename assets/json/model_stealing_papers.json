@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-10",
+        "title": "Auto-Rubric: Learning to Extract Generalizable Criteria for Reward Modeling",
+        "author": "Lipeng Xie, Sen Huang, Zhuo Zhang, Anni Zou, Yunpeng Zhai, Dingchao Ren, Kezun Zhang, Haoyuan Hu, Boyin Liu, Haoran Chen, Zhaoyang Liu, and Bolin Ding",
+        "link": "http://arxiv.org/abs/2510.17314v1",
+        "abstract": "Reward models are essential for aligning Large Language Models (LLMs) with\nhuman values, yet their development is hampered by costly preference datasets\nand poor interpretability. While recent rubric-based approaches offer\ntransparency, they often lack systematic quality control and optimization,\ncreating a trade-off between scalability and reliability. We address these\nlimitations with a novel, training-free framework built on a key assumption:\n\\textit{evaluation rubrics underlying human preferences exhibit significant\ngeneralization ability across diverse queries}, a property that enables\nremarkable data efficiency. Our two-stage approach first infers high-quality,\nquery-specific rubrics using a validation-guided\n\\textbf{Propose-Evaluate-Revise} pipeline. Second, it generalizes these\ngranular rubrics into a compact, non-redundant core set by maximizing an\n\\textbf{information-theoretic coding rate}. The final output is an\ninterpretable, hierarchical \"Theme-Tips\" rubric set. Extensive experiments\ndemonstrate the framework's exceptional data efficiency and performance.\nCritically, using just 70 preference pairs (1.5\\% of the source data), our\nmethod also empowers smaller models like Qwen3-8B to outperform specialized,\nfully-trained counterparts. This work pioneers a scalable, interpretable, and\ndata-efficient path for reward modeling."
+    },
+    {
+        "date": "2025-10",
         "title": "You May Speak Freely: Improving the Fine-Grained Visual Recognition Capabilities of Multimodal Large Language Models with Answer Extraction",
         "author": "Logan Lawrence, Oindrila Saha, Megan Wei, Chen Sun, Subhransu Maji, and Grant Van Horn",
         "link": "http://arxiv.org/abs/2510.14885v1",
@@ -218,6 +225,13 @@
     },
     {
         "date": "2025-08",
+        "title": "SegDAC: Improving Visual Reinforcement Learning by Extracting Dynamic Objectc-Centric Representations from Pretrained Vision Models",
+        "author": "Alexandre Brown, and Glen Berseth",
+        "link": "http://arxiv.org/abs/2508.09325v2",
+        "abstract": "Visual reinforcement learning (RL) is challenging due to the need to extract\nuseful representations from high-dimensional inputs while learning effective\ncontrol from sparse and noisy rewards. Although large perception models exist,\nintegrating them effectively into RL for visual generalization and improved\nsample efficiency remains difficult. We propose SegDAC, a Segmentation-Driven\nActor-Critic method. SegDAC uses Segment Anything (SAM) for object-centric\ndecomposition and YOLO-World to ground the image segmentation process via text\ninputs. It includes a novel transformer-based architecture that supports a\ndynamic number of segments at each time step and effectively learns which\nsegments to focus on using online RL, without using human labels. By evaluating\nSegDAC over a challenging visual generalization benchmark using Maniskill3,\nwhich covers diverse manipulation tasks under strong visual perturbations, we\ndemonstrate that SegDAC achieves significantly better visual generalization,\ndoubling prior performance on the hardest setting and matching or surpassing\nprior methods in sample efficiency across all evaluated tasks."
+    },
+    {
+        "date": "2025-08",
         "title": "Schema Lineage Extraction at Scale: Multilingual Pipelines, Composite Evaluation, and Language-Model Benchmarks",
         "author": "Jiaqi Yin, Yi-Wei Chen, Meng-Lung Lee, and Xiya Liu",
         "link": "http://arxiv.org/abs/2508.07179v1",
@@ -409,7 +423,7 @@
         "date": "2025-06",
         "title": "PARALLELPROMPT: Extracting Parallelism from Large Language Model Queries",
         "author": "Steven Kolawole, Keshav Santhanam, Virginia Smith, and Pratiksha Thaker",
-        "link": "http://arxiv.org/abs/2506.18728v2",
+        "link": "http://arxiv.org/abs/2506.18728v3",
         "abstract": "LLM serving systems typically treat user prompts as monolithic inputs,\noptimizing inference through decoding tricks or inter-query batching. However,\nmany real-world prompts contain latent semantic parallelism--decomposable\nstructures where subtasks can be executed independently to reduce latency while\npreserving meaning. We introduce PARALLELPROMPT, the first benchmark for\nmeasuring intra-query parallelism in natural user prompts. Our dataset\ncomprises over 37,000 real-world prompts from public LLM chat logs, each\nannotated with a structured schema capturing task templates, shared context,\nand iteration inputs. These schemas are extracted using LLM-assisted prompting\nwith rule-based multilingual validation. To evaluate the benefits of\ndecomposition, we provide an execution suite that benchmarks serial vs.\nparallel strategies, measuring latency, structural adherence, and semantic\nfidelity. Our results show that intra-query parallelism can be successfully\nparsed in over 75% of curated datasets, unlocking up to 5x speedups on tasks\nlike translation, comprehension, and comparative analysis, with minimal quality\ndegradation. By releasing this benchmark, curation pipeline, and evaluation\nsuite, we provide the first standardized testbed for studying structure-aware\nexecution in LLM serving pipelines."
     },
     {
@@ -1384,19 +1398,5 @@
         "author": "Yi Chen, Xiaoyang Dong, Jian Guo, Yantian Shen, Anyu Wang, and Xiaoyun Wang",
         "link": "http://arxiv.org/abs/2409.11646v1",
         "abstract": "The machine learning problem of extracting neural network parameters has been\nproposed for nearly three decades. Functionally equivalent extraction is a\ncrucial goal for research on this problem. When the adversary has access to the\nraw output of neural networks, various attacks, including those presented at\nCRYPTO 2020 and EUROCRYPT 2024, have successfully achieved this goal. However,\nthis goal is not achieved when neural networks operate under a hard-label\nsetting where the raw output is inaccessible.\n  In this paper, we propose the first attack that theoretically achieves\nfunctionally equivalent extraction under the hard-label setting, which applies\nto ReLU neural networks. The effectiveness of our attack is validated through\npractical experiments on a wide range of ReLU neural networks, including neural\nnetworks trained on two real benchmarking datasets (MNIST, CIFAR10) widely used\nin computer vision. For a neural network consisting of $10^5$ parameters, our\nattack only requires several hours on a single core."
-    },
-    {
-        "date": "2024-09",
-        "title": "CaBaGe: Data-Free Model Extraction using ClAss BAlanced Generator Ensemble",
-        "author": "Jonathan Rosenthal, Shanchao Liang, Kevin Zhang, and Lin Tan",
-        "link": "http://arxiv.org/abs/2409.10643v1",
-        "abstract": "Machine Learning as a Service (MLaaS) is often provided as a pay-per-query,\nblack-box system to clients. Such a black-box approach not only hinders open\nreplication, validation, and interpretation of model results, but also makes it\nharder for white-hat researchers to identify vulnerabilities in the MLaaS\nsystems. Model extraction is a promising technique to address these challenges\nby reverse-engineering black-box models. Since training data is typically\nunavailable for MLaaS models, this paper focuses on the realistic version of\nit: data-free model extraction. We propose a data-free model extraction\napproach, CaBaGe, to achieve higher model extraction accuracy with a small\nnumber of queries. Our innovations include (1) a novel experience replay for\nfocusing on difficult training samples; (2) an ensemble of generators for\nsteadily producing diverse synthetic data; and (3) a selective filtering\nprocess for querying the victim model with harder, more balanced samples. In\naddition, we create a more realistic setting, for the first time, where the\nattacker has no knowledge of the number of classes in the victim training data,\nand create a solution to learn the number of classes on the fly. Our evaluation\nshows that CaBaGe outperforms existing techniques on seven datasets -- MNIST,\nFMNIST, SVHN, CIFAR-10, CIFAR-100, ImageNet-subset, and Tiny ImageNet -- with\nan accuracy improvement of the extracted models by up to 43.13%. Furthermore,\nthe number of queries required to extract a clone model matching the final\naccuracy of prior work is reduced by up to 75.7%."
-    },
-    {
-        "date": "2024-09",
-        "title": "Language Models and Retrieval Augmented Generation for Automated Structured Data Extraction from Diagnostic Reports",
-        "author": "Mohamed Sobhi Jabal, Pranav Warman, Jikai Zhang, Kartikeye Gupta, Ayush Jain, Maciej Mazurowski, Walter Wiggins, Kirti Magudia, and Evan Calabrese",
-        "link": "http://arxiv.org/abs/2409.10576v2",
-        "abstract": "Purpose: To develop and evaluate an automated system for extracting\nstructured clinical information from unstructured radiology and pathology\nreports using open-weights large language models (LMs) and retrieval augmented\ngeneration (RAG), and to assess the effects of model configuration variables on\nextraction performance. Methods and Materials: The study utilized two datasets:\n7,294 radiology reports annotated for Brain Tumor Reporting and Data System\n(BT-RADS) scores and 2,154 pathology reports annotated for isocitrate\ndehydrogenase (IDH) mutation status. An automated pipeline was developed to\nbenchmark the performance of various LMs and RAG configurations. The impact of\nmodel size, quantization, prompting strategies, output formatting, and\ninference parameters was systematically evaluated. Results: The best performing\nmodels achieved over 98% accuracy in extracting BT-RADS scores from radiology\nreports and over 90% for IDH mutation status extraction from pathology reports.\nThe top model being medical fine-tuned llama3. Larger, newer, and domain\nfine-tuned models consistently outperformed older and smaller models. Model\nquantization had minimal impact on performance. Few-shot prompting\nsignificantly improved accuracy. RAG improved performance for complex pathology\nreports but not for shorter radiology reports. Conclusions: Open LMs\ndemonstrate significant potential for automated extraction of structured\nclinical data from unstructured clinical reports with local privacy-preserving\napplication. Careful model selection, prompt engineering, and semi-automated\noptimization using annotated data are critical for optimal performance. These\napproaches could be reliable enough for practical use in research workflows,\nhighlighting the potential for human-machine collaboration in healthcare data\nextraction."
     }
 ]
