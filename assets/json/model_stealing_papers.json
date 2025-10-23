@@ -1,6 +1,13 @@
 [
     {
         "date": "2025-10",
+        "title": "Extracting alignment data in open models",
+        "author": "Federico Barbero, Xiangming Gu, Christopher A. Choquette-Choo, Chawin Sitawarin, Matthew Jagielski, Itay Yona, Petar Veli\u010dkovi\u0107, Ilia Shumailov, and Jamie Hayes",
+        "link": "http://arxiv.org/abs/2510.18554v1",
+        "abstract": "In this work, we show that it is possible to extract significant amounts of\nalignment training data from a post-trained model -- useful to steer the model\nto improve certain capabilities such as long-context reasoning, safety,\ninstruction following, and maths. While the majority of related work on\nmemorisation has focused on measuring success of training data extraction\nthrough string matching, we argue that embedding models are better suited for\nour specific goals. Distances measured through a high quality embedding model\ncan identify semantic similarities between strings that a different metric such\nas edit distance will struggle to capture. In fact, in our investigation,\napproximate string matching would have severely undercounted (by a conservative\nestimate of $10\\times$) the amount of data that can be extracted due to trivial\nartifacts that deflate the metric. Interestingly, we find that models readily\nregurgitate training data that was used in post-training phases such as SFT or\nRL. We show that this data can be then used to train a base model, recovering a\nmeaningful amount of the original performance. We believe our work exposes a\npossibly overlooked risk towards extracting alignment data. Finally, our work\nopens up an interesting discussion on the downstream effects of distillation\npractices: since models seem to be regurgitating aspects of their training set,\ndistillation can therefore be thought of as indirectly training on the model's\noriginal dataset."
+    },
+    {
+        "date": "2025-10",
         "title": "Auto-Rubric: Learning to Extract Generalizable Criteria for Reward Modeling",
         "author": "Lipeng Xie, Sen Huang, Zhuo Zhang, Anni Zou, Yunpeng Zhai, Dingchao Ren, Kezun Zhang, Haoyuan Hu, Boyin Liu, Haoran Chen, Zhaoyang Liu, and Bolin Ding",
         "link": "http://arxiv.org/abs/2510.17314v1",
@@ -1391,12 +1398,5 @@
         "author": "Hongyu Zhu, Wentao Hu, Sichu Liang, Fangqi Li, Wenwen Wang, and Shilin Wang",
         "link": "http://arxiv.org/abs/2409.14122v2",
         "abstract": "Model extraction aims to create a functionally similar copy from a machine\nlearning as a service (MLaaS) API with minimal overhead, typically for illicit\nprofit or as a precursor to further attacks, posing a significant threat to the\nMLaaS ecosystem. However, recent studies have shown that model extraction is\nhighly inefficient, particularly when the target task distribution is\nunavailable. In such cases, even substantially increasing the attack budget\nfails to produce a sufficiently similar replica, reducing the adversary's\nmotivation to pursue extraction attacks. In this paper, we revisit the\nelementary design choices throughout the extraction lifecycle. We propose an\nembarrassingly simple yet dramatically effective algorithm, Efficient and\nEffective Model Extraction (E3), focusing on both query preparation and\ntraining routine. E3 achieves superior generalization compared to\nstate-of-the-art methods while minimizing computational costs. For instance,\nwith only 0.005 times the query budget and less than 0.2 times the runtime, E3\noutperforms classical generative model based data-free model extraction by an\nabsolute accuracy improvement of over 50% on CIFAR-10. Our findings underscore\nthe persistent threat posed by model extraction and suggest that it could serve\nas a valuable benchmarking algorithm for future security evaluations."
-    },
-    {
-        "date": "2024-09",
-        "title": "Hard-Label Cryptanalytic Extraction of Neural Network Models",
-        "author": "Yi Chen, Xiaoyang Dong, Jian Guo, Yantian Shen, Anyu Wang, and Xiaoyun Wang",
-        "link": "http://arxiv.org/abs/2409.11646v1",
-        "abstract": "The machine learning problem of extracting neural network parameters has been\nproposed for nearly three decades. Functionally equivalent extraction is a\ncrucial goal for research on this problem. When the adversary has access to the\nraw output of neural networks, various attacks, including those presented at\nCRYPTO 2020 and EUROCRYPT 2024, have successfully achieved this goal. However,\nthis goal is not achieved when neural networks operate under a hard-label\nsetting where the raw output is inaccessible.\n  In this paper, we propose the first attack that theoretically achieves\nfunctionally equivalent extraction under the hard-label setting, which applies\nto ReLU neural networks. The effectiveness of our attack is validated through\npractical experiments on a wide range of ReLU neural networks, including neural\nnetworks trained on two real benchmarking datasets (MNIST, CIFAR10) widely used\nin computer vision. For a neural network consisting of $10^5$ parameters, our\nattack only requires several hours on a single core."
     }
 ]
