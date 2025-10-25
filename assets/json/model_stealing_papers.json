@@ -1,6 +1,20 @@
 [
     {
         "date": "2025-10",
+        "title": "Metadata Extraction Leveraging Large Language Models",
+        "author": "Cuize Han, and Sesh Jalagam",
+        "link": "http://arxiv.org/abs/2510.19334v1",
+        "abstract": "The advent of Large Language Models has revolutionized tasks across domains,\nincluding the automation of legal document analysis, a critical component of\nmodern contract management systems. This paper presents a comprehensive\nimplementation of LLM-enhanced metadata extraction for contract review,\nfocusing on the automatic detection and annotation of salient legal clauses.\nLeveraging both the publicly available Contract Understanding Atticus Dataset\n(CUAD) and proprietary contract datasets, our work demonstrates the integration\nof advanced LLM methodologies with practical applications. We identify three\npivotal elements for optimizing metadata extraction: robust text conversion,\nstrategic chunk selection, and advanced LLM-specific techniques, including\nChain of Thought (CoT) prompting and structured tool calling. The results from\nour experiments highlight the substantial improvements in clause identification\naccuracy and efficiency. Our approach shows promise in reducing the time and\ncost associated with contract review while maintaining high accuracy in legal\nclause identification. The results suggest that carefully optimized LLM systems\ncould serve as valuable tools for legal professionals, potentially increasing\naccess to efficient contract review services for organizations of all sizes."
+    },
+    {
+        "date": "2025-10",
+        "title": "Preliminary Use of Vision Language Model Driven Extraction of Mouse Behavior Towards Understanding Fear Expression",
+        "author": "Paimon Goulart, Jordan Steinhauser, Kylene Shuler, Edward Korzus, Jia Chen, and Evangelos E. Papalexakis",
+        "link": "http://arxiv.org/abs/2510.19160v1",
+        "abstract": "Integration of diverse data will be a pivotal step towards improving\nscientific explorations in many disciplines. This work establishes a\nvision-language model (VLM) that encodes videos with text input in order to\nclassify various behaviors of a mouse existing in and engaging with their\nenvironment. Importantly, this model produces a behavioral vector over time for\neach subject and for each session the subject undergoes. The output is a\nvaluable dataset that few programs are able to produce with as high accuracy\nand with minimal user input. Specifically, we use the open-source Qwen2.5-VL\nmodel and enhance its performance through prompts, in-context learning (ICL)\nwith labeled examples, and frame-level preprocessing. We found that each of\nthese methods contributes to improved classification, and that combining them\nresults in strong F1 scores across all behaviors, including rare classes like\nfreezing and fleeing, without any model fine-tuning. Overall, this model will\nsupport interdisciplinary researchers studying mouse behavior by enabling them\nto integrate diverse behavioral features, measured across multiple time points\nand environments, into a comprehensive dataset that can address complex\nresearch questions."
+    },
+    {
+        "date": "2025-10",
         "title": "Extracting alignment data in open models",
         "author": "Federico Barbero, Xiangming Gu, Christopher A. Choquette-Choo, Chawin Sitawarin, Matthew Jagielski, Itay Yona, Petar Veli\u010dkovi\u0107, Ilia Shumailov, and Jamie Hayes",
         "link": "http://arxiv.org/abs/2510.18554v1",
@@ -409,7 +423,7 @@
         "date": "2025-06",
         "title": "Extracting Interpretable Models from Tree Ensembles: Computational and Statistical Perspectives",
         "author": "Brian Liu, Rahul Mazumder, and Peter Radchenko",
-        "link": "http://arxiv.org/abs/2506.20114v3",
+        "link": "http://arxiv.org/abs/2506.20114v4",
         "abstract": "Tree ensembles are non-parametric methods widely recognized for their\naccuracy and ability to capture complex interactions. While these models excel\nat prediction, they are difficult to interpret and may fail to uncover useful\nrelationships in the data. We propose an estimator to extract compact sets of\ndecision rules from tree ensembles. The extracted models are accurate and can\nbe manually examined to reveal relationships between the predictors and the\nresponse. A key novelty of our estimator is the flexibility to jointly control\nthe number of rules extracted and the interaction depth of each rule, which\nimproves accuracy. We develop a tailored exact algorithm to efficiently solve\noptimization problems underlying our estimator and an approximate algorithm for\ncomputing regularization paths, sequences of solutions that correspond to\nvarying model sizes. We also establish novel non-asymptotic prediction error\nbounds for our proposed approach, comparing it to an oracle that chooses the\nbest data-dependent linear combination of the rules in the ensemble subject to\nthe same complexity constraint as our estimator. The bounds illustrate that the\nlarge-sample predictive performance of our estimator is on par with that of the\noracle. Through experiments, we demonstrate that our estimator outperforms\nexisting algorithms for rule extraction."
     },
     {
@@ -509,13 +523,6 @@
         "author": "Fardin Ahsan Sakib, Ziwei Zhu, Karen Trister Grace, Meliha Yetisgen, and Ozlem Uzuner",
         "link": "http://arxiv.org/abs/2506.00134v1",
         "abstract": "Social determinants of health (SDOH) extraction from clinical text is\ncritical for downstream healthcare analytics. Although large language models\n(LLMs) have shown promise, they may rely on superficial cues leading to\nspurious predictions. Using the MIMIC portion of the SHAC (Social History\nAnnotation Corpus) dataset and focusing on drug status extraction as a case\nstudy, we demonstrate that mentions of alcohol or smoking can falsely induce\nmodels to predict current/past drug use where none is present, while also\nuncovering concerning gender disparities in model performance. We further\nevaluate mitigation strategies - such as prompt engineering and\nchain-of-thought reasoning - to reduce these false positives, providing\ninsights into enhancing LLM reliability in health domains."
-    },
-    {
-        "date": "2025-05",
-        "title": "Rethinking Exact Unlearning under Exposure: Extracting Forgotten Data under Exact Unlearning in Large Language Model",
-        "author": "Xiaoyu Wu, Yifei Pang, Terrance Liu, and Zhiwei Steven Wu",
-        "link": "http://arxiv.org/abs/2505.24379v2",
-        "abstract": "Large Language Models are typically trained on datasets collected from the\nweb, which may inadvertently contain harmful or sensitive personal information.\nTo address growing privacy concerns, unlearning methods have been proposed to\nremove the influence of specific data from trained models. Of these, exact\nunlearning -- which retrains the model from scratch without the target data --\nis widely regarded the gold standard for mitigating privacy risks in\ndeployment. In this paper, we revisit this assumption in a practical deployment\nsetting where both the pre- and post-unlearning logits API are exposed, such as\nin open-weight scenarios. Targeting this setting, we introduce a novel data\nextraction attack that leverages signals from the pre-unlearning model to guide\nthe post-unlearning model, uncovering patterns that reflect the removed data\ndistribution. Combining model guidance with a token filtering strategy, our\nattack significantly improves extraction success rates -- doubling performance\nin some cases -- across common benchmarks such as MUSE, TOFU, and WMDP.\nFurthermore, we demonstrate our attack's effectiveness on a simulated medical\ndiagnosis dataset to highlight real-world privacy risks associated with exact\nunlearning. In light of our findings, which suggest that unlearning may, in a\ncontradictory way, increase the risk of privacy leakage during real-world\ndeployments, we advocate for evaluation of unlearning methods to consider\nbroader threat models that account not only for post-unlearning models but also\nfor adversarial access to prior checkpoints. Code is publicly available at:\nhttps://github.com/Nicholas0228/unlearned_data_extraction_llm."
     },
     {
         "date": "2025-05",
@@ -906,7 +913,7 @@
         "date": "2025-02",
         "title": "From Counterfactuals to Trees: Competitive Analysis of Model Extraction Attacks",
         "author": "Awa Khouna, Julien Ferry, and Thibaut Vidal",
-        "link": "http://arxiv.org/abs/2502.05325v2",
+        "link": "http://arxiv.org/abs/2502.05325v3",
         "abstract": "The advent of Machine Learning as a Service (MLaaS) has heightened the\ntrade-off between model explainability and security. In particular,\nexplainability techniques, such as counterfactual explanations, inadvertently\nincrease the risk of model extraction attacks, enabling unauthorized\nreplication of proprietary models. In this paper, we formalize and characterize\nthe risks and inherent complexity of model reconstruction, focusing on the\n\"oracle'' queries required for faithfully inferring the underlying prediction\nfunction. We present the first formal analysis of model extraction attacks\nthrough the lens of competitive analysis, establishing a foundational framework\nto evaluate their efficiency. Focusing on models based on additive decision\ntrees (e.g., decision trees, gradient boosting, and random forests), we\nintroduce novel reconstruction algorithms that achieve provably perfect\nfidelity while demonstrating strong anytime performance. Our framework provides\ntheoretical bounds on the query complexity for extracting tree-based model,\noffering new insights into the security vulnerabilities of their deployment."
     },
     {
@@ -1391,12 +1398,5 @@
         "author": "Iwo Naglik, and Mateusz Lango",
         "link": "http://arxiv.org/abs/2409.15202v2",
         "abstract": "Aspect-Sentiment Triplet Extraction (ASTE) is a recently proposed task of\naspect-based sentiment analysis that consists in extracting (aspect phrase,\nopinion phrase, sentiment polarity) triples from a given sentence. Recent\nstate-of-the-art methods approach this task by first extracting all possible\ntext spans from a given text, then filtering the potential aspect and opinion\nphrases with a classifier, and finally considering all their pairs with another\nclassifier that additionally assigns sentiment polarity to them. Although\nseveral variations of the above scheme have been proposed, the common feature\nis that the final result is constructed by a sequence of independent classifier\ndecisions. This hinders the exploitation of dependencies between extracted\nphrases and prevents the use of knowledge about the interrelationships between\nclassifier predictions to improve performance. In this paper, we propose a new\nASTE approach consisting of three transformer-inspired layers, which enables\nthe modelling of dependencies both between phrases and between the final\nclassifier decisions. Experimental results show that the method achieves higher\nperformance in terms of F1 measure than other methods studied on popular\nbenchmarks. In addition, we show that a simple pre-training technique further\nimproves the performance of the model."
-    },
-    {
-        "date": "2024-09",
-        "title": "Efficient and Effective Model Extraction",
-        "author": "Hongyu Zhu, Wentao Hu, Sichu Liang, Fangqi Li, Wenwen Wang, and Shilin Wang",
-        "link": "http://arxiv.org/abs/2409.14122v2",
-        "abstract": "Model extraction aims to create a functionally similar copy from a machine\nlearning as a service (MLaaS) API with minimal overhead, typically for illicit\nprofit or as a precursor to further attacks, posing a significant threat to the\nMLaaS ecosystem. However, recent studies have shown that model extraction is\nhighly inefficient, particularly when the target task distribution is\nunavailable. In such cases, even substantially increasing the attack budget\nfails to produce a sufficiently similar replica, reducing the adversary's\nmotivation to pursue extraction attacks. In this paper, we revisit the\nelementary design choices throughout the extraction lifecycle. We propose an\nembarrassingly simple yet dramatically effective algorithm, Efficient and\nEffective Model Extraction (E3), focusing on both query preparation and\ntraining routine. E3 achieves superior generalization compared to\nstate-of-the-art methods while minimizing computational costs. For instance,\nwith only 0.005 times the query budget and less than 0.2 times the runtime, E3\noutperforms classical generative model based data-free model extraction by an\nabsolute accuracy improvement of over 50% on CIFAR-10. Our findings underscore\nthe persistent threat posed by model extraction and suggest that it could serve\nas a valuable benchmarking algorithm for future security evaluations."
     }
 ]
