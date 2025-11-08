@@ -891,8 +891,8 @@
     {
         "date": "2025-02",
         "title": "KGGen: Extracting Knowledge Graphs from Plain Text with Language Models",
-        "author": "Belinda Mo, Kyssen Yu, Joshua Kazdan, Proud Mpala, Lisa Yu, Chris Cundy, Charilaos Kanatsoulis, and Sanmi Koyejo",
-        "link": "http://arxiv.org/abs/2502.09956v1",
+        "author": "Belinda Mo, Kyssen Yu, Joshua Kazdan, Joan Cabezas, Proud Mpala, Lisa Yu, Chris Cundy, Charilaos Kanatsoulis, and Sanmi Koyejo",
+        "link": "http://arxiv.org/abs/2502.09956v2",
         "abstract": "Recent interest in building foundation models for KGs has highlighted a\nfundamental challenge: knowledge-graph data is relatively scarce. The\nbest-known KGs are primarily human-labeled, created by pattern-matching, or\nextracted using early NLP techniques. While human-generated KGs are in short\nsupply, automatically extracted KGs are of questionable quality. We present a\nsolution to this data scarcity problem in the form of a text-to-KG generator\n(KGGen), a package that uses language models to create high-quality graphs from\nplaintext. Unlike other KG extractors, KGGen clusters related entities to\nreduce sparsity in extracted KGs. KGGen is available as a Python library\n(\\texttt{pip install kg-gen}), making it accessible to everyone. Along with\nKGGen, we release the first benchmark, Measure of of Information in Nodes and\nEdges (MINE), that tests an extractor's ability to produce a useful KG from\nplain text. We benchmark our new tool against existing extractors and\ndemonstrate far superior performance."
     },
     {
