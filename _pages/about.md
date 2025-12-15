@@ -3,8 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='#'>NTU Singapore</a>
-nav: true
-nav_order: 0
 
 profile:
   align: right
