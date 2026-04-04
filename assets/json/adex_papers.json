@@ -1,6 +1,13 @@
 [
     {
         "date": "2026-04",
+        "title": "PARD-SSM: Probabilistic Cyber-Attack Regime Detection via Variational Switching State-Space Models",
+        "author": "Prakul Sunil Hiremath, PeerAhammad M Bagawan, and Sahil Bhekane",
+        "link": "http://arxiv.org/abs/2604.02299v1",
+        "abstract": "Modern adversarial campaigns unfold as sequences of behavioural phases - Reconnaissance, Lateral Movement, Intrusion, and Exfiltration - each often indistinguishable from legitimate traffic when viewed in isolation. Existing intrusion detection systems (IDS) fail to capture this structure: signature-based methods cannot detect zero-day attacks, deep-learning models provide opaque anomaly scores without stage attribution, and standard Kalman Filters cannot model non-stationary multi-modal dynamics. We present PARD-SSM, a probabilistic framework that models network telemetry as a Regime-Dependent Switching Linear Dynamical System with K = 4 hidden regimes. A structured variational approximation reduces inference complexity from exponential to O(TK^2), enabling real-time detection on standard CPU hardware. An online EM algorithm adapts model parameters, while KL-divergence gating suppresses false positives. Evaluated on CICIDS2017 and UNSW-NB15, PARD-SSM achieves F1 scores of 98.2% and 97.1%, with latency less than 1.2 ms per flow. The model also produces predictive alerts approximately 8 minutes before attack onset, a capability absent in prior systems."
+    },
+    {
+        "date": "2026-04",
         "title": "Neuro-RIT: Neuron-Guided Instruction Tuning for Robust Retrieval-Augmented Language Model",
         "author": "Jaemin Kim, Jae O Lee, Sumyeong Ahn, and Seo Yeon Park",
         "link": "http://arxiv.org/abs/2604.02194v1",
@@ -1391,12 +1398,5 @@
         "author": "Ali Dehghantanha, and Sajad Homayoun",
         "link": "http://arxiv.org/abs/2603.22928v1",
         "abstract": "Recent AI systems combine large language models with tools, external knowledge via retrieval-augmented generation (RAG), and even autonomous multi-agent decision loops. This agentic AI paradigm greatly expands capabilities - but also vastly enlarges the attack surface. In this systematization, we map out the trust boundaries and security risks of agentic LLM-based systems. We develop a comprehensive taxonomy of attacks spanning prompt-level injections, knowledge-base poisoning, tool/plug-in exploits, and multi-agent emergent threats. Through a detailed literature review, we synthesize evidence from 2023-2025, including more than 20 peer-reviewed and archival studies, industry reports, and standards. We find that agentic systems introduce new vectors for indirect prompt injection, code execution exploits, RAG index poisoning, and cross-agent manipulation that go beyond traditional AI threats. We define attacker models and threat scenarios, and propose metrics (e.g., Unsafe Action Rate, Privilege Escalation Distance) to evaluate security posture. Our survey examines defenses such as input sanitization, retrieval filters, sandboxes, access control, and \"AI guardrails,\" assessing their effectiveness and pointing out the areas where protection is still lacking. To assist practitioners, we outline defensive controls and provide a phased security checklist for deploying agentic AI (covering design-time hardening, runtime monitoring, and incident response). Finally, we outline open research challenges in secure autonomous AI (robust tool APIs, verifiable agent behavior, supply-chain safeguards) and discuss ethical and responsible disclosure practices. We systematize recent findings to help researchers and engineers understand and mitigate security risks in agentic AI."
-    },
-    {
-        "date": "2026-03",
-        "title": "Secure Two-Party Matrix Multiplication from Lattices and Its Application to Encrypted Control",
-        "author": "Kaoru Teranishi",
-        "link": "http://arxiv.org/abs/2603.22857v1",
-        "abstract": "In this study, we propose a two-party computation protocol for approximate matrix multiplication of fixed-point numbers. The proposed protocol is provably secure under standard lattice-based cryptographic assumptions and enables matrix multiplication at a desired approximation level within a single round of communication. We demonstrate the feasibility of the protocol by applying it to the secure implementation of a linear control law. Our evaluation reveals that the client achieves lower online computational complexity compared to the original controller computation, while ensuring the privacy of controller inputs, outputs, and parameters. Furthermore, a numerical example confirms that the proposed method maintains sufficient precision of control inputs even in the presence of approximation and quantization errors."
     }
 ]
