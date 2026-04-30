@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Peter Lorenz
+      value: Dr. Peter Lorenz
     - name: Country of Birth
       value: Austria
     - name: Languages
@@ -29,7 +29,7 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://lorenz-peter.github.io/blog/2023/gandalf/">Writeup Gandalf from Lakera</a>
+    - title: <a href="https://lorenz-peter.github.io/blog/2023/gandalf">Writeup Gandalf from Lakera</a>
       year: 2023
       description: Writeup of tricking an LLM.
 
@@ -49,6 +49,9 @@
     - title: Trustworthy Machine Learning
       items:
         - Adversarial Machine Learning
+    - title: Models and Algorithms
+      items:
+        - Deep Learning, Optimization, Foundation Models, Reinforcement Learning, Evolutionary Algorithms
 
 - title: Other Interests
   type: list
