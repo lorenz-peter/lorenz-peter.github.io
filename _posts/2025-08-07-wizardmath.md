@@ -83,7 +83,7 @@ Note: In Appendix A2 - remarks by the reviewers:  \
 
 In Figure 1 (copied from [1]), the 3 steps of the WizardMath method are illustrated.
 
-![yNZ_Image_1](assets/wizardmath/yNZ_Image_1.png)
+![yNZ_Image_1](/assets/wizardmath/yNZ_Image_1.png)
 
 As illustrated in Figure 1, the authors propose a novel method called Reinforcement Learning from Evol-Instruct Feedback (RLEIF). This approach aims to generate diverse math instruction data through a newly introduced framework, Math Evol-Instruct, which incorporates both downward and upward evolution processes. The downward evolution generates grade school math problems, while the upward evolution tackles more challenging high school-level math. (More in Section 2.1)
 
@@ -117,11 +117,11 @@ The training process begins by fine-tuning large language models (LLMs) with the
 
 - **Process-supervised Reward Model (PRM) **[9]**:** Judges the *correctness* of each reasoning step in model-generated solutions, trained with step-level feedback (also GPT-4-labeled). (see Tables 4 and 5)
 
-![Enter image alt description](wizardmath/LGV_Image_3.png)
+![Enter image alt description](/assets/wizardmath/LGV_Image_3.png)
 
 - **Role:** Unlike previous outcome-only reward models, PRM ensures the model does not learn to “game” the metric by producing correct answers via erroneous steps (the “false positive” problem). Both IRM and PRM improve RL alignment, leading to more reliable intermediate reasoning:
 
-![Enter image alt description](wizardmath/xho_Image_4.png)
+![Enter image alt description](/assets/wizardmath/xho_Image_4.png)
 
 - **Significance:** This step-by-step, process-focused alignment is rapidly becoming a technical frontier, moving beyond “does it get the final answer?” to “does it reason correctly, as a human would be expected to?”
 
@@ -144,11 +144,11 @@ By leveraging proprietary model GPT-4 for both problem evolution and annotation,
 
 - WizardMath achieves higher accuracy with less synthesized data than major competitors. The evolutionary method is shown to produce more “efficient” data—learning curves demonstrate higher accuracy at a smaller data scale compared to other synthesis methods:
 
-![Enter image alt description](wizardmath/dF6_Image_5.png)
+![Enter image alt description](/assets/wizardmath/dF6_Image_5.png)
 
 - MathFusion [16] is a later approach that needs fewer samples than WizardMath (version 2023, no comparison with version 2025). More investigation in this direction for data efficiency is recommended:
 
-![Enter image alt description](wizardmath/qSU_Image_6.png)
+![Enter image alt description](/assets/wizardmath/qSU_Image_6.png)
 
 ## 3.2 Cross-Model Generalization
 
@@ -156,21 +156,21 @@ By leveraging proprietary model GPT-4 for both problem evolution and annotation,
 
 - **Out-of-domain Generalization:** WizardMath exhibits strong performance on OOD datasets (e.g., MWPBench), indicating better “real-world” applicability.
 
-![Enter image alt description](wizardmath/oQs_Image_7.png)
+![Enter image alt description](/assets/wizardmath/oQs_Image_7.png)
 
 ## 3.3 Ablation and Analysis
 
 - Both **downward and upward evolution** make significant, complementary contributions to performance.
 
-![Enter image alt description](wizardmath/OZj_Image_8.png)
+![Enter image alt description](/assets/wizardmath/OZj_Image_8.png)
 
 - Process supervision (PRM) and instruction quality assessment (IRM) together provide substantive RL improvements over SFT alone or SFT+RL with only one reward model.
 
 - PRM labeled purely by open-source models (e.g., Llama) still achieves strong results, suggesting cost-effective alternatives to GPT-4 for future scaling.
 
-![Enter image alt description](wizardmath/R4Z_Image_9.png)
+![Enter image alt description](/assets/wizardmath/R4Z_Image_9.png)
 
-![Enter image alt description](wizardmath/Zmi_Image_10.png)
+![Enter image alt description](/assets/wizardmath/Zmi_Image_10.png)
 
 ## 4. Position in the Academic and Industrial Landscape
 
@@ -247,7 +247,7 @@ In the rapidly evolving AI landscape, the framework introduced by WizardMath not
 
 The first version of this paper appeared on arXiv in 2023. Today, it has been cited around 512 times.
 
-![Enter image alt description](wizardmath/Bll_Image_11.png)
+![Enter image alt description](/assets/wizardmath/Bll_Image_11.png)
 
 Cited by: [scholar.google.com/scholar?cites=9916633631554786614&as_sdt=2005&sciodt=0,5&hl=en](https://scholar.google.com/scholar?cites=9916633631554786614&as_sdt=2005&sciodt=0,5&hl=en) 
 

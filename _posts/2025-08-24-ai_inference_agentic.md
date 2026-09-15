@@ -17,7 +17,7 @@ One essential component of these AI systems is Large language models (LLMs). LLM
 
 In 2024, Snell et al. [1] stated that “Scaling LLM Test-Time to Compute Optimally Can Be More Effective than Scaling Model Parameters”.  Brown et al. [2] went a step further: At inference, a model should make more than one attempt at a problem. Similarly, Hao et al. [3] introduced “COCONUT” (Chain of Continuous Thought).
 
-![image](assets/proposal_inference/image.png)
+![image](/assets/proposal_inference/image.png)
 
 Fig.: Inference will become increasingly important in the future. At inference (aka test-time), the model could make many decisions that have not been discovered. (Image source: https://upaspro.com/inference-time-scaling-vs-training-compute)
 

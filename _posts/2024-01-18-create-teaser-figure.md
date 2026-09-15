@@ -29,7 +29,7 @@ Nevertheless, from which tool the graphic comes from, the final format should be
 Powerpoint drawing can be useful to sketch very fast on high level a process. 
 Powerpoint can export slides in PDF format, which can be edited by next tool Inkscape. 
 
-As an alternative, [draw.io](www.draw.io) can be a very usfuel tool to draw such flow diagrams and show relations between components. 
+As an alternative, [draw.io](https://www.draw.io) can be a very usfuel tool to draw such flow diagrams and show relations between components. 
 
 ## Inkscape
 
